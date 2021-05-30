@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tvtdb>
+	<version value="3" comment="Programme von Kasi" />
+	<scripttemplates>
+		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Superheros">
+			<title>
+				<de>%HERO%</de>
+				<en>%HERO%</en>
+			</title>
+			<description>
+				<de>Heldenverfilmung aus den bekannten Moval-Comics. %HERO% kämpft gegen einen neuen Superschurken und rettet die Welt.</de>
+				<en>A Superhero-movie from the well-known Moval-Comics. %HERO% is fighting a new super villain and is saving the world.</en>
+			</description>
+			<variables>
+				<hero>
+					<de>Herculesman|Insectboy|Uranman|Sensationboy|Misses Superpower|Powergirl|The-beautiful-flying-superstrong-Woman</de>
+					<en>Herculesman|Insectboy|Uranman|Sensationboy|Misses Superpower|Powergirl|The-beautiful-flying-superstrong-Woman</en>
+				</hero>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="1" required="1" />
+				<job function="32" index="5" gender="2" required="1" />
+				<job function="32" index="6" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="18" flags="8" />
+			<genres maingenre="1" subgenres="10" />
+			<blocks slope="40" max="4" min="2" />
+			<price slope="25" max="66500" min="15000" />
+			<potential slope="30" max="100" min="30" />
+			<outcome slope="30" max="100" min="20" />
+			<review slope="35" max="100" min="20" />
+			<speed slope="40" max="100" min="30" />
+		</scripttemplate>
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Typentausch">
+			<title>
+				<de>Typentausch</de>
+				<en>Change your Boyfriend</en>
+			</title>
+			<description>
+				<de>Männer werden in fremde Familien gesteckt und müssen eine Woche alles tuen was der andere gemacht hätte. Trash-TV vom feinsten.</de>
+				<en>Men are put into foreign families and have to do one week everything the other one would have done. The perfect Trash-TV.</en>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Typentausch-Ep1">
+					<title>
+						<de>Der erste Tausch</de>
+						<en>The first exchange</en>
+					</title>
+					<description>
+						<de>Der vom Beruf Arbeitslose %Name1% tauscht mit dem Multimilionär %Name2%. Während %Name1% die teuren Weine von %Name2% austrinkt und merkt, dass ein Multimillionär genauso hart arbeiten muss wie er selbst, wundert sich %Name2%, dass nicht alle Toiletten aus Gold sind.</de>
+						<en>The unemployed %Name1% trade exchanges with Multimiliary %Name2%. While %Name1% drinks the expensive wines of %Name2% and realizes that a multimillionaire has to work just as hard as himself, %Name2% is surprised that not all toilets are made of gold.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Typentausch-Ep2">
+					<title>
+						<de>%Name3% und die Truckerbräute</de>
+						<en>%Name3% an the trucker brides</en>
+					</title>
+					<description>
+						<de>Der Satanist %Name3% und der Truckfahrer %Name4% tauschen die Plätze. Während sich %Name4% schnell daran gewöhnt in einem Sarg zu schlafen, erkennt %Name3% beim Truckfahren seine liebe zur Umweltzerstörung und Truckerbräuten.</de>
+						<en>The satanist %Name3% and the truckdriver %Name4% swap places. While %Name4% quickly gets used to sleeping in a coffin, %Name3% recognizes his love of environmental destruction and trucker brides when driving a truck.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Typentausch-Ep3">
+					<title>
+						<de>Hart ist das Leben</de>
+						<en>A hard Life</en>
+					</title>
+					<description>
+						<de>Der Dachdecker %Name5% tauscht mit der aus zufall in die Sendung gerantene %Name6%. Während %Name5% vollkommen überfordert ist mit der Hausarbeit die %Name6% jedentag erledigt, genießt %Name6% die Zeit biertinkend auf einem Dach.</de>
+						<en>The roofer %Name5% exchanges with the random %name6%. While %Name5% is completely overwhelmed with housework doing %Name6% every day, %Name6% enjoys time sitting on a roof.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Typentausch-Ep4">
+					<title>
+						<de>A Feeders Life</de>
+						<en>A Feeders Life</en>
+					</title>
+					<description>
+						<de>Der übergewichtige %Name7% tauscht mit dem Soziopathen und Frisör %Name8%. Da %Name7% auf Grund seine Gewichtes das Bett nicht mehr verlassen kann verbringt er die ganze Sendung gemeinsam mit %Name8%, der %Name7% seine Bauchhaare stylt und ihm leckeres fettiges Essen kocht.</de>
+						<en>The overweight %Name7% trades with the sociopath and hairdresser %Name8%. Since %Name7% can not leave the bed because of his weight, he spends the whole show together with %Name8%, who is styling %Name7% of his belly hair and cooks him delicious greasy food.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Typentausch-Ep5">
+					<title>
+						<de>Alle Typen vereint</de>
+						<en>All Together</en>
+					</title>
+					<description>
+						<de>Im großen Staffelfinale treffen sich %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%, %Name7% und %Name8% und trinken gemeinsam Bier und veranstallten einen Furtzwettbewerb den %Name6% gewinnt.</de>
+						<en>In the big season finale meet %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%,%Name7% and %Name8% and drink together beer and organized a fart competition that win %Name6%.</en>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name1>
+					<de>Jens|Bruno|Kevin|Holga|Jeremie|Thorsten|Zohan</de>
+					<en>Jens|Bruno|Kevin|Holga|Jeremie|Thorsten|Zohan</en>
+				</name1>
+				<name2>
+					<de>Karsten|Andreas|Jessie|Walter|Robert|Sebastian|Sascha</de>
+					<en>Karsten|Andreas|Jessie|Walter|Robert|Sebastian|Sascha</en>
+				</name2>
+				<name3>
+					<de>Ben|Jonas|Paul|Leon|Henry|Finn|Felix</de>
+					<en>Ben|Jonas|Paul|Leon|Henry|Finn|Felix</en>
+				</name3>
+				<name4>
+					<de>Luis|Elias|Noah|Luka|Max|Emil|Theo</de>
+					<en>Luis|Elias|Noah|Luka|Max|Emil|Theo</en>
+				</name4>
+				<name5>
+					<de>Oskar|Leo|Milan|David|Matteo|Linus|Jonah</de>
+					<en>Oskar|Leo|Milan|David|Matteo|Linus|Jonah</en>
+				</name5>
+				<name6>
+					<de>Lara|Viola|Caro|Nathalie|Sophia|Greta|Ermtrude</de>
+					<en>Lara|Viola|Caro|Nathalie|Sophia|Greta|Ermtrude</en>
+				</name6>
+				<name7>
+					<de>Tom|Mika|Jonathan|Fabian|Phillip|Till|Valentin</de>
+					<en>Tom|Mika|Jonathan|Fabian|Phillip|Till|Valentin</en>
+				</name7>
+				<name8>
+					<de>Damian|Mateo|Nils|Phil|Ludwig|Erich|Daniel</de>
+					<en>Damian|Mateo|Nils|Phil|Ludwig|Erich|Daniel</en>
+				</name8>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+			</jobs>
+			<data flags="16" flags_optional="8" />
+			<genres maingenre="6" subgenres="12" />
+			<episodes max="5" min="3" />
+			<blocks value="1" />
+			<price max="5000" min="100" />
+			<potential slope="45" max="36" min="12" />
+			<outcome slope="40" max="29" min="12" />
+			<review slope="40" max="25" min="15" />
+			<speed slope="50" max="65" min="35" />
+		</scripttemplate>
+
+
+
+
+
+		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-LiveKonzert">
+			<title>
+				<de>Das Livekonzert von %Name1% %Name2%</de>
+				<en>%Name1% %Name2% Live</en>
+			</title>
+			<description>
+				<de>Live in Stereo, Farbe und Bunt %Name1% %Name2%</de>
+				<en>Live and in stereo %Name1% %Name2%</en>
+			</description>
+			<variables>
+				<name1>
+					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
+					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
+				</name1>
+				<name2>
+					<de>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</de>
+					<en>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</en>
+				</name2>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="24" flags="1" />
+			<genres maingenre="202" subgenres="0" />
+			<blocks slope="40" max="4" min="2" />
+			<price slope="25" max="19500" min="15000" />
+			<potential slope="30" max="100" min="30" />
+			<outcome slope="30" max="100" min="20" />
+			<review slope="35" max="100" min="20" />
+			<speed slope="40" max="100" min="30" />
+		</scripttemplate>
+
+
+
+		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-freieTiere">
+			<title>
+				<de>Befreit den %Tier% Mister %Name%</de>
+				<en>Free the %Tier% Mister %Name%</en>
+			</title>
+			<description>
+				<de>Ein Kind verliebt sich beim Zoobesuch in den %Tier% Mister %Name%. Doch sieht dieser sehr traurig aus. So tut das Kind alles in seiner machtstehende um ihn zu befreien.</de>
+				<en>A child see in the zoo the %Tier% Mister %Name%. But he looks very sad. So the child does everything in his power to free him.</en>
+			</description>
+			<variables>
+				<tier>
+					<de>Affen|Nacktmull|Goldfisch|Löwen|Tiger|Hasen|Panda</de>
+					<en>Monkey|naked mole Rat|Goldfish|Lion|Tiger|Rabbit|Panda</en>
+				</tier>
+				<name>
+					<de>Jingels|Wollo|Hubert|Billy|Fluffy|Bobo|Flocke</de>
+					<en>Jingels|Wollo|Hubert|Billy|Fluffy|Bobo|Flocke</en>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="32" index="2" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="2" flags="0" />
+			<genres maingenre="9" subgenres="1" />
+			<blocks slope="40" max="3" min="2" />
+			<price slope="25" max="22500" min="15000" />
+			<potential slope="30" max="70" min="30" />
+			<outcome slope="30" max="70" min="20" />
+			<review slope="35" max="60" min="20" />
+			<speed slope="40" max="80" min="30" />
+		</scripttemplate>
+	
+	
+	
+	
+		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Ghost">
+			<title>
+				<de>Ghost%zu%</de>
+				<en>Ghost%zu%</en>
+			</title>
+			<description>
+				<de>Der Ghost%zu% James ist nicht sehr erfolgreich in seinem Job. Aus Verzweiflung macht er einen Urlaub im Gebirge. Doch in seiner Ferienwohnung geschehen gespenstische Dinge.</de>
+				<en>The Ghost%zu% James isn't very successful in his job. Out of desperation, he makes a holiday in the mountains. But in his apartment happen spooky things.</en>
+			</description>
+			<variables>
+				<zu>
+					<de>writer|rider|searcher|hunter|buster</de>
+					<en>writer|rider|searcher|hunter|buster</en>
+				</zu>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="32" index="2" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="16" flags="64" />
+			<genres maingenre="12" subgenres="17" />
+			<blocks slope="30" max="3" min="2" />
+			<price slope="35" max="26500" min="15000" />
+			<potential slope="30" max="80" min="35" />
+			<outcome slope="30" max="70" min="25" />
+			<review slope="35" max="70" min="25" />
+			<speed slope="40" max="80" min="35" />
+		</scripttemplate>
+
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-SozialeNetzwerke">
+			<title>
+				<de>%Name1% %Name2% - Verloren im digitalem Sumpf</de>
+				<en>%Name1% %Name2% - Lost in the digital swamp</en>
+			</title>
+			<description>
+				<de>Spannende Thriller-Serie über die Geheimnisse welche in %Name1% geschrieben wurden und eine Gruppe junger Menschen die versuchen mit diesen Geheimnissen Morde aufzudecken.</de>
+				<en>Exciting thriller series about the secrets written in %Name1% and a group of young people trying to reveal murders with these secrets.</en>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-SozialeNetzwerke-Ep1">
+					<title>
+						<de>Pilot</de>
+						<en>Pilot</en>
+					</title>
+					<description>
+						<de>Nach etlichen Morden in ihrer Stadt schließt sich eine Gruppe junger Menschen zusammen um diesen nachzugehen. Ihre größte Chance recherchen in %Name1%.</de>
+						<en>After several murders in their city, a group of young people joins together to pursue it. The biggest chance is a research in %Name1%.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-SozialeNetzwerke-Ep2">
+					<title>
+						<de>Der Verdacht</de>
+						<en>The suspicion</en>
+					</title>
+					<description>
+						<de>Die Gruppe hat eine Liste mit Verdächtigen zusammengetragen. Sogar der Bürgermeister könnte involviert sein.</de>
+						<en>The group has compiled a list of suspects. Even the mayor could be involved.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-SozialeNetzwerke-Ep3">
+					<title>
+						<de>Panik</de>
+						<en>Panic</en>
+					</title>
+					<description>
+						<de>Die Recherchen auf %Name1% sorgen dafür, dass die Gruppe in Gefahr gerät. Der Mörder droht ihnen über %Name1%.</de>
+						<en>The searches on %Name1% ensure that the group is in danger. The killer threatens them over %Name1%.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-SozialeNetzwerke-Ep4">
+					<title>
+						<de>%Name1%</de>
+						<en>%Name1%</en>
+					</title>
+					<description>
+						<de>Der Mörder hat mehr Macht als erwartet. Er lässt alle Accounts bei %Name1% sperren. Verzweiflung macht sich breit.</de>
+						<en>The killer has more power than expected. He blocks all accounts at %Name1%. Despair is spreading.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-SozialeNetzwerke-Ep5">
+					<title>
+						<de>Keine Chance</de>
+						<en>No Chance</en>
+					</title>
+					<description>
+						<de>Die Gruppe wechselt gemeinsam zu einem anderen Netzwerk. Doch der Mörder ist immernoch auf freiem Fuß und niemand hat eine Ahnung, dass er alles über die Gruppe dank %Name1% weiß.</de>
+						<en>The group changes to another network. But the killer is still at large and no one has the idea that he knows everything about the group because of %Name1%.</en>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name1>
+					<de>Finstergram|Twoter|Focebeek|Putube|Snoopchat|Whosapp</de>
+					<en>Finstergram|Twoter|Focebeek|Putube|Snoopchat|Whosapp</en>
+				</name1>
+				<name2>
+					<de>Girl|Woman|Maid|Child|Daughter|Son|Boy|Man</de>
+					<en>Girl|Woman|Maid|Child|Daughter|Son|Boy|Man</en>
+				</name2>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="2" required="1" />
+				<job function="32" index="4" gender="2" required="1" />
+			</jobs>
+			<data flags="" flags_optional="10" />
+			<genres maingenre="17" subgenres="14" />
+			<episodes max="5" min="3" />
+			<blocks value="1" />
+			<price max="50000" min="10000" />
+			<potential slope="45" max="94" min="52" />
+			<outcome slope="40" max="81" min="53" />
+			<review slope="40" max="78" min="45" />
+			<speed slope="50" max="76" min="44" />
+		</scripttemplate>
+
+
+
+
+		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Streaming">
+			<title>
+				<de>Die Macht von %Name%</de>
+				<en>The Power of %Name%</en>
+			</title>
+			<description>
+				<de>Die Macht von %Name% ist eine Investigativ-Dokumentation, die tief in die Gefilde von dem Streamingdienst eintaucht. Die Fragen sind, werden Kunden von TV-Tower verschwinden? Wird die Werbung billiger? Verschwinden alle Filme aus dem Filmverleih?</de>
+				<en>The power of %Name% is an investigative documentation that dives deep into the realm of the streaming service. The questions are, will customers of TV Tower disappear? Will the advertising be cheaper? Are all the films from the film distribution disappearing?.</en>
+			</description>
+			<variables>
+				<name>
+					<de>Omozon|Mousework|Nudeflix|Paxdome|Putube|whyTunes</de>
+					<en>Omozon|Mousework|Nudeflix|Paxdome|Putube|whyTunes</en>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="8" flags="4" />
+			<genres maingenre="6" subgenres="300" />
+			<blocks slope="70" max="2" min="1" />
+			<price slope="25" max="8500" min="2000" />
+			<potential slope="55" max="80" min="30" />
+			<outcome slope="45" max="80" min="20" />
+			<review slope="45" max="75" min="20" />
+			<speed slope="40" max="75" min="30" />
+		</scripttemplate>
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Talkshow">
+			<title>
+				<de>Sprich mit %NAME%</de>
+				<en>Talk with %NAME%</en>
+			</title>
+			<description>
+				<de>Typisches Talkshowformat bei dem die Verzweiflung des Moderators mit jeder einzelnen Sendung zunimmt. Begleiten Sie %NAME% bei schrecklichen Gesprächen mit willkürlich auf der Straße aufgelesenen Menschen, die für eine Sekunde Berühmtheit praktisch alles sagen würden.</de>
+				<en>Men are put into foreign families and have to do one week everything the other one would have done. The perfect Trash-TV.</en>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Talkshow-Ep1">
+					<title>
+						<de>Der erste Plausch</de>
+						<en>The first Talk</en>
+					</title>
+					<description>
+						<de>Drei Arbeitslose treffen sich und bezeichnen den jeweils anderen als Schmarotzer, als dann noch die Mutter der 3 auftaucht fällt ihnen auf, dass sie Brüder sind. Der verzweifelte Moderator %NAME% begleitet dies mit interessanten Fragen.</de>
+						<en>Three unemployed people meet to call each other a parasite, and when the mother of 3 arrives, they realize that they are brothers. The desperate moderator %NAME% accompanies this with interesting questions.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Talkshow-Ep2">
+					<title>
+						<de>Zwei Beziehungen</de>
+						<en>Two Couples</en>
+					</title>
+					<description>
+						<de>Ein Pärchen gesteht sich gegenseitig fremdgegangen zu sein. Es stellt sich heraus, dass Sie mit dem Mann der Frau, mit der ihr Ehemann fremdgegangen ist fremdgegangen ist. Diese sind wiederum mit einem anderen Pärchen auch fremdgegangen. Verwirrend, nicht nur für %NAME%.</de>
+						<en>A couple admits to have been alienated each other. It turns out she is cheating on the husband of the woman with whom her husband had been cheating. These, in turn, have gone wrong with another couple. Confusing, not just for %NAME%.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Talkshow-Ep3">
+					<title>
+						<de>Wiedersehen</de>
+						<en>Together</en>
+					</title>
+					<description>
+						<de>Ein 88 Jähriger will endlich seine leibliche Mutter kennenlernen. Es stellt sich heraus, das seine Mutter erst 72 Jahre als ist und er erst 58 Jahre. Während der Sendung stürmt die Polizei herein und nimmt den nun nicht mehr Rentner fest wegen Sozialbetrugs.</de>
+						<en>An 88 year old wants to finally get to know his birth mother. It turns out that his mother is only 72 years old and he is only 58 years old. During the broadcast, the police rush in and arrests the now no longer retirees for social fraud.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Talkshow-Ep4">
+					<title>
+						<de>Entführt</de>
+						<en>Kidnapped</en>
+					</title>
+					<description>
+						<de>Eine 5 Menschen behaupten in der Sendung von Aliens entführt worden zu sein. Dort wurden Tests mit Ihnen durchgeführt z.B. IQ-Test oder BDI. %Name% verliert die Kontrolle über die 5 als Sie sich streiten wer den höchsten BDI-Wert erreicht hat.</de>
+						<en>A 5 people claim to have been kidnapped by aliens in the show. There tests were carried out with you, e.g. IQ test or BDI. % Name% loses control of the 5 as they fight over who has reached the highest BDI.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Talkshow-Ep5">
+					<title>
+						<de>Hypnose</de>
+						<en>Hypnosis</en>
+					</title>
+					<description>
+						<de>Ein Profihynotiseur wird eingeladen, als die Hälfte des Publikums wie ein Huhn gackert, die andere Hälfte denkt ihr Sitz wäre ein Bobbycar und %Name% anfängt Modern Walking zu singen wird die Sendung abgebrochen.</de>
+						<en>A professional hypnotiseur is invited, as half of the audience cackles like a chicken, the other half thinks their seat would be a bobby car and% Name% begins to sing modern walking, the broadcast is canceled.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Talkshow-Ep6">
+					<title>
+						<de>Baumliebe</de>
+						<en>Tree-lovers</en>
+					</title>
+					<description>
+						<de>2 Menschen haben sich in den gleichen Baum verliebt. In der Sendung streiten sie darum, wen der Baum von den beiden mehr liebt. Als ein Wissenschaftler mit einer Baumsprechmaschine ankommt und der Baum sagt der er %Name% am meisten liebt, wird dieser von den Baumliebhabern verprügelt.</de>
+						<en>2 people fell in love with the same tree. In the broadcast, they argue about who the tree loves more of the two. When a scientist arrives with a tree spreader and the tree says that he loves %Name% the most, it is beaten up by the tree-lovers.</en>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Talkshow-Ep7">
+					<title>
+						<de>Rücktritt</de>
+						<en>Resignation</en>
+					</title>
+					<description>
+						<de>Aufgrund schwerer Verletzungen und ernsten Depressionen die %Name% durch seine Show erhalten hat, tritt %Name% nun zurück. Er erklärt, dass er dieses Format hasst und nicht verstehen kann wie ein Mensch dies freiwillig gucken kann.</de>
+						<en>Due to severe injuries and severe depression that %Name% received through its show, %Name% is now withdrawing. He explains that he hates this format and can not understand how a person can look this.</en>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name>
+					<de>Ronny|Rob|Kasi|Fronck|Kieferer|Jogi|Speedy|Sjeale</de>
+					<en>Ronny|Rob|Kasi|Fronck|Kieferer|Jogi|Speedy|Sjeale</en>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="32" index="1" gender="2" required="1" />
+				<job function="32" index="2" gender="1" required="1" />
+				<job function="32" index="3" gender="2" required="1" />
+			</jobs>
+			<data flags="16" flags_optional="8" />
+			<genres maingenre="7" subgenres="12" />
+			<episodes max="7" min="5" />
+			<blocks value="1" />
+			<price max="5000" min="100" />
+			<potential slope="45" max="46" min="12" />
+			<outcome slope="40" max="49" min="12" />
+			<review slope="40" max="44" min="15" />
+			<speed slope="50" max="55" min="35" />
+		</scripttemplate>
+
+
+
+
+		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Spendengala">
+			<title>
+				<de>Die große Spendengala- Ein Herz für %Name%</de>
+				<en>The great Donat- A Heart for %Name%</en>
+			</title>
+			<description>
+				<de>Völlig unbekannte Stars wollen Geld für die vom aussterben bedrohten %Name%. Ein Abend voller Musik, Comedy, Hoffnung und Spenden.</de>
+				<en>Completely unknown stars promote the endangered %Name%. An evening full of music, comedy,hope and donations.</en>
+			</description>
+			<variables>
+				<name>
+					<de>Wollmäuse|Wasserrehe|Dikdiks|Nasenaffen|Kakapos|Greifstachler|Mimik-Oktopoden</de>
+					<en>Dust bunnies|water-deers|dikdiks|proboscis monkeys|kakapos|porcupine|mimic octopus</en>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+				<job function="32" index="2" gender="1" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="2" required="1" />
+				<job function="32" index="5" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="24" flags="129" />
+			<genres maingenre="204" subgenres="0" />
+			<blocks slope="40" max="4" min="2" />
+			<price slope="25" max="59500" min="45000" />
+			<potential slope="30" max="50" min="20" />
+			<outcome slope="30" max="50" min="20" />
+			<review slope="35" max="50" min="20" />
+			<speed slope="40" max="50" min="20" />
+		</scripttemplate>
+
+
+
+
+		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Deathaction">
+			<title>
+				<de>Die Todes%zu%</de>
+				<en>%HERO%</en>
+			</title>
+			<description>
+				<de>Klassischer Actionfilm, bei denen 15 Menschen auf einem fremden Planten ausgesetzt werden, um sich umzubringen.</de>
+				<en>A Superhero-movie from the well-known Moval-Comics. %HERO% is fighting a new super villain and is saving the world.</en>
+			</description>
+			<variables> <!--TODO geändert--> <zu>
+					<de>maschine|pforte|helfer|unterstützer|assistenten</de>
+				</zu>
+				<hero>
+					<de>Herculesman|Insectboy|Coalman|Helk|Misses Fantastic|Powergirl|The-beautiful-flying-superstrong-Woman</de>
+					<en>Herculesman|Insectboy|Coalman|Helk|Misses Fantastic|Powergirl|The-beautiful-flying-superstrong-Woman</en>
+				</hero>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="1" required="1" />
+				<job function="32" index="5" gender="2" required="1" />
+				<job function="32" index="6" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="42" flags="" />
+			<genres maingenre="2" subgenres="16" />
+			<blocks slope="40" max="3" min="2" />
+			<price slope="25" max="66500" min="15000" />
+			<potential slope="30" max="100" min="30" />
+			<outcome slope="30" max="100" min="20" />
+			<review slope="35" max="100" min="20" />
+			<speed slope="40" max="100" min="30" />
+		</scripttemplate>
+
+
+
+
+
+		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Wege">
+			<title>
+				<de>Der Weg %Name%</de>
+				<en>%HERO%</en>
+			</title>
+			<description>
+				<de>Ein Wissenschaftler öffnet einen Weg in ein mysteriöses Reich voller schrecklicher Wesen.</de>
+				<en>A Superhero-movie from the well-known Moval-Comics. % HERO% is fighting a new super villain and is saving the world.</en>
+			</description>
+			<variables>
+				<name>
+					<de>in die Hölle|in die Verdammung|zum Dämonenreich|zum Teufel|zu ewigen Qualen|in den Untergrund|der Gottlosen</de>
+				</name>
+				<hero>
+					<en>Herculesman|Insectboy|Coalman|Helk|Misses Fantastic|Powergirl|The-beautiful-flying-superstrong-Woman</en>
+				</hero>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="1" required="1" />
+				<job function="32" index="5" gender="2" required="1" />
+				<job function="32" index="6" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="18" flags="8" />
+			<genres maingenre="12" subgenres="2" />
+			<blocks slope="40" max="4" min="2" />
+			<price slope="25" max="66500" min="15000" />
+			<potential slope="30" max="100" min="30" />
+			<outcome slope="30" max="100" min="30" />
+			<review slope="35" max="100" min="30" />
+			<speed slope="40" max="100" min="30" />
+		</scripttemplate>
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Abenteuerfreunde">
+			<title>
+				<de>Die Abenteuer%Name%</de>
+			</title>
+			<description>
+				<de>Abenteuerserie über junge Helden der Neuzeit, die mit Hilfe ihrer Freundschaft alle Hindernisse überwinden.</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Abenteuerfreunde-Ep1">
+					<title>
+						<de>Pilot</de>
+						<en>Pilot</en>
+					</title>
+					<description>
+						<de>Wer ist wer und in welchem Ort befinden wir uns? Als ein Junge sich einfach so in der Stadt in die er gerade gezogen ist verläuft, trifft er Jugendliche in seinem Alter. Gemeinsam suchen sie einen verschwundenen Hund.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Abenteuerfreunde-Ep2">
+					<title>
+						<de>Freundschaft über alles</de>
+					</title>
+					<description>
+						<de>Ein streit entzweit die Freunde doch ein Rätsel von einem gestohlenem Rubin, führt sie wieder zusammen und stärkt ihre Freundschaft.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Abenteuerfreunde-Ep3">
+					<title>
+						<de>Der verlorene Zwerg</de>
+					</title>
+					<description>
+						<de>Ein verlorener Gartenzwerg ist nicht Spannend? Doch! Denn dieser Gartenzwerg birgt ein mysteriöses Geheimnis, welches unsere jungen Helden lösen wollen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Abenteuerfreunde-Ep4">
+					<title>
+						<de>Das Nagergesicht</de>
+					</title>
+					<description>
+						<de>Ein Junge wird regelmässig in der Schule verhauen, sein entstelltes Gesicht ähnelt allmählich einer Ratte. Als unsere Helden dies mitbekommen, sammeln diese für eine Schönheits-OP.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Abenteuerfreunde-Ep5">
+					<title>
+						<de>Den Hilflosen helfen</de>
+					</title>
+					<description>
+						<de>Eine alte Dame wird bestohlen. Die Polzei kann nichts machen, nur unsere Helden können der Dame helfen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Abenteuerfreunde-Ep6">
+					<title>
+						<de>Der Neue</de>
+					</title>
+					<description>
+						<de>Ein neues Kind ist in der Stadt, als es versucht mit dem Bus wieder in sein altes Leben zu flüchten, halten ihn unsere Helden auf und zeigen ihm wie schön seine neue Heimat ist.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Abenteuerfreunde-Ep7">
+					<title>
+						<de>Die gelockte Nonne</de>
+					</title>
+					<description>
+						<de>Einer Nonne wird ihre Kappe gestohlen. Man erkennt, dass diese Nonne wunderschön ist mit ihren gelockten Haaren. Unsere Helden vereinbaren ein Fotoshoting und die Nonne wird ein gefragtes Model.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Abenteuerfreunde-Ep8">
+					<title>
+						<de>Die Mitternachtsparty</de>
+					</title>
+					<description>
+						<de>Schlaflos, wegen lauter Musik der Nachbarn liegt ein kleiner Junge in seinem Bett, er erzählt, dass dies jedes Wochenende so ist. Unsere Helden helfen ihm, indem sie den Alkohol der Partytruppe klauen und in einen See schütten.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Abenteuerfreunde-Ep9">
+					<title>
+						<de>Die Ermittlungen</de>
+					</title>
+					<description>
+						<de>Gegen unsere Helden wird ermittelt, da sie anscheinend in einem Haus Alkohol geklaut haben und damit die Fische im nahem See vergiftet haben. Doch sie haben eine Idee.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Abenteuerfreunde-Ep10">
+					<title>
+						<de>Die Mitternachtsparty 2</de>
+					</title>
+					<description>
+						<de>Unsere Freunde füllen Seewasser in Flaschen und bringen diese zurück zu dem Haus, indem sie die Flaschen geklaut haben. Alle sind glücklich und die Ermittlungen werden wieder eingstellt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Abenteuerfreunde-Ep11">
+					<title>
+						<de>Die vergessenen Geheimnisse</de>
+					</title>
+					<description>
+						<de>Als unsere Helden erfahren, dass unter der Stadt ein versteckter Schatz ist, versuchen sie herauszufinden wo sich der geheime eingang befindet, doch dieses Geheimnis, scheint der letzte Bürgermeister der Stadt mit ins Grab genommen zu haben.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Abenteuerfreunde-Ep12">
+					<title>
+						<de>Die neuen Abenteuerer</de>
+					</title>
+					<description>
+						<de>Raus aus der Schule geben unsere Helden ihre Erfahrungen und Geheimnisse an neu eingeschulte Kinder weiter. Diese beschließen daraufhin auch Abenteuer zu erleben.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name>
+					<de>freunde|clique|bande|sucher|finder|kumpels</de>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="1" />
+				<job function="2" index="4" gender="2" required="1" />
+			</jobs>
+			<data flags="" flags_optional="10" />
+			<genres maingenre="1" subgenres="14" />
+			<episodes max="12" min="9" />
+			<blocks value="1" />
+			<price max="90000" min="50000" />
+			<potential slope="45" max="92" min="42" />
+			<outcome slope="40" max="71" min="43" />
+			<review slope="40" max="73" min="48" />
+			<speed slope="50" max="73" min="48" />
+		</scripttemplate>
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Nerdszusammen">
+			<title>
+				<de>Das Nerd%Name%</de>
+			</title>
+			<description>
+				<de>Wissen ist macht. Die Nerds wissen es und lernen um actiongeladene Missionen zu überstehen.</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Nerdszusammen-Ep1">
+					<title>
+						<de>Pilot</de>
+						<en>Pilot</en>
+					</title>
+					<description>
+						<de>Sie werden Streber, Schleimer oder Fettsäcke genannt. Doch all dies führt dazu, dass die Nerds erkennnen, das sie mit lernen viel besser werden können als alle anderen. Als dann ein FBI-Agent versehntlich die Nerds kontaktiert um Aufträge zu erledigen, werden diese Aktiv.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Nerdszusammen-Ep2">
+					<title>
+						<de>Wir lernen Karate</de>
+					</title>
+					<description>
+						<de>Um eine Gruppe asiatischer Kämpfer des Kidnapping zu überführen, müssen die Nerds besser in Karate werden als diese. Gut das ihr Muskelgedächtnis geschult ist.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Nerdszusammen-Ep3">
+					<title>
+						<de>Wir lernen Kung Fu</de>
+					</title>
+					<description>
+						<de>Schon wieder Asiaten, schon wieder Kidnapping, doch diesmal Kung Fu. Als ob der Drehbuchautor keine Lust gehabt hätte sich etwas anderes einfallen zu lassen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Nerdszusammen-Ep4">
+					<title>
+						<de>Wir lernen Hacken</de>
+					</title>
+					<description>
+						<de>Um einen Ring ukrainischer Hacker auszuschalten müssen die Nerds besser werden als diese.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Nerdszusammen-Ep5">
+					<title>
+						<de>Wir lernen tanzen</de>
+					</title>
+					<description>
+						<de>Die Ballettmafia ist in der Stadt und plant ein furchtbares Verbrechen unsere Nerds müssen Ballett lernen um ganz tief in die Organisation vorzudringen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Nerdszusammen-Ep6">
+					<title>
+						<de>Wir lernen Auto fahren</de>
+					</title>
+					<description>
+						<de>Da keiner der Nerds einen Führerschein hat und sie einen wichtigen Auftrag ausserhalb der Stadt haben, müssen sie in dieser Folge erstmal Auto fahren lernen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Nerdszusammen-Ep7">
+					<title>
+						<de>Wir lernen Chemie</de>
+					</title>
+					<description>
+						<de>Chemie ist das Leben und auch der Tod. Unsere Nerds müssen einen Drogenring ausschalten indem sie sich als Angeldust-Chemiker ausgeben.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Nerdszusammen-Ep8">
+					<title>
+						<de>Wir lernen Dinosaurier</de>
+					</title>
+					<description>
+						<de>Einer der Nerds erfindet eine Zeitmaschine. Als diese durch zufall in der Kreidezeit landen, müssen sie sich mit der dortigen Fauna auseinandersetzen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Nerdszusammen-Ep9">
+					<title>
+						<de>Wir lernen Astrophysik</de>
+					</title>
+					<description>
+						<de>Um wieder in ihre Zeit zurückzukommen müssen die Nerds sich an den Sternen orientieren um die richtigen Zeitkoordinaten einzugeben.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Nerdszusammen-Ep10">
+					<title>
+						<de>Wir lernen die Stringtheorie</de>
+					</title>
+					<description>
+						<de>Langsam erkennen die Nerds, dass sie nicht in die Zeit gereist sind, sondern in eine Paralelle Dimension. Hier hilft nur die Stringtheorie.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Nerdszusammen-Ep11">
+					<title>
+						<de>Wir lernen außerirdische Technologie</de>
+					</title>
+					<description>
+						<de>Als die Nerds eine andere paraalelle Welt betretten, die von Aliens bewohnt wird, müssen diese die Tehnologie der Aliens erlernen, um in ihre Welt zurückzukommen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Nerdszusammen-Ep12">
+					<title>
+						<de>Wir lernen Vergessen</de>
+					</title>
+					<description>
+						<de>Als die Nerds wieder in ihrer Dimension angelangen, stellen sie fest, dass sie langsam alles erlernte vergessen und zu vollkommen normalen Menschen werden.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name>
+					<de>team|kommando|kollektiv|bündel|geschwader</de>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="1" />
+				<job function="2" index="4" gender="2" required="1" />
+			</jobs>
+			<data flags="" flags_optional="8" />
+			<genres maingenre="2" subgenres="4" />
+			<episodes max="12" min="9" />
+			<blocks value="1" />
+			<price max="90000" min="50000" />
+			<potential slope="45" max="81" min="56" />
+			<outcome slope="40" max="85" min="57" />
+			<review slope="40" max="75" min="43" />
+			<speed slope="50" max="92" min="43" />
+		</scripttemplate>
+
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Kinderfliegen">
+			<title>
+				<de>Die %Was% über %Wo%</de>
+			</title>
+			<description>
+				<de>Eine Gruppe von Kindern guckt hoch nach oben in den Himmel von %wo% und träumt vom fliegen. Gemeinsam versuchen sie alles um den Himmel für sich zu erobern.</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Kinderfliegen-Ep1">
+					<title>
+						<de>Pilot</de>
+						<en>Pilot</en>
+					</title>
+					<description>
+						<de>Kinder träumen von vielen Dingen, aber manchmal sind sie auch Erreichbar. Der Traum vom fliegen packt eine Junge Gruppe aus %wo%, diese versuchen alles, um ihren Traum zu verwirklichen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Kinderfliegen-Ep2">
+					<title>
+						<de>Der Himmel über %wo%</de>
+					</title>
+					<description>
+						<de>%wo% ist eine wunderschöne Stadt. Die Kinder wollen hier den Himmel erobern und basteln an einem Plan.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Kinderfliegen-Ep3">
+					<title>
+						<de>Auftrieb</de>
+					</title>
+					<description>
+						<de>Die Ideen sprudeln nur so aus den Kindern heraus und bestärken sie in ihrem Vorhaben.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Kinderfliegen-Ep4">
+					<title>
+						<de>Neue Flügel</de>
+					</title>
+					<description>
+						<de>Dine Kinder bauen auf einer Wiese ein Gestell für ein Flugzeug und stellen sich vor hoch oben am Himmel zu sein.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Kinderfliegen-Ep5">
+					<title>
+						<de>Kalter Wind</de>
+					</title>
+					<description>
+						<de>Ohne Kenntnisse über Elektrotechnik, wird denn Kindern schnell klar, dass ihr Traum vom Fliegen in Gefahr gerät, auch wissen sie nicht, wie man ein Flugzeug fliegt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Kinderfliegen-Ep6">
+					<title>
+						<de>Flugschule</de>
+					</title>
+					<description>
+						<de>Um das Wissen für das Fliegen aufzubauen, besuchen die Kinder eine Flugschule und sie sehen zum erstemal %wo% von oben.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Kinderfliegen-Ep7">
+					<title>
+						<de>Flugstunden</de>
+					</title>
+					<description>
+						<de>Die Flugstunden gehen weiter und die Kinder bekommen einen Flugschein, der sie berechtigt, über %wo% zu fliegen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Kinderfliegen-Ep8">
+					<title>
+						<de>Traumgebilde</de>
+					</title>
+					<description>
+						<de>Die Kinder stellen das Gestell für das Flugzeug fertig und erkennen, dass es wunderschön ist hart mit Freunden zu arbeiten.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Kinderfliegen-Ep9">
+					<title>
+						<de>Der Propeller</de>
+					</title>
+					<description>
+						<de>Die Kinder kontaktieren einen Schmied der den Propeller für das Flugzeug fertigstellt. Dieser wird gleich an das Flugzeug montiert.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Kinderfliegen-Ep10">
+					<title>
+						<de>Der Elektromotor</de>
+					</title>
+					<description>
+						<de>Der Schmied der den Propeller gefertigt hat, hat die Kinder an einen guten Eletrotechniker verwiesen, der hilft den Motor einzubauen und Schaltungen verbinden.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Kinderfliegen-Ep11">
+					<title>
+						<de>Der Flug über %wo%</de>
+					</title>
+					<description>
+						<de>Der Traum vom fliegen wird wahr und der über %wo% sind Kinder die ihren Traum verwirklicht haben und alle in Staunen versetzt haben.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Kinderfliegen-Ep12">
+					<title>
+						<de>20 Jahre später:Die Kinder der Kinder</de>
+					</title>
+					<description>
+						<de>Die Kinder sind Erwachsen geworden und haben selbst Kinder, die davon traumen den Himmel über %wo% zu erobern.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<was>
+					<de>Wolken|Sterne|Sonne|Fluzeuge|Vögel</de>
+				</was>
+				<wo>
+					<de>Paris|Berlin|London|New York|Madrid</de>
+				</wo>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="1" />
+				<job function="2" index="4" gender="2" required="1" />
+			</jobs>
+			<data flags="" flags_optional="10" />
+			<genres maingenre="3" subgenres="1" />
+			<episodes max="12" min="9" />
+			<blocks value="1" />
+			<price max="90000" min="50000" />
+			<potential slope="45" max="90" min="56" />
+			<outcome slope="40" max="75" min="57" />
+			<review slope="40" max="85" min="43" />
+			<speed slope="50" max="90" min="53" />
+		</scripttemplate>
+
+
+
+
+
+
+
+
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Comedygemeinschaft">
+			<title>
+				<de>Das Comedy%name%</de>
+			</title>
+			<description>
+				<de>Die besten Comedynummern des Jahres. Witze zum ablachen und nacherzählen für alle.</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Comedygemeinschaft-Ep1">
+					<title>
+						<de>Von 3 Hühnern und einem Storch</de>
+						<en>Pilot</en>
+					</title>
+					<description>
+						<de>Alte Hühnerwitze in neuem Glanz, das Publikum lacht sich kaputt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Comedygemeinschaft-Ep2">
+					<title>
+						<de>Blondinen sind klüger als du</de>
+					</title>
+					<description>
+						<de>Das Blondinen dumm sind, ist ein Mythos dies machen die Komiker den Gästen mit viel Humor klar.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Comedygemeinschaft-Ep3">
+					<title>
+						<de>Deine Mama ist garnicht Dick</de>
+					</title>
+					<description>
+						<de>Deine Mutter sprüche sind beliebt, doch warum deine Mama Cleverer ist als alle anderen und egal bei welchem Gewicht nicht Dick ist wird in der Show erläutert.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Comedygemeinschaft-Ep4">
+					<title>
+						<de>Buck Torris kann ich niederschlagen</de>
+					</title>
+					<description>
+						<de>Buck Torris kann alles ... Nein was er nicht kann wird lustig dargestellt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Comedygemeinschaft-Ep5">
+					<title>
+						<de>Über fleißige Studenten</de>
+					</title>
+					<description>
+						<de>Studenten sind fleißig und nicht faul, warum dies so ist und warum jemand der faul ist schnell kein Student mehr ist, wird lustig erklärt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Comedygemeinschaft-Ep6">
+					<title>
+						<de>Hänschen wurde erwachsen</de>
+					</title>
+					<description>
+						<de>Hänschen-Witze waren früher sehr beliebt, doch welche Dummheiten er im gehobenen Alter machte sind viel lustiger.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Comedygemeinschaft-Ep7">
+					<title>
+						<de>Frauen sind genauso gut wie Männer</de>
+					</title>
+					<description>
+						<de>Frauen-Witze... Ob einparken oder Handarbeit... Viele Frauen sind Männern heutzutage überlegen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Comedygemeinschaft-Ep8">
+					<title>
+						<de>Männer können nicht einparken</de>
+					</title>
+					<description>
+						<de>Männer bauen mehr Unfälle als Frauen. Lustig in dieser Sendung dargelegt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Comedygemeinschaft-Ep9">
+					<title>
+						<de>Von der potenten Oma</de>
+					</title>
+					<description>
+						<de>Omas sind einfach großartig und können alles... Punkt...</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Comedygemeinschaft-Ep10">
+					<title>
+						<de>Warum ich meine Fenster nicht putze</de>
+					</title>
+					<description>
+						<de>Eigentlich nicht lustig, aber sehr unterhaltsam.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Comedygemeinschaft-Ep11">
+					<title>
+						<de>Aufräumen für Anfänger</de>
+					</title>
+					<description>
+						<de>Warum aufräumen zu seltsamen Situationen führt, wird hier mit Bauchschmerzen verursachenden lachen erklärt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Comedygemeinschaft-Ep12">
+					<title>
+						<de>Singendes Finale</de>
+					</title>
+					<description>
+						<de>Das lustigste Lied der Welt wird von den Komikern gesungen. Dieses Finale macht Lust auf eine weitere Staffel.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name>
+					<de>duo|trio|quartett|quintett|sextett</de>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="32" index="2" gender="1" required="1" />
+				<job function="32" index="3" gender="2" required="1" />
+				<job function="32" index="4" gender="1" required="1" />
+				<job function="32" index="5" gender="2" required="1" />
+			</jobs>
+			<data flags="" flags_optional="8" />
+			<genres maingenre="5" subgenres="6" />
+			<episodes max="12" min="9" />
+			<blocks value="2" />
+			<price max="220000" min="150000" />
+			<potential slope="45" max="90" min="56" />
+			<outcome slope="40" max="72" min="57" />
+			<review slope="40" max="82" min="63" />
+			<speed slope="50" max="80" min="53" />
+		</scripttemplate>
+
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Metalsucher">
+			<title>
+				<de>%name1%%name2% in der Welt</de>
+			</title>
+			<description>
+				<de>Auf der ganzen Welt suchen Menschen nach %name1%. Dieses wertvolle Metall wird überall gebraucht und ist äußerst selten. Wir begleiten unsere Ausgräber bei der Suche nach %name1% und dokumentieren ihre Freude und ihr Leid.</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Metalsucher-Ep1">
+					<title>
+						<de>Hier in Alaska gibt es %name1%</de>
+						<en>Pilot</en>
+					</title>
+					<description>
+						<de>%name1% ist eines der Wertvollsten Metalle der Welt 4 Frauen und ein Mann gehen nach Alaska um %name1% zu suchen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Metalsucher-Ep2">
+					<title>
+						<de>Der richtige Ort</de>
+					</title>
+					<description>
+						<de>Nach 5 endlosen Stunden finden die %name1%gräber einen passenden Ort an denen Sie nach %name1% suchen können.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Metalsucher-Ep3">
+					<title>
+						<de>Machinen werden aufgestellt</de>
+					</title>
+					<description>
+						<de>Schwere Maschinen werden aufgestellt um nach %name1% zu Graben. Doch schon nach kurzer Zeit sind 3 Punpmen und 22 Schläuche kaputt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Metalsucher-Ep4">
+					<title>
+						<de>Das Graben beginnt</de>
+					</title>
+					<description>
+						<de>Der erste Fund waren 2 versteinerte Eichhörnchen und 3 große Kieselsteine. Ein großartiges Ergebnis.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Metalsucher-Ep5">
+					<title>
+						<de>Wir sind reich</de>
+					</title>
+					<description>
+						<de>Nach endlosen 4 Tagen wird %name1% gefunden. Die %name1%gräber fühlen sich jetzt schon wie die reichsten Menschen auf dem Planeten.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Metalsucher-Ep6">
+					<title>
+						<de>Noch mehr Maschinen werdem gekauft</de>
+					</title>
+					<description>
+						<de>Von dem Erlös des %name1%verkaufs werden noch mehr Maschinen geholt. Doch die %name1%gräber sind wütend, da der %name1%preis enrom gestiegen ist.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Metalsucher-Ep7">
+					<title>
+						<de>Wir sind noch reicher</de>
+					</title>
+					<description>
+						<de>Es wird immer mehr %name1% gefunden und die %name1%gräber bunkern ihr Funde und werden somit sehr Reich.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Metalsucher-Ep8">
+					<title>
+						<de>Der pefekte Fund</de>
+					</title>
+					<description>
+						<de>Ein großer Klumpen %name1% wird gefunden und alle freuen sich über den Fund.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Metalsucher-Ep9">
+					<title>
+						<de>Noch mehr Reichtum</de>
+					</title>
+					<description>
+						<de>Die %name1%gräber haben inzwischen soviel %name1% gesammelt, dass Sie und ihre Familien nie mehr arbeiten müssen. Sie warten nur noch auf den perfekten Moment zum verkaufen, denn der %name1%preis steigt und steigt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Metalsucher-Ep10">
+					<title>
+						<de>Wissenschaftler kann %name1% hestellen</de>
+					</title>
+					<description>
+						<de>Ein Wissenschaftler schaffte es %name1% herzustellen und überschwemmt den Markt. Unsere %name1%gräber bekommen dies leider nicht mit.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Metalsucher-Ep11">
+					<title>
+						<de>Rezession</de>
+					</title>
+					<description>
+						<de>Der %name1%preis fällt ins bodenlose und als unsere %name1%gräber dies mitbekommen versuchen sie alles %name1% mit einem mal zu verkaufen, doch der Umsatz ist sehr gering.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Metalsucher-Ep12">
+					<title>
+						<de>Wir sind pleite</de>
+					</title>
+					<description>
+						<de>%name1% ist nichts mehr Wert und unsere %name1%gräber vollkommen pleite. Das Lager wird abgebrochen, doch die Träume leben weiter.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name1>
+					<de>Gold|Silber|Platin|Uran|Plutinium</de>
+				</name1>
+				<name2>
+					<de>funde|sichtungen|stätten|sucher|verstecke</de>
+				</name2>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="2" required="1" />
+			</jobs>
+			<data flags="" flags_optional="8" />
+			<genres maingenre="6" subgenres="300" />
+			<episodes max="12" min="9" />
+			<blocks value="1" />
+			<price max="60000" min="20000" />
+			<potential slope="45" max="90" min="56" />
+			<outcome slope="40" max="72" min="57" />
+			<review slope="40" max="72" min="53" />
+			<speed slope="50" max="90" min="53" />
+		</scripttemplate>
+
+
+
+
+
+		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Imschlafreich">
+			<title>
+				<de>%Name1% %Name2%s schlaf dich reich</de>
+				<en>%Name1% %Name2% Live</en>
+			</title>
+			<description>
+				<de>Die berühmte Sängerin %Name1% %Name2%, leitet diese skurille Show, in der der Gast der am längsten auf seinem Stuhl schlafen kann eine Million Cent gewinnt, während des schlafen werden die Gäste geärgert.</de>
+				<en>Live and in stereo %Name1% %Name2%</en>
+			</description>
+			<variables>
+				<name1>
+					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
+					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
+				</name1>
+				<name2>
+					<de>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</de>
+					<en>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</en>
+				</name2>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+				<job function="32" index="2" gender="1" required="1" />
+				<job function="32" index="3" gender="2" required="1" />
+				<job function="32" index="4" gender="1" required="1" />
+				<job function="32" index="5" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="24" flags="16" />
+			<genres maingenre="100" subgenres="0" />
+			<blocks slope="40" max="2" min="1" />
+			<price slope="25" max="19500" min="15000" />
+			<potential slope="30" max="50" min="30" />
+			<outcome slope="30" max="50" min="20" />
+			<review slope="35" max="50" min="20" />
+			<speed slope="40" max="50" min="30" />
+		</scripttemplate>
+
+
+
+
+
+
+		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Ratespass">
+			<title>
+				<de>Ratespass mit %Name1% %Name2%</de>
+				<en>%Name1% %Name2% Live</en>
+			</title>
+			<description>
+				<de>Die berühmte Sängerin %Name1% %Name2%, leitet diese wundervolle Rateshow, bei denen die Gäste ein tolles Essservier gewinnen können.</de>
+				<en>Live and in stereo %Name1% %Name2%</en>
+			</description>
+			<variables>
+				<name1>
+					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
+					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
+				</name1>
+				<name2>
+					<de>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</de>
+					<en>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</en>
+				</name2>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+				<job function="32" index="2" gender="1" required="1" />
+				<job function="32" index="3" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="24" flags="16" />
+			<genres maingenre="100" subgenres="0" />
+			<blocks slope="40" max="2" min="1" />
+			<price slope="25" max="29500" min="25000" />
+			<potential slope="30" max="50" min="30" />
+			<outcome slope="30" max="50" min="20" />
+			<review slope="35" max="50" min="20" />
+			<speed slope="40" max="50" min="30" />
+		</scripttemplate>
+
+
+
+
+
+		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Webcamfreude">
+			<title>
+				<de>%Name1% %Name2%s "Versteckte Webcam"</de>
+				<en>%Name1% %Name2% Live</en>
+			</title>
+			<description>
+				<de>Webcams werden in zufälligen Häusern installiert, eine Woche lang werden die Bewohner bei allem was sie machen gefilmt und live ins Internet gestreamt. Die Show konfrontiert die Protagonisten mit ihren verfehlungen und zeigt die schönsten Szenen.</de>
+				<en>Live and in stereo %Name1% %Name2%</en>
+			</description>
+			<variables>
+				<name1>
+					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
+					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
+				</name1>
+				<name2>
+					<de>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</de>
+					<en>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</en>
+				</name2>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+				<job function="32" index="2" gender="1" required="1" />
+				<job function="32" index="3" gender="2" required="1" />
+			</jobs>
+			<data flags_optional="24" flags="16" />
+			<genres maingenre="100" subgenres="0" />
+			<blocks slope="40" max="2" min="1" />
+			<price slope="25" max="29500" min="25000" />
+			<potential slope="30" max="70" min="30" />
+			<outcome slope="30" max="70" min="20" />
+			<review slope="35" max="70" min="20" />
+			<speed slope="40" max="70" min="30" />
+		</scripttemplate>
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-MagischeWesen">
+			<title>
+				<de>Die %name1% im %name2%</de>
+			</title>
+			<description>
+				<de>Spannende Fantasyserie über %name1% im %name2% und ihre Unternehmungen sich vor den Menschen zu verstecken</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-MagischeWesen-Ep1">
+					<title>
+						<de>%name1% überall</de>
+						<en>Pilot</en>
+					</title>
+					<description>
+						<de>%name1% sind mystische Wesen und die letzten von ihnen leben im %name2%. Die Angst vor den menschen beherrscht ihren Alltag, doch die Menschen dringen immer weiter in ihre Umgebung vor.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-MagischeWesen-Ep2">
+					<title>
+						<de>Der Ring der %name1%</de>
+					</title>
+					<description>
+						<de>Der Ring der %name1%, ist ein magisches Artefakt, welches die %name1% vor den Menschen versteckt, doch als dieser Ring verschwindet, geraten die %name1% in Panik.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-MagischeWesen-Ep3">
+					<title>
+						<de>Das Auge der %name1%</de>
+					</title>
+					<description>
+						<de>Der Ring der %name1% ist verschwunden doch mittels eines magischen Auges versuchen die %name1% ihn wieder zu finden.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-MagischeWesen-Ep4">
+					<title>
+						<de>Der Anführer</de>
+					</title>
+					<description>
+						<de>Einer der %name1% findet den magischen Ring wieder und wird zum neuen Anführer gewählt. Der neue Anführer hat vollkommen andere EInstellungen zu den Umgang mit Menschen als der Alte.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-MagischeWesen-Ep5">
+					<title>
+						<de>Weinende schreie</de>
+					</title>
+					<description>
+						<de>Als beim Verstecken vor dem Menschen einer der %name1% schwer verletzt wird, ist die Verzweiflung und Trauer unter den %name1% riesig.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-MagischeWesen-Ep6">
+					<title>
+						<de>Rachegedanken</de>
+					</title>
+					<description>
+						<de>Die Menschen sind Schuld. Dies ist der allgemeine Tenor unter den %name1%. Der neue Anführer hegt den gleichen groll.Schreckliche Rachegelüste entstehen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-MagischeWesen-Ep7">
+					<title>
+						<de>Der Versprechen der %name1%</de>
+					</title>
+					<description>
+						<de>Ein Schwur auf den Tod aller Menschen hinzuwirken wird ausgesprochen.EIn Versprechen, welches bei den %name1% bindent ist.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-MagischeWesen-Ep8">
+					<title>
+						<de>Schwarze Bande</de>
+					</title>
+					<description>
+						<de>Die %name1% verbünden sich mit einem geheimen, mysteriösen, uralten Volk, welches ihnen verspricht die Menschen zu vernichten.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-MagischeWesen-Ep9">
+					<title>
+						<de>7 Jahre Unglück</de>
+					</title>
+					<description>
+						<de>Innerhalb von 7 Jahren sollen alle Menschen vernichtet werden. Der Fluch des 7 jährigen Unglücks wird auf alle Menschen gewirkt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-MagischeWesen-Ep10">
+					<title>
+						<de>Der Ausbruch</de>
+					</title>
+					<description>
+						<de>Eine Krankheit die fast alle Menschen auslöscht bricht aus. Die %name1% überlegen sich einen Plan um auch die letzten Menschen auszurotten.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-MagischeWesen-Ep11">
+					<title>
+						<de>Angriff der %name1%</de>
+					</title>
+					<description>
+						<de>Es gibt nur noch ein paar verstreute Menschen auf der Welt, die %name1% nutzen die Gelegenheit um auch die letzen von ihnen auszulöschen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-MagischeWesen-Ep12">
+					<title>
+						<de>Weltübernahme der %name1%</de>
+					</title>
+					<description>
+						<de>Der letzte Mensch wurde getötet und die %name1% ziehen aus dem %name2% um die ganze Welt zu besiedeln.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name1>
+					<de>Feen|Orks|Zwerge|Elfen|Ents|Goblins|Zentauren</de>
+				</name1>
+				<name2>
+					<de>Wüsterwald|Morlochgebirge|Schwarzmoor|Düstergrund|Drawinsdschungel</de>
+				</name2>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="2" required="1" />
+			</jobs>
+			<data flags="2" flags_optional="8" />
+			<genres maingenre="10" subgenres="7" />
+			<episodes max="12" min="9" />
+			<blocks value="1" />
+			<price max="110000" min="70000" />
+			<potential slope="45" max="90" min="56" />
+			<outcome slope="40" max="82" min="57" />
+			<review slope="40" max="82" min="53" />
+			<speed slope="50" max="90" min="53" />
+		</scripttemplate>
+
+
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-UnterhaltungNachts">
+			<title>
+				<de>Die Nacht%name%</de>
+			</title>
+			<description>
+				<de>Zusammenfassung der besten Szenen der letzten Tage von unserem Sender. Bestes Nachprogramm für die Schlaflosen.</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-UnterhaltungNachts-Ep1">
+					<title>
+						<de>Willkommen bei uns</de>
+					</title>
+					<description>
+						<de>Die Einführung einer neuen Sendung ist immer eine Besonderheit. In dieser Sendung werden die besten Sendeinhalte der letzten und zukünftigen Tage gezeigt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-UnterhaltungNachts-Ep2">
+					<title>
+						<de>Heute ist eine besondere Nacht</de>
+					</title>
+					<description>
+						<de>Die Einschaltquoten des letzten Tages waren grandios. Die Nacht%name% würdigt dies mit besondere Szenen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-UnterhaltungNachts-Ep3">
+					<title>
+						<de>Noch eine Nacht</de>
+					</title>
+					<description>
+						<de>Und wieder tolle Zusammenfassungen. Wow. Ein Format welches nie schlecht wird.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-UnterhaltungNachts-Ep4">
+					<title>
+						<de>Schlafen für Anfänger</de>
+					</title>
+					<description>
+						<de>Die Moderatoren stellen ihnen vor wie, wie Sie mit Szenen unseres Senders wundervoll einschlafen können.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-UnterhaltungNachts-Ep5">
+					<title>
+						<de>Schlaflos im Sender</de>
+					</title>
+					<description>
+						<de>Da den Moderatoren verboten wurde während der Drehzeit zur Sendung zu schlafen, tanzen diese vollkommen verirrt umher, dazwischen naürlich die Szenden der letzen Tage.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-UnterhaltungNachts-Ep6">
+					<title>
+						<de>144 Stunden wach</de>
+					</title>
+					<description>
+						<de>Nachdem die Moderatoren 144 Stunden ununterbrochen wach sind, haluzinieren diese. Zwischen den akkustischen und visuellen Haluzinatioenen die besten Szenend er letzen Tage.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-UnterhaltungNachts-Ep7">
+					<title>
+						<de>Fallende Augen</de>
+					</title>
+					<description>
+						<de>Unsere Moderatoren schlafen fast ein, nur die besten Szeen der letzten Tage können sie wach halten.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-UnterhaltungNachts-Ep8">
+					<title>
+						<de>Müde, Müde, Müde</de>
+					</title>
+					<description>
+						<de>Das Müdigkeitslied wird von unseren Moderatoren gesungen, untermalt wie immer von tollen Zusammenfassungen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-UnterhaltungNachts-Ep9">
+					<title>
+						<de>Wenn wir schlafen träumen wir</de>
+					</title>
+					<description>
+						<de>Unsere Moderatoren schlafen teilweise zwischen der Sendung ein, aber können trotzdem die tollsten Szenen ansagen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-UnterhaltungNachts-Ep10">
+					<title>
+						<de>Warum bin ich so müde</de>
+					</title>
+					<description>
+						<de>Die 5-Minuten Schlafintervalle innerhalb der letzten Sendung haben den Moderatoren nicht geholfen. Diese erklären während der Sendung warum Schlafentzug tötlich sein kann, untermalt von den tollsten Szenen der letzten Tage.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-UnterhaltungNachts-Ep11">
+					<title>
+						<de>Der Tempel der Träume</de>
+					</title>
+					<description>
+						<de>Die Moderatoren beten während der Sendung zu Hypnos, doch werden von ihm nicht erhört. Tolle Szenen inklusive.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-UnterhaltungNachts-Ep12">
+					<title>
+						<de>Sterben wegen übermüdung</de>
+					</title>
+					<description>
+						<de>Die Moderatoren sterben während der Sendung an Übermüdung. Nun haben sie den ewigen Schlaf gefunden. Die Großatigen Szenen der letzten Tage gibt es exlusiv dazu.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<name>
+					<de>show|unterhaltung|gespräche| bei uns| ist jung| von heute|freunde</de>
+				</name>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="32" index="3" gender="1" required="1" />
+				<job function="32" index="4" gender="2" required="1" />
+			</jobs>
+			<data flags="16" flags_optional="8" />
+			<genres maingenre="100" subgenres="7" />
+			<episodes max="12" min="9" />
+			<blocks value="7" />
+			<price max="150000" min="70000" />
+			<potential slope="45" max="71" min="22" />
+			<outcome slope="40" max="32" min="25" />
+			<review slope="40" max="54" min="17" />
+			<speed slope="50" max="44" min="27" />
+		</scripttemplate>
+
+
+
+
+		<scripttemplate licence_type="3" product="2" guid="Kasi-script-SitcomeRunde">
+			<title>
+				<de>Die Runden %zahl%</de>
+			</title>
+			<description>
+				<de>%zahl% gute Freunde sind seitdem sie 12 Jahre alt waren etwas dick. Sie essen gerne und mit Leidenschaft, was dazu führt, dass die %zahl% immer wieder in seltsame Situationen geraten .</de>
+			</description>
+			<children>
+				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-SitcomeRunde-Ep1">
+					<title>
+						<de>Freunde fürs leben</de>
+					</title>
+					<description>
+						<de>Die Runden %zahl% treffen sich vor 19 Jahren das erste mal. Als die %zahl% versuchen die Streusel aus einer Eisdiele zu klauen, werden sie die besten Freunde.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-SitcomeRunde-Ep2">
+					<title>
+						<de>Das Donutverbrechen</de>
+					</title>
+					<description>
+						<de>Die Donutpackung ist leer. Einer der Runden %zahl% hat sie aufgegessen ohne eine neue zu kaufen. Doch wer war es?</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-SitcomeRunde-Ep3">
+					<title>
+						<de>Der Mitternachtssnack</de>
+					</title>
+					<description>
+						<de>Die Runden %zahl%, feiern ihre Freundschaft bei einen Mitternachtssnack. Alte Geschichten werden aufgewärmt und alte Speisen verputzt.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-SitcomeRunde-Ep4">
+					<title>
+						<de>Dicke Luft</de>
+					</title>
+					<description>
+						<de>Als einer der Runden %zahl% nicht mehr durch die Tür passt und dieser die Verabredung mit den anderen verpasst sind diese sehr wütend auf diesen da man das "All you can eat" für %zahl% nicht mit einer Person zu wenig antreten kann.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-SitcomeRunde-Ep5">
+					<title>
+						<de>Füllige Begierden</de>
+					</title>
+					<description>
+						<de>Einer der Runden %zahl% verliebt sich. Die anderen helfen ihm die Frau zu erobern.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-SitcomeRunde-Ep6">
+					<title>
+						<de>Normalgewicht</de>
+					</title>
+					<description>
+						<de>Als einer der Runden %zahl% plötzlich beginnt abzunehmen, bekommen die anderen Angst, das sie bald keine Freunde mehr sein werden.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-SitcomeRunde-Ep7">
+					<title>
+						<de>Der korpulente König</de>
+					</title>
+					<description>
+						<de>Das Steakhouse ehrt den besten Esser mit dem Steakhousekönigstitel. Die Runden %zahl% kämpfen um jedes Gramm welches verputzt werden muss.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-SitcomeRunde-Ep8">
+					<title>
+						<de>Gut gepolstert ist halb gewonnen</de>
+					</title>
+					<description>
+						<de>Bei einem Autounfall erkennen die Runden %zahl% wie gut es ist einiges an Gewicht extra zu haben. Diese helfen einem anderen Autofahrer mit lustigen turbulenzen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-SitcomeRunde-Ep9">
+					<title>
+						<de>Vollschlank</de>
+					</title>
+					<description>
+						<de>Bei einem Modecontest merken die Runden %zahl% wie gut es ist einige Fehler zu haben und wie schrecklich Bulemie sein muss.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-SitcomeRunde-Ep10">
+					<title>
+						<de>Mollige Freuden</de>
+					</title>
+					<description>
+						<de>Manchmal ist die einzige Freude im Leben etwas schönes zu essen. Die Runden %zahl% wissen dies und kochen gemeinsam das schönste Menu für Freunde.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-SitcomeRunde-Ep11">
+					<title>
+						<de>Aus der Form geraten</de>
+					</title>
+					<description>
+						<de>Als die Runden %zahl% beim Arzt sind, erfahren sie, dass sie zuviel Gewicht auf den hüften haben. Gemeinsam versuchen sie ihre alte Form wieder zuerlangen.</de>
+					</description>
+				</scripttemplate>
+				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-SitcomeRunde-Ep12">
+					<title>
+						<de>Dicke Freunde</de>
+					</title>
+					<description>
+						<de>Die Runden %zahl% sind Freunde egal was passiert. Durch lustige Sprüche und liebenswürdigen Charakter, lieben sie die Zuschauer einfach.</de>
+					</description>
+				</scripttemplate>
+			</children>
+			<variables>
+				<zahl>
+					<de>3|2|4|5|6|7|8|9</de>
+					<en>3|2|4|5|6|7|8|9</en>
+				</zahl>
+			</variables>
+			<jobs>
+				<job function="1" index="0" required="1" />
+				<job function="2" index="1" gender="1" required="1" />
+				<job function="2" index="2" gender="2" required="1" />
+				<job function="2" index="3" gender="1" required="1" />
+				<job function="2" index="4" gender="2" required="1" />
+				<job function="2" index="5" gender="1" required="1" />
+				<job function="2" index="6" gender="2" required="1" />
+			</jobs>
+			<data flags="8" flags_optional="2" />
+			<genres maingenre="5" subgenres="9" />
+			<episodes max="12" min="9" />
+			<blocks value="1" />
+			<price max="50000" min="20000" />
+			<potential slope="45" max="78" min="33" />
+			<outcome slope="40" max="82" min="33" />
+			<review slope="40" max="84" min="35" />
+			<speed slope="50" max="79" min="29" />
+		</scripttemplate>
+	</scripttemplates>
+</tvtdb>
