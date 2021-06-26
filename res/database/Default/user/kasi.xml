@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
-	<version value="3" comment="Programme von Kasi" />
+	<version value="3" comment="Programme von Kasi - Forum-ID 9103" />
 	<scripttemplates>
-		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Superheros">
+		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Superheros" >
 			<title>
 				<de>%HERO%</de>
 				<en>%HERO%</en>
@@ -44,8 +44,8 @@
 				<en>Change your Boyfriend</en>
 			</title>
 			<description>
-				<de>Männer werden in fremde Familien gesteckt und müssen eine Woche alles tuen was der andere gemacht hätte. Trash-TV vom feinsten.</de>
-				<en>Men are put into foreign families and have to do one week everything the other one would have done. The perfect Trash-TV.</en>
+				<de>Männer werden in fremde Familien gesteckt und müssen eine Woche alles tun, was der andere gemacht hätte. Trash-TV vom feinsten.</de>
+				<en>Men switch families and for one week have to do everything the other one would have done. The perfect Trash-TV.</en>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Typentausch-Ep1">
@@ -54,8 +54,8 @@
 						<en>The first exchange</en>
 					</title>
 					<description>
-						<de>Der vom Beruf Arbeitslose %Name1% tauscht mit dem Multimilionär %Name2%. Während %Name1% die teuren Weine von %Name2% austrinkt und merkt, dass ein Multimillionär genauso hart arbeiten muss wie er selbst, wundert sich %Name2%, dass nicht alle Toiletten aus Gold sind.</de>
-						<en>The unemployed %Name1% trade exchanges with Multimiliary %Name2%. While %Name1% drinks the expensive wines of %Name2% and realizes that a multimillionaire has to work just as hard as himself, %Name2% is surprised that not all toilets are made of gold.</en>
+						<de>Der arbeitslose %Name1% tauscht mit dem Multimilionär %Name2%. Während %Name1% die teuren Weine von %Name2% austrinkt und merkt, dass ein Multimillionär genauso hart arbeiten muss wie er selbst, wundert sich %Name2%, dass nicht alle Toiletten aus Gold sind.</de>
+						<en>The unemployed %Name1% switches with multimillionaire %Name2%. While %Name1% drinks %Name2%'s expensive wines and realizes that a multimillionaire has to work just as hard as himself, %Name2% is surprised that not all toilets are made of gold.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Typentausch-Ep2">
@@ -64,8 +64,8 @@
 						<en>%Name3% an the trucker brides</en>
 					</title>
 					<description>
-						<de>Der Satanist %Name3% und der Truckfahrer %Name4% tauschen die Plätze. Während sich %Name4% schnell daran gewöhnt in einem Sarg zu schlafen, erkennt %Name3% beim Truckfahren seine liebe zur Umweltzerstörung und Truckerbräuten.</de>
-						<en>The satanist %Name3% and the truckdriver %Name4% swap places. While %Name4% quickly gets used to sleeping in a coffin, %Name3% recognizes his love of environmental destruction and trucker brides when driving a truck.</en>
+						<de>Der Satanist %Name3% und der Truckfahrer %Name4% tauschen die Plätze. Während sich %Name4% schnell daran gewöhnt in einem Sarg zu schlafen, erkennt %Name3% beim Truckfahren seine Liebe zur Umweltzerstörung und Truckerbräuten.</de>
+						<en>The satanist %Name3% and the truckdriver %Name4% swap places. While %Name4% quickly gets used to sleeping in a coffin, %Name3% discovers his love of environmental destruction and trucker brides while driving a truck.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Typentausch-Ep3">
@@ -74,18 +74,18 @@
 						<en>A hard Life</en>
 					</title>
 					<description>
-						<de>Der Dachdecker %Name5% tauscht mit der aus zufall in die Sendung gerantene %Name6%. Während %Name5% vollkommen überfordert ist mit der Hausarbeit die %Name6% jedentag erledigt, genießt %Name6% die Zeit biertinkend auf einem Dach.</de>
-						<en>The roofer %Name5% exchanges with the random %name6%. While %Name5% is completely overwhelmed with housework doing %Name6% every day, %Name6% enjoys time sitting on a roof.</en>
+						<de>Der Dachdecker %Name5% tauscht mit der aus Zufall in die Sendung gerantenen %Name6%. Während %Name5% vollkommen überfordert ist mit der Hausarbeit, die %Name6% jeden Tag erledigt, genießt %Name6% die Zeit biertinkend auf einem Dach.</de>
+						<en>The roofer %Name5% switches with %name6%, who was accidentally casted. %Name5% is unable to cope with housework usually done by %Name6% who in turn enjoys her time drinking beer on a roof.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Typentausch-Ep4">
 					<title>
-						<de>A Feeders Life</de>
+						<de>Der </de>
 						<en>A Feeders Life</en>
 					</title>
 					<description>
-						<de>Der übergewichtige %Name7% tauscht mit dem Soziopathen und Frisör %Name8%. Da %Name7% auf Grund seine Gewichtes das Bett nicht mehr verlassen kann verbringt er die ganze Sendung gemeinsam mit %Name8%, der %Name7% seine Bauchhaare stylt und ihm leckeres fettiges Essen kocht.</de>
-						<en>The overweight %Name7% trades with the sociopath and hairdresser %Name8%. Since %Name7% can not leave the bed because of his weight, he spends the whole show together with %Name8%, who is styling %Name7% of his belly hair and cooks him delicious greasy food.</en>
+						<de>Der übergewichtige %Name7% tauscht mit dem Soziopathen und Frisör %Name8%. Da %Name7% auf Grund seine Gewichtes das Bett nicht mehr verlassen kann, verbringt er die ganze Sendung gemeinsam mit %Name8%, der %Name7% seine Bauchhaare stylt und ihm leckeres, fettiges Essen kocht.</de>
+						<en>The overweight %Name7% switches with the sociopath and hairdresser %Name8%. Since %Name7% can not leave the bed because of his weight, he spends the whole show together with %Name8%, who is styling %Name7%'s abdominal hair and is cooking delicious greasy food.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Typentausch-Ep5">
@@ -95,7 +95,7 @@
 					</title>
 					<description>
 						<de>Im großen Staffelfinale treffen sich %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%, %Name7% und %Name8% und trinken gemeinsam Bier und veranstallten einen Furtzwettbewerb den %Name6% gewinnt.</de>
-						<en>In the big season finale meet %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%,%Name7% and %Name8% and drink together beer and organized a fart competition that win %Name6%.</en>
+						<en>In the big season finale, %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%,%Name7% and %Name8% meet, and drink beer together and organize a fart competition which %Name6% wins.</en>
 					</description>
 				</scripttemplate>
 			</children>
@@ -138,7 +138,6 @@
 			</jobs>
 			<data flags="16" flags_optional="8" />
 			<genres maingenre="6" subgenres="12" />
-			<episodes max="5" min="3" />
 			<blocks value="1" />
 			<price max="5000" min="100" />
 			<potential slope="45" max="36" min="12" />
