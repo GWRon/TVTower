@@ -383,8 +383,8 @@
 				<en>Talk with %NAME%</en>
 			</title>
 			<description>
-				<de>Typisches Talkshowformat bei dem die Verzweiflung des Moderators mit jeder einzelnen Sendung zunimmt. Begleiten Sie %NAME% bei schrecklichen Gesprächen mit willkürlich auf der Straße aufgelesenen Menschen, die für eine Sekunde Berühmtheit praktisch alles sagen würden.</de>
-				<en>Men are put into foreign families and have to do one week everything the other one would have done. The perfect Trash-TV.</en>
+				<de>Typisches Talkshowformat, bei dem die Verzweiflung des Moderators mit jeder einzelnen Sendung zunimmt. Begleiten Sie %NAME% bei schrecklichen Gesprächen mit willkürlich auf der Straße aufgelesenen Menschen, die für eine Sekunde Berühmtheit praktisch alles sagen würden.</de>
+				<en>Typical talk show format driving the host to desperation with every show. Join %NAME% for awful interviews with people randomly picked from the street who will say anything for a second of fame.</en>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Talkshow-Ep1">
@@ -393,8 +393,8 @@
 						<en>The first Talk</en>
 					</title>
 					<description>
-						<de>Drei Arbeitslose treffen sich und bezeichnen den jeweils anderen als Schmarotzer, als dann noch die Mutter der 3 auftaucht fällt ihnen auf, dass sie Brüder sind. Der verzweifelte Moderator %NAME% begleitet dies mit interessanten Fragen.</de>
-						<en>Three unemployed people meet to call each other a parasite, and when the mother of 3 arrives, they realize that they are brothers. The desperate moderator %NAME% accompanies this with interesting questions.</en>
+						<de>Drei Arbeitslose treffen sich und bezeichnen die jeweils anderen als Schmarotzer. Als dann noch die Mutter der drei auftaucht, fällt ihnen auf, dass sie Brüder sind. Der verzweifelte Moderator %NAME% begleitet dies mit interessanten Fragen.</de>
+						<en>Three unemployed people meet and denote each other as parasite. When the mother of the three shows up, they realize that they are brothers. The desperate host %NAME% accompanies this with interesting questions.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Talkshow-Ep2">
@@ -403,8 +403,8 @@
 						<en>Two Couples</en>
 					</title>
 					<description>
-						<de>Ein Pärchen gesteht sich gegenseitig fremdgegangen zu sein. Es stellt sich heraus, dass Sie mit dem Mann der Frau, mit der ihr Ehemann fremdgegangen ist fremdgegangen ist. Diese sind wiederum mit einem anderen Pärchen auch fremdgegangen. Verwirrend, nicht nur für %NAME%.</de>
-						<en>A couple admits to have been alienated each other. It turns out she is cheating on the husband of the woman with whom her husband had been cheating. These, in turn, have gone wrong with another couple. Confusing, not just for %NAME%.</en>
+						<de>Ein Pärchen gesteht sich gegenseitig fremdgegangen zu sein. Es stellt sich heraus, dass Sie mit dem Mann der Frau, mit der ihr Ehemann fremdgegangen ist, fremdgegangen ist. Diese sind wiederum auch mit einem anderen Pärchen fremdgegangen. Verwirrend, nicht nur für %NAME%.</de>
+						<en>A couple admits to having cheated. It turns out that she has been cheating with the husband of the woman with whom her husband had been cheating. The other couple, in turn, has been cheating with yet another couple. Confusing, not just for %NAME%.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Talkshow-Ep3">
@@ -413,8 +413,8 @@
 						<en>Together</en>
 					</title>
 					<description>
-						<de>Ein 88 Jähriger will endlich seine leibliche Mutter kennenlernen. Es stellt sich heraus, das seine Mutter erst 72 Jahre als ist und er erst 58 Jahre. Während der Sendung stürmt die Polizei herein und nimmt den nun nicht mehr Rentner fest wegen Sozialbetrugs.</de>
-						<en>An 88 year old wants to finally get to know his birth mother. It turns out that his mother is only 72 years old and he is only 58 years old. During the broadcast, the police rush in and arrests the now no longer retirees for social fraud.</en>
+						<de>Ein 88-jähriger will endlich seine leibliche Mutter kennenlernen. Es stellt sich heraus, dass sie erst 72 Jahre als ist und 58. Während der Sendung stürmt die Polizei herein und nimmt den Nun-nicht-mehr-Rentner wegen Sozialbetrugs fest.</de>
+						<en>An 88 year old finally wants to meet his mother. It turns out that she is only 72 years old and he is 58. During the broadcast, the police rushes in and arrests the former retiree for social fraud.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Talkshow-Ep4">
@@ -423,8 +423,8 @@
 						<en>Kidnapped</en>
 					</title>
 					<description>
-						<de>Eine 5 Menschen behaupten in der Sendung von Aliens entführt worden zu sein. Dort wurden Tests mit Ihnen durchgeführt z.B. IQ-Test oder BDI. %Name% verliert die Kontrolle über die 5 als Sie sich streiten wer den höchsten BDI-Wert erreicht hat.</de>
-						<en>A 5 people claim to have been kidnapped by aliens in the show. There tests were carried out with you, e.g. IQ test or BDI. % Name% loses control of the 5 as they fight over who has reached the highest BDI.</en>
+						<de>Fünf Menschen behaupten in der Sendung, von Aliens entführt worden zu sein. Dort wurden Tests mit Ihnen durchgeführt z.B. eein IQ-Test und BDI. %Name% verliert die Kontrolle über die fünf, als Sie sich streiten wer, den höchsten BDI-Wert erreicht hat.</de>
+						<en>In the show, five people claim to have been kidnapped by aliens. Tests were carried out on them, e.g. an IQ test and BDI. %Name% loses control of the five as they fight over who has reached the highest BDI.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Talkshow-Ep5">
@@ -433,8 +433,8 @@
 						<en>Hypnosis</en>
 					</title>
 					<description>
-						<de>Ein Profihynotiseur wird eingeladen, als die Hälfte des Publikums wie ein Huhn gackert, die andere Hälfte denkt ihr Sitz wäre ein Bobbycar und %Name% anfängt Modern Walking zu singen wird die Sendung abgebrochen.</de>
-						<en>A professional hypnotiseur is invited, as half of the audience cackles like a chicken, the other half thinks their seat would be a bobby car and% Name% begins to sing modern walking, the broadcast is canceled.</en>
+						<de>Ein Profihynotiseur wird eingeladen. Als die Hälfte des Publikums wie ein Huhn gackert, die andere Hälfte denkt, ihr Sitz wäre ein Bobbycar, und %Name% anfängt, Modern Walking zu singen, wird die Sendung abgebrochen.</de>
+						<en>A professional hypnotiseur is invited. When half of the audience cackles like a chicken, the other half thinks their seat would be a bobby car, and% Name% begins to sing modern walking, the broadcast is canceled.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Talkshow-Ep6">
@@ -443,8 +443,8 @@
 						<en>Tree-lovers</en>
 					</title>
 					<description>
-						<de>2 Menschen haben sich in den gleichen Baum verliebt. In der Sendung streiten sie darum, wen der Baum von den beiden mehr liebt. Als ein Wissenschaftler mit einer Baumsprechmaschine ankommt und der Baum sagt der er %Name% am meisten liebt, wird dieser von den Baumliebhabern verprügelt.</de>
-						<en>2 people fell in love with the same tree. In the broadcast, they argue about who the tree loves more of the two. When a scientist arrives with a tree spreader and the tree says that he loves %Name% the most, it is beaten up by the tree-lovers.</en>
+						<de>Zwei Menschen haben sich in den gleichen Baum verliebt. In der Sendung streiten sie darum, wen der Baum von den beiden mehr liebt. Als ein Wissenschaftler mit einer Baumsprechmaschine ankommt und der Baum sagt, dass er %Name% am meisten liebt, wird dieser von den Baumliebhabern verprügelt.</de>
+						<en>Two people have fallen in love with the same tree. During the broadcast, they argue about which one of the two the tree loves more. When a scientist with a tree language translator arrives and the tree says that it loves %Name% the most, he is beaten up by the tree-lovers.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Talkshow-Ep7">
@@ -453,8 +453,8 @@
 						<en>Resignation</en>
 					</title>
 					<description>
-						<de>Aufgrund schwerer Verletzungen und ernsten Depressionen die %Name% durch seine Show erhalten hat, tritt %Name% nun zurück. Er erklärt, dass er dieses Format hasst und nicht verstehen kann wie ein Mensch dies freiwillig gucken kann.</de>
-						<en>Due to severe injuries and severe depression that %Name% received through its show, %Name% is now withdrawing. He explains that he hates this format and can not understand how a person can look this.</en>
+						<de>Aufgrund schwerer Verletzungen und ernsten Depressionen, die %Name% durch seine Show erlitten hat, tritt %Name% nun zurück. Er erklärt, dass er dieses Format hasst und nicht verstehen kann, wie ein Mensch so etwas freiwillig gucken kann.</de>
+						<en>Due to severe injuries and a heavy depression caused by the show, %Name% is resigning. He states that he hates the format and cannot understand how a person can watch something like this voluntarily.</en>
 					</description>
 				</scripttemplate>
 			</children>
@@ -471,8 +471,7 @@
 				<job function="32" index="3" gender="2" required="1" />
 			</jobs>
 			<data flags="16" flags_optional="8" />
-			<genres maingenre="7" subgenres="12" />
-			<episodes max="7" min="5" />
+			<genres maingenre="103" subgenres="7,12" />
 			<blocks value="1" />
 			<price max="5000" min="100" />
 			<potential slope="45" max="46" min="12" />
