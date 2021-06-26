@@ -485,27 +485,27 @@
 
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Spendengala">
 			<title>
-				<de>Die große Spendengala- Ein Herz für %Name%</de>
-				<en>The great Donat- A Heart for %Name%</en>
+				<de>Die große Spendengala - Ein Herz für %Name%</de>
+				<en>The great Donation gala - A Heart for %Name%</en>
 			</title>
 			<description>
-				<de>Völlig unbekannte Stars wollen Geld für die vom aussterben bedrohten %Name%. Ein Abend voller Musik, Comedy, Hoffnung und Spenden.</de>
-				<en>Completely unknown stars promote the endangered %Name%. An evening full of music, comedy,hope and donations.</en>
+				<de>Völlig unbekannte Stars wollen Geld für die vom aussterben bedrohten %Name% sammeln. Ein Abend voller Musik, Comedy, Hoffnung und Spenden.</de>
+				<en>Completely unknown stars promote the endangered %Name%. An evening full of music, comedy, hope and donations.</en>
 			</description>
 			<variables>
 				<name>
 					<de>Wollmäuse|Wasserrehe|Dikdiks|Nasenaffen|Kakapos|Greifstachler|Mimik-Oktopoden</de>
-					<en>Dust bunnies|water-deers|dikdiks|proboscis monkeys|kakapos|porcupine|mimic octopus</en>
+					<en>dust bunnies|water deers|dikdiks|proboscis monkeys|kakapos|porcupine|mimic octopus</en>
 				</name>
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
-				<job function="2" index="1" gender="2" required="1" />
-				<job function="32" index="2" gender="1" required="1" />
-				<job function="32" index="3" gender="1" required="1" />
-				<job function="32" index="4" gender="2" required="1" />
-				<job function="32" index="5" gender="2" required="1" />
-			</jobs>
+				<job function="8" index="1" gender="0" required="1" />
+				<job function="2" index="2" gender="0" required="1" />
+				<job function="16" index="3" gender="0" required="1" />
+				<job function="64" index="4" gender="0" required="1" />
+				<job function="2048" index="5" gender="0" required="1" />
+			</jobs><!--TODO andere Flags testen Ausstrahlungszeitraum, Häfigkeit...-->
 			<data flags_optional="24" flags="129" />
 			<genres maingenre="204" subgenres="0" />
 			<blocks slope="40" max="4" min="2" />
