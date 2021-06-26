@@ -192,13 +192,13 @@
 				<en>Free the %Tier% Mister %Name%</en>
 			</title>
 			<description>
-				<de>Ein Kind verliebt sich beim Zoobesuch in den %Tier% Mister %Name%. Doch sieht dieser sehr traurig aus. So tut das Kind alles in seiner machtstehende um ihn zu befreien.</de>
-				<en>A child see in the zoo the %Tier% Mister %Name%. But he looks very sad. So the child does everything in his power to free him.</en>
+				<de>Ein Kind verliebt sich beim Zoobesuch in den %Tier% Mister %Name%. Doch sieht dieser sehr traurig aus. So tut das Kind alles in seiner Macht stehende, um ihn zu befreien.</de>
+				<en>In the zoo, a child sees the %Tier% Mister %Name% who looks very sad. So the child does everything in its power to free the animal.</en>
 			</description>
 			<variables>
 				<tier>
 					<de>Affen|Nacktmull|Goldfisch|Löwen|Tiger|Hasen|Panda</de>
-					<en>Monkey|naked mole Rat|Goldfish|Lion|Tiger|Rabbit|Panda</en>
+					<en>monkey|naked mole rat|goldfish|lion|tiger|rabbit|panda</en>
 				</tier>
 				<name>
 					<de>Jingels|Wollo|Hubert|Billy|Fluffy|Bobo|Flocke</de>
@@ -219,10 +219,10 @@
 			<review slope="35" max="60" min="20" />
 			<speed slope="40" max="80" min="30" />
 		</scripttemplate>
-	
-	
-	
-	
+
+
+
+
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Ghost">
 			<title>
 				<de>Ghost%zu%</de>
