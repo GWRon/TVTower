@@ -149,15 +149,15 @@
 
 
 
-
+		<!--Anpassungen: insb. Besetzung Musiker, Ausstrahlungszeit-->
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-LiveKonzert">
 			<title>
 				<de>Das Livekonzert von %Name1% %Name2%</de>
 				<en>%Name1% %Name2% Live</en>
 			</title>
 			<description>
-				<de>Live in Stereo, Farbe und Bunt %Name1% %Name2%</de>
-				<en>Live and in stereo %Name1% %Name2%</en>
+				<de>Live in Stereo, Farbe und Bunt: %Name1% %Name2%</de>
+				<en>Live and in stereo: %Name1% %Name2%</en>
 			</description>
 			<variables>
 				<name1>
@@ -171,10 +171,11 @@
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
-				<job function="2" index="1" gender="2" required="1" />
+				<job function="16" index="1" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="24" flags="1" />
-			<genres maingenre="202" subgenres="0" />
+			<!--TODO weitere Flags für Live-Sendung ausprobieren-->
+			<data flags_optional="24" flags="1" broadcast_time_slot_start="19" broadcast_time_slot_end="23"/>
+			<genres maingenre="202" />
 			<blocks slope="40" max="4" min="2" />
 			<price slope="25" max="19500" min="15000" />
 			<potential slope="30" max="100" min="30" />
