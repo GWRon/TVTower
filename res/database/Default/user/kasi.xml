@@ -908,9 +908,11 @@
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Kinderfliegen">
 			<title>
 				<de>Die %Was% über %Wo%</de>
+				<en>The %Was% above %Wo%</en>
 			</title>
 			<description>
-				<de>Eine Gruppe von Kindern guckt hoch nach oben in den Himmel von %wo% und träumt vom fliegen. Gemeinsam versuchen sie alles um den Himmel für sich zu erobern.</de>
+				<de>Eine Gruppe von Kindern guckt hoch nach oben in den Himmel von %wo% und träumt vom Fliegen. Gemeinsam versuchen sie alles, um den Himmel für sich zu erobern.</de>
+				<en>A group of children watches the sky above %wo% and dreams of flying. Togehter they try everything in order to conquer the sky.</en>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Kinderfliegen-Ep1">
@@ -919,105 +921,134 @@
 						<en>Pilot</en>
 					</title>
 					<description>
-						<de>Kinder träumen von vielen Dingen, aber manchmal sind sie auch Erreichbar. Der Traum vom fliegen packt eine Junge Gruppe aus %wo%, diese versuchen alles, um ihren Traum zu verwirklichen.</de>
+						<de>Kinder träumen von vielen Dingen, aber manchmal sind sie auch erreichbar. Der Traum vom Fliegen packt eine Gruppe junger Menschen aus %wo%. Sie versuchen alles, um ihren Traum zu verwirklichen.</de>
+						<en>Children dream of many things, some even can be achieved. The dream of flying captivates a group of young people from %wo%. They try everything to make the dream come true.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Kinderfliegen-Ep2">
 					<title>
 						<de>Der Himmel über %wo%</de>
+						<en>The sky above %wo%</en>
 					</title>
 					<description>
 						<de>%wo% ist eine wunderschöne Stadt. Die Kinder wollen hier den Himmel erobern und basteln an einem Plan.</de>
+						<en>%wo% is a beautiful city. The children want to conquer the sky and tinker with a plan.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Kinderfliegen-Ep3">
 					<title>
 						<de>Auftrieb</de>
+						<en>Ascending force</en>
 					</title>
 					<description>
 						<de>Die Ideen sprudeln nur so aus den Kindern heraus und bestärken sie in ihrem Vorhaben.</de>
+						<en>Ideas are bubbling away encouraging the children in their intention.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Kinderfliegen-Ep4">
 					<title>
 						<de>Neue Flügel</de>
+						<en>New wings</en>
 					</title>
 					<description>
-						<de>Dine Kinder bauen auf einer Wiese ein Gestell für ein Flugzeug und stellen sich vor hoch oben am Himmel zu sein.</de>
+						<de>Die Kinder bauen auf einer Wiese ein Gestell für ein Flugzeug und stellen sich vor, hoch oben am Himmel zu sein.</de>
+						<en>The children build a frame for a plane on a lawn and imagin being high up in the sky.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Kinderfliegen-Ep5">
 					<title>
 						<de>Kalter Wind</de>
+						<en>Cold wind</en>
 					</title>
 					<description>
-						<de>Ohne Kenntnisse über Elektrotechnik, wird denn Kindern schnell klar, dass ihr Traum vom Fliegen in Gefahr gerät, auch wissen sie nicht, wie man ein Flugzeug fliegt.</de>
+						<de>Den Kindern wird schnell klar, dass ihr Traum vom Fliegen ohne Kenntnisse über Elektrotechnik in Gefahr gerät. Auch wissen sie nicht, wie man ein Flugzeug fliegt.</de>
+						<en>The children quickly realize that their dream of flying is endangered by their lack of knowledge on electical engineering. Also, they don't know how to fly an airplane.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Kinderfliegen-Ep6">
 					<title>
 						<de>Flugschule</de>
+						<en>Flight shool</en>
 					</title>
 					<description>
 						<de>Um das Wissen für das Fliegen aufzubauen, besuchen die Kinder eine Flugschule und sie sehen zum erstemal %wo% von oben.</de>
+						<en>In order to build up knowledge on flying, the children go to flight school. For the first time, they see %wo% from avove.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Kinderfliegen-Ep7">
 					<title>
 						<de>Flugstunden</de>
+						<en>Flying lessons</en>
 					</title>
 					<description>
 						<de>Die Flugstunden gehen weiter und die Kinder bekommen einen Flugschein, der sie berechtigt, über %wo% zu fliegen.</de>
+						<en>Flight school continues and the children earn their pilot's licences. Now they are allowed to fly above %wo%.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Kinderfliegen-Ep8">
 					<title>
 						<de>Traumgebilde</de>
+						<en>Dream images</en>
 					</title>
 					<description>
-						<de>Die Kinder stellen das Gestell für das Flugzeug fertig und erkennen, dass es wunderschön ist hart mit Freunden zu arbeiten.</de>
+						<de>Die Kinder stellen das Gestell für das Flugzeug fertig und erkennen, dass es wunderschön ist, hart mit Freunden zu arbeiten.</de>
+						<en>The children complete the frame for the plane and realize that it is great to work hard with your friends.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Kinderfliegen-Ep9">
 					<title>
 						<de>Der Propeller</de>
+						<en>The propeller</en>
 					</title>
 					<description>
-						<de>Die Kinder kontaktieren einen Schmied der den Propeller für das Flugzeug fertigstellt. Dieser wird gleich an das Flugzeug montiert.</de>
+						<de>Die Kinder kontaktieren einen Schmied, der den Propeller für das Flugzeug fertigstellt. Dieser wird gleich an das Flugzeug montiert.</de>
+						<en>The children contact a smith who manufactures the propeller for the plane. The propeller is immediately installed.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Kinderfliegen-Ep10">
 					<title>
 						<de>Der Elektromotor</de>
+						<en>The electric motor</en>
 					</title>
 					<description>
 						<de>Der Schmied der den Propeller gefertigt hat, hat die Kinder an einen guten Eletrotechniker verwiesen, der hilft den Motor einzubauen und Schaltungen verbinden.</de>
+						<en>The smith whe built the propeller told the children about a good electical engineer who then helps installing the motor and the wiring.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Kinderfliegen-Ep11">
 					<title>
 						<de>Der Flug über %wo%</de>
+						<en>Flight over %wo%</en>
 					</title>
 					<description>
-						<de>Der Traum vom fliegen wird wahr und der über %wo% sind Kinder die ihren Traum verwirklicht haben und alle in Staunen versetzt haben.</de>
+						<de>Der Traum vom Fliegen wird wahr. Die Kinder von %wo% haben ihren Traum verwirklicht haben und alle in Staunen versetzt.</de>
+						<en>The dream of flight comes true. The children of %wo% achieved their dream and astounded everybody.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Kinderfliegen-Ep12">
 					<title>
-						<de>20 Jahre später:Die Kinder der Kinder</de>
+						<de>20 Jahre später: Die Kinder der Kinder</de>
+						<en>20 years later: the childrens' children</en>
 					</title>
 					<description>
 						<de>Die Kinder sind Erwachsen geworden und haben selbst Kinder, die davon traumen den Himmel über %wo% zu erobern.</de>
+						<en>The children have grown up and have kids of their own who now dream about conquering the sky above %wo%.</en>
 					</description>
 				</scripttemplate>
 			</children>
 			<variables>
 				<was>
 					<de>Wolken|Sterne|Sonne|Fluzeuge|Vögel</de>
+					<en>clouds|stars|sun|airplane|birds</en>
 				</was>
 				<wo>
-					<de>Paris|Berlin|London|New York|Madrid</de>
+					<de>Paris|Berlin|London|New York|Madrid|%randomcity%</de>
+					<en>Paris|Berlin|London|New York|Madrid|%randomcity%</en>
 				</wo>
+				<randomcity>
+					<de>%STATIONMAP:RANDOMCITY%</de>
+					<en>%STATIONMAP:RANDOMCITY%</en>
+				</randomcity>
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
@@ -1027,8 +1058,7 @@
 				<job function="2" index="4" gender="2" required="1" />
 			</jobs>
 			<data flags="" flags_optional="10" />
-			<genres maingenre="3" subgenres="1" />
-			<episodes max="12" min="9" />
+			<genres maingenre="3" subgenres="1,9" />
 			<blocks value="1" />
 			<price max="90000" min="50000" />
 			<potential slope="45" max="90" min="56" />
