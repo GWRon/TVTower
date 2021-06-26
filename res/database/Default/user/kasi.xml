@@ -262,8 +262,8 @@
 				<en>%Name1% %Name2% - Lost in the digital swamp</en>
 			</title>
 			<description>
-				<de>Spannende Thriller-Serie über die Geheimnisse welche in %Name1% geschrieben wurden und eine Gruppe junger Menschen die versuchen mit diesen Geheimnissen Morde aufzudecken.</de>
-				<en>Exciting thriller series about the secrets written in %Name1% and a group of young people trying to reveal murders with these secrets.</en>
+				<de>Spannende Thriller-Serie über die Geheimnisse, welche in %Name1% geschrieben wurden, und eine Gruppe junger Menschen, die versuchen, mit diesen Geheimnissen Morde aufzudecken.</de>
+				<en>Suspenseful thriller series about secrets written in %Name1% and a group of young people trying to resolve murder cases using those secrets.</en>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-SozialeNetzwerke-Ep1">
@@ -272,8 +272,8 @@
 						<en>Pilot</en>
 					</title>
 					<description>
-						<de>Nach etlichen Morden in ihrer Stadt schließt sich eine Gruppe junger Menschen zusammen um diesen nachzugehen. Ihre größte Chance recherchen in %Name1%.</de>
-						<en>After several murders in their city, a group of young people joins together to pursue it. The biggest chance is a research in %Name1%.</en>
+						<de>Nach etlichen Morden in ihrer Stadt schließt sich eine Gruppe junger Menschen zusammen, um diesen nachzugehen. Ihre größte Chance sind Recherchen in %Name1%.</de>
+						<en>After several murders in their city, a group of young people joins forces to pursue them. Their biggest chance is researching in %Name1%.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-SozialeNetzwerke-Ep2">
@@ -293,7 +293,7 @@
 					</title>
 					<description>
 						<de>Die Recherchen auf %Name1% sorgen dafür, dass die Gruppe in Gefahr gerät. Der Mörder droht ihnen über %Name1%.</de>
-						<en>The searches on %Name1% ensure that the group is in danger. The killer threatens them over %Name1%.</en>
+						<en>The searches on %Name1% put the group in danger. The killer threatens them over %Name1%.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-SozialeNetzwerke-Ep4">
@@ -303,7 +303,7 @@
 					</title>
 					<description>
 						<de>Der Mörder hat mehr Macht als erwartet. Er lässt alle Accounts bei %Name1% sperren. Verzweiflung macht sich breit.</de>
-						<en>The killer has more power than expected. He blocks all accounts at %Name1%. Despair is spreading.</en>
+						<en>The killer has more power than expected. He blocks all accounts of %Name1%. Despair is spreading.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-SozialeNetzwerke-Ep5">
@@ -312,8 +312,8 @@
 						<en>No Chance</en>
 					</title>
 					<description>
-						<de>Die Gruppe wechselt gemeinsam zu einem anderen Netzwerk. Doch der Mörder ist immernoch auf freiem Fuß und niemand hat eine Ahnung, dass er alles über die Gruppe dank %Name1% weiß.</de>
-						<en>The group changes to another network. But the killer is still at large and no one has the idea that he knows everything about the group because of %Name1%.</en>
+						<de>Die Gruppe wechselt geschlossen zu einem anderen Netzwerk. Doch der Mörder ist noch immer auf freiem Fuß und niemand ahnt, dass er dank %Name1% alles über die Gruppe weiß.</de>
+						<en>The group switches to another network. But the killer is still at large and no one suspects that he knows everything about the group because of %Name1%.</en>
 					</description>
 				</scripttemplate>
 			</children>
@@ -331,12 +331,11 @@
 				<job function="1" index="0" required="1" />
 				<job function="2" index="1" gender="1" required="1" />
 				<job function="2" index="2" gender="2" required="1" />
-				<job function="32" index="3" gender="2" required="1" />
-				<job function="32" index="4" gender="2" required="1" />
+				<job function="32" index="3" gender="0" required="1" />
+				<job function="32" index="4" gender="0" required="1" />
 			</jobs>
 			<data flags="" flags_optional="10" />
 			<genres maingenre="17" subgenres="14" />
-			<episodes max="5" min="3" />
 			<blocks value="1" />
 			<price max="50000" min="10000" />
 			<potential slope="45" max="94" min="52" />
