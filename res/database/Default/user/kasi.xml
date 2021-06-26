@@ -595,9 +595,11 @@
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Abenteuerfreunde">
 			<title>
 				<de>Die Abenteuer%Name%</de>
+				<en>Adventure %Name%</en>
 			</title>
 			<description>
 				<de>Abenteuerserie über junge Helden der Neuzeit, die mit Hilfe ihrer Freundschaft alle Hindernisse überwinden.</de>
+				<en>Adventure series about young modern time heroes whose friendship allows them to overcome any obstacle.</en>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Abenteuerfreunde-Ep1">
@@ -606,101 +608,125 @@
 						<en>Pilot</en>
 					</title>
 					<description>
-						<de>Wer ist wer und in welchem Ort befinden wir uns? Als ein Junge sich einfach so in der Stadt in die er gerade gezogen ist verläuft, trifft er Jugendliche in seinem Alter. Gemeinsam suchen sie einen verschwundenen Hund.</de>
+						<de>Wer ist wer und in welchem Ort befinden wir uns? Als ein Junge sich in der Stadt, in die er gerade gezogen ist, verläuft, trifft er Jugendliche in seinem Alter. Gemeinsam suchen sie einen verschwundenen Hund.</de>
+						<en>Who is who and where are we? A boy gets lost in the city he just moved to. He meets teenagers his age and together they search for a dog that disappeared.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Abenteuerfreunde-Ep2">
 					<title>
 						<de>Freundschaft über alles</de>
+						<en>Friendship above everything</en>
 					</title>
 					<description>
-						<de>Ein streit entzweit die Freunde doch ein Rätsel von einem gestohlenem Rubin, führt sie wieder zusammen und stärkt ihre Freundschaft.</de>
+						<de>Ein Streit entzweit die Freunde. Doch ein Rätsel von einem gestohlenem Rubin führt sie wieder zusammen und stärkt ihre Freundschaft.</de>
+						<en>A quarrel disunites our friends. But the mystery of a stolen ruby unites them again and strengthens their friendship.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Abenteuerfreunde-Ep3">
 					<title>
 						<de>Der verlorene Zwerg</de>
+						<en>The lost gnome</en>
 					</title>
 					<description>
-						<de>Ein verlorener Gartenzwerg ist nicht Spannend? Doch! Denn dieser Gartenzwerg birgt ein mysteriöses Geheimnis, welches unsere jungen Helden lösen wollen.</de>
+						<de>Ein verlorener Gartenzwerg ist nicht spannend? Doch! Denn dieser Gartenzwerg birgt ein mysteriöses Geheimnis, welches unsere jungen Helden lösen wollen.</de>
+						<en>A lost garden gnome ist not exciting? It is too! Because this gnome carries mysterious secret which our young heros want to uncover.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Abenteuerfreunde-Ep4">
 					<title>
 						<de>Das Nagergesicht</de>
+						<en>The rodent face</en>
 					</title>
 					<description>
-						<de>Ein Junge wird regelmässig in der Schule verhauen, sein entstelltes Gesicht ähnelt allmählich einer Ratte. Als unsere Helden dies mitbekommen, sammeln diese für eine Schönheits-OP.</de>
+						<de>Ein Junge wird regelmässig in der Schule verhauen, sein entstelltes Gesicht ähnelt allmählich einer Ratte. Als unsere Helden dies mitbekommen, sammeln sie für eine Schönheits-OP.</de>
+						<en>At school, a boy gets beaten up regularly. Over time his face looks more and more like a rat's. When our heros find out about this, they raise money for a plastic surgery.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Abenteuerfreunde-Ep5">
 					<title>
 						<de>Den Hilflosen helfen</de>
+						<en>Help the helpless</en>
 					</title>
 					<description>
 						<de>Eine alte Dame wird bestohlen. Die Polzei kann nichts machen, nur unsere Helden können der Dame helfen.</de>
+						<en>An old lady gets robbed. The police cannot do anything, only our heroes can help her.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Abenteuerfreunde-Ep6">
 					<title>
 						<de>Der Neue</de>
+						<en>The new one</en>
 					</title>
 					<description>
-						<de>Ein neues Kind ist in der Stadt, als es versucht mit dem Bus wieder in sein altes Leben zu flüchten, halten ihn unsere Helden auf und zeigen ihm wie schön seine neue Heimat ist.</de>
+						<de>Ein neues Kind ist in der Stadt. Als es versucht mit dem Bus wieder in sein altes Leben zu flüchten, halten ihn unsere Helden auf und zeigen ihm wie schön seine neue Heimat ist.</de>
+						<en>A new child arrives in the city. When it tries to escape to its old life by bus, our heroes stop it and show how beautiful its new home is.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Abenteuerfreunde-Ep7">
 					<title>
 						<de>Die gelockte Nonne</de>
+						<en>The curly nun</en>
 					</title>
 					<description>
 						<de>Einer Nonne wird ihre Kappe gestohlen. Man erkennt, dass diese Nonne wunderschön ist mit ihren gelockten Haaren. Unsere Helden vereinbaren ein Fotoshoting und die Nonne wird ein gefragtes Model.</de>
+						<en>The hood of a nun is stolen. Her beautiful curly hair attracts attention. Our heroes organize a photo shooting and the nun becomes a popular model.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Abenteuerfreunde-Ep8">
 					<title>
 						<de>Die Mitternachtsparty</de>
+						<en>The midnight party</en>
 					</title>
 					<description>
-						<de>Schlaflos, wegen lauter Musik der Nachbarn liegt ein kleiner Junge in seinem Bett, er erzählt, dass dies jedes Wochenende so ist. Unsere Helden helfen ihm, indem sie den Alkohol der Partytruppe klauen und in einen See schütten.</de>
+						<de>Schlaflos wegen lauter Musik der Nachbarn liegt ein kleiner Junge in seinem Bett. Er erzählt, dass dies jedes Wochenende so ist. Unsere Helden helfen ihm, indem sie den Alkohol der Partytruppe klauen und in einen See schütten.</de>
+						<en>Because of the neighbor's loud music, a boy cannot sleep. He states that this happens every weekend. Our heroes help by stealing the party's alcohol and pouring it in a lake.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Abenteuerfreunde-Ep9">
 					<title>
 						<de>Die Ermittlungen</de>
+						<en>The investigation</en>
 					</title>
 					<description>
 						<de>Gegen unsere Helden wird ermittelt, da sie anscheinend in einem Haus Alkohol geklaut haben und damit die Fische im nahem See vergiftet haben. Doch sie haben eine Idee.</de>
+						<en>Our heroes are under investigation, because they seem to have stolen alcohol and poisened fish in a near-by lake. But they have an idea.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Abenteuerfreunde-Ep10">
 					<title>
 						<de>Die Mitternachtsparty 2</de>
+						<en>The midnight party 2</en>
 					</title>
 					<description>
-						<de>Unsere Freunde füllen Seewasser in Flaschen und bringen diese zurück zu dem Haus, indem sie die Flaschen geklaut haben. Alle sind glücklich und die Ermittlungen werden wieder eingstellt.</de>
+						<de>Unsere Freunde füllen Seewasser in Flaschen und bringen diese zurück zu dem Haus, in dem sie die Flaschen geklaut haben. Alle sind glücklich und die Ermittlungen werden wieder eingstellt.</de>
+						<en>Our friends fill bottles with lake water and bring them back to the house where they stole the bottles. Everybody is happy and the investigation is closed.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Abenteuerfreunde-Ep11">
 					<title>
 						<de>Die vergessenen Geheimnisse</de>
+						<en>Forgotten events</en>
 					</title>
 					<description>
-						<de>Als unsere Helden erfahren, dass unter der Stadt ein versteckter Schatz ist, versuchen sie herauszufinden wo sich der geheime eingang befindet, doch dieses Geheimnis, scheint der letzte Bürgermeister der Stadt mit ins Grab genommen zu haben.</de>
+						<de>Als unsere Helden erfahren, dass unter der Stadt ein versteckter Schatz ist, versuchen sie herauszufinden, wo sich der geheime Eingang befindet. Doch dieses Geheimnis scheint der letzte Bürgermeister der Stadt mit ins Grab genommen zu haben.</de>
+						<en>When our heroes learn that a treasure is hidden beneath the city, the try to find the hidden entrance. But the former mayor of the city seems to have taken the secret to the grave.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Abenteuerfreunde-Ep12">
 					<title>
 						<de>Die neuen Abenteuerer</de>
+						<en>The new adventurers</en>
 					</title>
 					<description>
-						<de>Raus aus der Schule geben unsere Helden ihre Erfahrungen und Geheimnisse an neu eingeschulte Kinder weiter. Diese beschließen daraufhin auch Abenteuer zu erleben.</de>
+						<de>Raus aus der Schule geben unsere Helden ihre Erfahrungen und Geheimnisse an neu eingeschulte Kinder weiter. Diese beschließen daraufhin, auch Abenteuer zu erleben.</de>
+						<en>On finishing school our heroes pass on their knowledge and secrets to children just starting school. These decide to experience adventures, too.</en>
 					</description>
 				</scripttemplate>
 			</children>
 			<variables>
 				<name>
 					<de>freunde|clique|bande|sucher|finder|kumpels</de>
+					<en>friends|clique|gang|searchers|finders|buddies</en>
 				</name>
 			</variables>
 			<jobs>
@@ -712,7 +738,6 @@
 			</jobs>
 			<data flags="" flags_optional="10" />
 			<genres maingenre="1" subgenres="14" />
-			<episodes max="12" min="9" />
 			<blocks value="1" />
 			<price max="90000" min="50000" />
 			<potential slope="45" max="92" min="42" />
