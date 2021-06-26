@@ -522,19 +522,17 @@
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Deathaction">
 			<title>
 				<de>Die Todes%zu%</de>
-				<en>%HERO%</en>
+				<en>The death-%zu%</en>
 			</title>
 			<description>
-				<de>Klassischer Actionfilm, bei denen 15 Menschen auf einem fremden Planten ausgesetzt werden, um sich umzubringen.</de>
-				<en>A Superhero-movie from the well-known Moval-Comics. %HERO% is fighting a new super villain and is saving the world.</en>
+				<de>Klassischer Actionfilm, in dem 15 Menschen auf einem fremden Planten ausgesetzt werden, um sich umzubringen.</de>
+				<en>Classical action movie - 15 people are abandoned on a planet so that they can kill each other.</en>
 			</description>
-			<variables> <!--TODO geändert--> <zu>
+			<variables>
+				<zu>
 					<de>maschine|pforte|helfer|unterstützer|assistenten</de>
+					<en>machine|portal|helper|supporter|assistants</en>
 				</zu>
-				<hero>
-					<de>Herculesman|Insectboy|Coalman|Helk|Misses Fantastic|Powergirl|The-beautiful-flying-superstrong-Woman</de>
-					<en>Herculesman|Insectboy|Coalman|Helk|Misses Fantastic|Powergirl|The-beautiful-flying-superstrong-Woman</en>
-				</hero>
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
@@ -545,7 +543,7 @@
 				<job function="32" index="5" gender="2" required="1" />
 				<job function="32" index="6" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="42" flags="" />
+			<data flags_optional="106" flags="" />
 			<genres maingenre="2" subgenres="16" />
 			<blocks slope="40" max="3" min="2" />
 			<price slope="25" max="66500" min="15000" />
@@ -562,7 +560,7 @@
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Wege">
 			<title>
 				<de>Der Weg %Name%</de>
-				<en>%HERO%</en>
+				<en>The way %Name%</en>
 			</title>
 			<description>
 				<de>Ein Wissenschaftler öffnet einen Weg in ein mysteriöses Reich voller schrecklicher Wesen.</de>
@@ -571,10 +569,8 @@
 			<variables>
 				<name>
 					<de>in die Hölle|in die Verdammung|zum Dämonenreich|zum Teufel|zu ewigen Qualen|in den Untergrund|der Gottlosen</de>
+					<en>to hell|to damnation|to the realm of demons|to the devil|to eternal suffering|into the underground|of the godless</en>
 				</name>
-				<hero>
-					<en>Herculesman|Insectboy|Coalman|Helk|Misses Fantastic|Powergirl|The-beautiful-flying-superstrong-Woman</en>
-				</hero>
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
