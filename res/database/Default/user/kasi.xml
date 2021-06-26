@@ -353,8 +353,8 @@
 				<en>The Power of %Name%</en>
 			</title>
 			<description>
-				<de>Die Macht von %Name% ist eine Investigativ-Dokumentation, die tief in die Gefilde von dem Streamingdienst eintaucht. Die Fragen sind, werden Kunden von TV-Tower verschwinden? Wird die Werbung billiger? Verschwinden alle Filme aus dem Filmverleih?</de>
-				<en>The power of %Name% is an investigative documentation that dives deep into the realm of the streaming service. The questions are, will customers of TV Tower disappear? Will the advertising be cheaper? Are all the films from the film distribution disappearing?.</en>
+				<de>Die Macht von %Name% ist eine Investigativ-Dokumentation, die tief in die Gefilde des Streamingdienstes eintaucht. Die Fragen sind: Werden Kunden von TV-Tower verschwinden? Wird die Werbung billiger? Verschwinden alle Filme aus dem Filmverleih?</de>
+				<en>The power of %Name% is an investigative documentation that dives deep into the realm of the streaming service. The questions are: Will customers of TV-Tower disappear? Will the advertising get cheaper? Will all movies disappear from the movie agency?.</en>
 			</description>
 			<variables>
 				<name>
