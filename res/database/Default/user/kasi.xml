@@ -751,9 +751,11 @@
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Nerdszusammen">
 			<title>
 				<de>Das Nerd%Name%</de>
+				<en>The nerd %Name%</en>
 			</title>
 			<description>
-				<de>Wissen ist macht. Die Nerds wissen es und lernen um actiongeladene Missionen zu überstehen.</de>
+				<de>Wissen ist Macht. Die Nerds wissen es und lernen, um actiongeladene Missionen zu überstehen.</de>
+				<en>Knowledge is power. The nerds know it and study in order to accomplish action packed missions.</en>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Nerdszusammen-Ep1">
@@ -762,101 +764,125 @@
 						<en>Pilot</en>
 					</title>
 					<description>
-						<de>Sie werden Streber, Schleimer oder Fettsäcke genannt. Doch all dies führt dazu, dass die Nerds erkennnen, das sie mit lernen viel besser werden können als alle anderen. Als dann ein FBI-Agent versehntlich die Nerds kontaktiert um Aufträge zu erledigen, werden diese Aktiv.</de>
+						<de>Sie werden Streber, Schleimer oder Fettsäcke genannt. Doch all dies führt dazu, dass die Nerds erkennnen, dass sie durch Lernen viel besser werden können als alle anderen. Als dann ein FBI-Agent versehntlich die Nerds kontaktiert, um Aufträge zu erledigen, werden diese aktiv.</de>
+						<en>They are called geeks, suck-ups or fatty. But all this just makes nerds realize that by studying they can exceed anyone. When an FBI agent accidentally contacts the nerds asking them to accept a job, they spring into action.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Nerdszusammen-Ep2">
 					<title>
 						<de>Wir lernen Karate</de>
+						<en>We learn karate</en>
 					</title>
 					<description>
 						<de>Um eine Gruppe asiatischer Kämpfer des Kidnapping zu überführen, müssen die Nerds besser in Karate werden als diese. Gut das ihr Muskelgedächtnis geschult ist.</de>
+						<en>In order to convict asian fighters of kidnapping, the nerds need to master karate better then them. How fortunate that the nerds' muscle memory is trained.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Nerdszusammen-Ep3">
 					<title>
 						<de>Wir lernen Kung Fu</de>
+						<en>We learn Kung fu</en>
 					</title>
 					<description>
-						<de>Schon wieder Asiaten, schon wieder Kidnapping, doch diesmal Kung Fu. Als ob der Drehbuchautor keine Lust gehabt hätte sich etwas anderes einfallen zu lassen.</de>
+						<de>Schon wieder Asiaten, schon wieder Kidnapping, doch diesmal Kung Fu. Als ob der Drehbuchautor keine Lust gehabt hätte, sich etwas anderes einfallen zu lassen.</de>
+						<en>The asians again, another kidnapping, but this time it's Kung fu. It's as if the writer did not feel like thinking of something new.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Nerdszusammen-Ep4">
 					<title>
 						<de>Wir lernen Hacken</de>
+						<en>We learn hacking</en>
 					</title>
 					<description>
 						<de>Um einen Ring ukrainischer Hacker auszuschalten müssen die Nerds besser werden als diese.</de>
+						<en>In order to stop a gang of ukrainian hackers, the nerds have to get better than them.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Nerdszusammen-Ep5">
 					<title>
 						<de>Wir lernen tanzen</de>
+						<en>We learn to dance</en>
 					</title>
 					<description>
-						<de>Die Ballettmafia ist in der Stadt und plant ein furchtbares Verbrechen unsere Nerds müssen Ballett lernen um ganz tief in die Organisation vorzudringen.</de>
+						<de>Die Ballettmafia ist in der Stadt und plant ein furchtbares Verbrechen. Unsere Nerds müssen Ballett lernen um ganz tief in die Organisation vorzudringen.</de>
+						<en>The ballet mafia plans a terrible crime in the city. Our nerds must learn to dance in order to deeply infiltrate the organization.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Nerdszusammen-Ep6">
 					<title>
 						<de>Wir lernen Auto fahren</de>
+						<en>We learn how to drive</en>
 					</title>
 					<description>
 						<de>Da keiner der Nerds einen Führerschein hat und sie einen wichtigen Auftrag ausserhalb der Stadt haben, müssen sie in dieser Folge erstmal Auto fahren lernen.</de>
+						<en>None of the nerds has a driver's licence. As they have an important job outside the city, they first have to learn to drive a car.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Nerdszusammen-Ep7">
 					<title>
 						<de>Wir lernen Chemie</de>
+						<en>We learn chemistry</en>
 					</title>
 					<description>
 						<de>Chemie ist das Leben und auch der Tod. Unsere Nerds müssen einen Drogenring ausschalten indem sie sich als Angeldust-Chemiker ausgeben.</de>
+						<en>Chemistry is life and death. Our nerds have to stop a drug ring by pretending to be Angeldust chemists.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Nerdszusammen-Ep8">
 					<title>
 						<de>Wir lernen Dinosaurier</de>
+						<en>We learn dinosaurs</en>
 					</title>
 					<description>
-						<de>Einer der Nerds erfindet eine Zeitmaschine. Als diese durch zufall in der Kreidezeit landen, müssen sie sich mit der dortigen Fauna auseinandersetzen.</de>
+						<de>Einer der Nerds erfindet eine Zeitmaschine. Als sie durch Zufall in der Kreidezeit landen, müssen die Nerds sich mit der dortigen Fauna auseinandersetzen.</de>
+						<en>One of the nerds invents a time machine. When they go to the Cretaceous period by accident, the nerds have to cope with the Fauna they find there.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Nerdszusammen-Ep9">
 					<title>
 						<de>Wir lernen Astrophysik</de>
+						<en>We learn astrophysics</en>
 					</title>
 					<description>
 						<de>Um wieder in ihre Zeit zurückzukommen müssen die Nerds sich an den Sternen orientieren um die richtigen Zeitkoordinaten einzugeben.</de>
+						<en>In order to return to their own time, the nerds have orientate by the starts in order to enter the correct time coordinates.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Nerdszusammen-Ep10">
 					<title>
 						<de>Wir lernen die Stringtheorie</de>
+						<en>We learn string theory</en>
 					</title>
 					<description>
-						<de>Langsam erkennen die Nerds, dass sie nicht in die Zeit gereist sind, sondern in eine Paralelle Dimension. Hier hilft nur die Stringtheorie.</de>
+						<de>Langsam erkennen die Nerds, dass sie nicht in der Zeit sondern in eine Paralelle Dimension gereist sind. Hier hilft nur die Stringtheorie.</de>
+						<en>Slowly the nerds realize they did not travel in time but to a parallel dimension. Now, only string theory can help.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-Nerdszusammen-Ep11">
 					<title>
 						<de>Wir lernen außerirdische Technologie</de>
+						<en>We learn extraterrestrial technology</en>
 					</title>
 					<description>
-						<de>Als die Nerds eine andere paraalelle Welt betretten, die von Aliens bewohnt wird, müssen diese die Tehnologie der Aliens erlernen, um in ihre Welt zurückzukommen.</de>
+						<de>Als die Nerds eine andere paralelle Welt betretten, die von Aliens bewohnt wird, müssen sie die Technologie der Aliens erlernen, um in ihre Welt zurückzukommen.</de>
+						<en>When the nerds enter a parallel universe inhabited by aliens, they have to learn about the aliens' technology in order to return home.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Nerdszusammen-Ep12">
 					<title>
 						<de>Wir lernen Vergessen</de>
+						<en>We learn how to forget</en>
 					</title>
 					<description>
-						<de>Als die Nerds wieder in ihrer Dimension angelangen, stellen sie fest, dass sie langsam alles erlernte vergessen und zu vollkommen normalen Menschen werden.</de>
+						<de>Als die Nerds wieder in ihrer Dimension ankommen, stellen sie fest, dass sie langsam alles Erlernte vergessen und zu vollkommen normalen Menschen werden.</de>
+						<en>When the nerds return in their own dimension, they realize that they slowly forget everything they learned and turn into perfectly ordinary people.</en>
 					</description>
 				</scripttemplate>
 			</children>
 			<variables>
 				<name>
 					<de>team|kommando|kollektiv|bündel|geschwader</de>
+					<en>team|force|collective|bundle|squadron</en>
 				</name>
 			</variables>
 			<jobs>
@@ -868,7 +894,6 @@
 			</jobs>
 			<data flags="" flags_optional="8" />
 			<genres maingenre="2" subgenres="4" />
-			<episodes max="12" min="9" />
 			<blocks value="1" />
 			<price max="90000" min="50000" />
 			<potential slope="45" max="81" min="56" />
