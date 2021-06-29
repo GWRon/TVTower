@@ -1348,12 +1348,12 @@
 
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Imschlafreich">
 			<title>
-				<de>%Name1% %Name2%s schlaf dich reich</de>
-				<en>%Name1% %Name2% Live</en>
+				<de>%Name1% %Name2%s Schlaf dich reich</de>
+				<en>%Name1% %Name2%'s Get rich sleeping</en>
 			</title>
 			<description>
-				<de>Die berühmte Sängerin %Name1% %Name2%, leitet diese skurille Show, in der der Gast der am längsten auf seinem Stuhl schlafen kann eine Million Cent gewinnt, während des schlafen werden die Gäste geärgert.</de>
-				<en>Live and in stereo %Name1% %Name2%</en>
+				<de>Die berühmte Sängerin %Name1% %Name2% leitet diese skurrile Show, in der der Gast, der am längsten auf seinem Stuhl schlafen kann, eine Million Cent gewinnt. Während des Schlafen werden die Gäste geärgert.</de>
+				<en>The popular singer %Name1% %Name2% hosts this bizzare show, in which the guest capable of sleeping the longest while sitting wins a million cents. The guests are teased while sleeping.</en>
 			</description>
 			<variables>
 				<name1>
@@ -1367,14 +1367,14 @@
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
-				<job function="2" index="1" gender="2" required="1" />
-				<job function="32" index="2" gender="1" required="1" />
-				<job function="32" index="3" gender="2" required="1" />
-				<job function="32" index="4" gender="1" required="1" />
-				<job function="32" index="5" gender="2" required="1" />
+				<job function="8" index="1" gender="2" required="1" />
+				<job function="64" index="2" gender="1" required="1" />
+				<job function="64" index="3" gender="2" required="1" />
+				<job function="64" index="4" gender="1" required="1" />
+				<job function="64" index="5" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="24" flags="16" />
-			<genres maingenre="100" subgenres="0" />
+			<data flags_optional="8" flags="17" production_limit="5" production_broadcast_limit="1" production_licence_flags="4"/>
+			<genres maingenre="104" subgenres="0" />
 			<blocks slope="40" max="2" min="1" />
 			<price slope="25" max="19500" min="15000" />
 			<potential slope="30" max="50" min="30" />
