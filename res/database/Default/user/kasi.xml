@@ -1209,7 +1209,7 @@
 
 
 
-
+<!--TODO reaktivieren/weglassen?
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Metalsucher">
 			<title>
 				<de>%name1%%name2% in der Welt</de>
@@ -1340,7 +1340,7 @@
 			<outcome slope="40" max="72" min="57" />
 			<review slope="40" max="72" min="53" />
 			<speed slope="50" max="90" min="53" />
-		</scripttemplate>
+		</scripttemplate>-->
 
 
 
@@ -1387,7 +1387,7 @@
 
 
 
-
+<!-- TODO reaktivieren/weglassen?
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Ratespass">
 			<title>
 				<de>Ratespass mit %Name1% %Name2%</de>
@@ -1423,10 +1423,6 @@
 			<speed slope="40" max="50" min="30" />
 		</scripttemplate>
 
-
-
-
-
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Webcamfreude">
 			<title>
 				<de>%Name1% %Name2%s "Versteckte Webcam"</de>
@@ -1460,7 +1456,7 @@
 			<outcome slope="30" max="70" min="20" />
 			<review slope="35" max="70" min="20" />
 			<speed slope="40" max="70" min="30" />
-		</scripttemplate>
+		</scripttemplate>-->
 
 
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-MagischeWesen">
