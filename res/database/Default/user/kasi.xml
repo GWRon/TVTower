@@ -149,7 +149,7 @@
 
 
 
-		<!--Anpassungen: insb. Besetzung Musiker, Ausstrahlungszeit-->
+		<!--Anpassungen: insb. Besetzung Musiker, Flags (Ausstrahlungszeit, nur eine Ausstrahlung-->
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-LiveKonzert">
 			<title>
 				<de>Das Livekonzert von %Name1% %Name2%</de>
@@ -173,8 +173,7 @@
 				<job function="1" index="0" required="1" />
 				<job function="16" index="1" gender="2" required="1" />
 			</jobs>
-			<!--TODO weitere Flags für Live-Sendung ausprobieren-->
-			<data flags_optional="24" flags="1" broadcast_time_slot_start="19" broadcast_time_slot_end="23"/>
+			<data flags_optional="24" flags="1" production_licence_flags="4" production_broadcast_limit="1" broadcast_time_slot_start="19" broadcast_time_slot_end="23"/>
 			<genres maingenre="202" />
 			<blocks slope="40" max="4" min="2" />
 			<price slope="25" max="19500" min="15000" />
