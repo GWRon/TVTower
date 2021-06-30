@@ -1593,126 +1593,152 @@
 
 
 
-		<scripttemplate licence_type="3" product="2" guid="Kasi-script-UnterhaltungNachts">
+		<scripttemplate licence_type="3" product="3" guid="Kasi-script-UnterhaltungNachts">
 			<title>
 				<de>Die Nacht%name%</de>
+				<en>The night %name%</en>
 			</title>
 			<description>
-				<de>Zusammenfassung der besten Szenen der letzten Tage von unserem Sender. Bestes Nachprogramm für die Schlaflosen.</de>
+				<de>Zusammenfassung der besten Szenen aus dem Programm der letzten Tage. Bestes Nachprogramm für die Schlaflosen.</de>
+				<en>Recall the highlighs of our recent programmes. Perfect for the sleepless</en>
 			</description>
 			<children>
-				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-UnterhaltungNachts-Ep1">
+				<scripttemplate licence_type="2" product="3" index="0" guid="Kasi-script-UnterhaltungNachts-Ep1">
 					<title>
 						<de>Willkommen bei uns</de>
+						<en>Welcome</en>
 					</title>
 					<description>
 						<de>Die Einführung einer neuen Sendung ist immer eine Besonderheit. In dieser Sendung werden die besten Sendeinhalte der letzten und zukünftigen Tage gezeigt.</de>
+						<en>The introduction of a new format is always something special. This series presents the best parts of recent and upcoming programmes.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-UnterhaltungNachts-Ep2">
+				<scripttemplate licence_type="2" product="3" index="1" guid="Kasi-script-UnterhaltungNachts-Ep2">
 					<title>
 						<de>Heute ist eine besondere Nacht</de>
+						<en>Today is a special night</en>
 					</title>
 					<description>
-						<de>Die Einschaltquoten des letzten Tages waren grandios. Die Nacht%name% würdigt dies mit besondere Szenen.</de>
+						<de>Die Einschaltquoten des letzten Tages waren grandios. "Die Nacht%name%" würdigt dies mit besondere Szenen.</de>
+						<en>Yesterday's audience rates were overwhelming. "The night $name$" has picked out exceptional clips.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-UnterhaltungNachts-Ep3">
+				<scripttemplate licence_type="2" product="3" index="2" guid="Kasi-script-UnterhaltungNachts-Ep3">
 					<title>
 						<de>Noch eine Nacht</de>
+						<en>Another night</en>
 					</title>
 					<description>
-						<de>Und wieder tolle Zusammenfassungen. Wow. Ein Format welches nie schlecht wird.</de>
+						<de>Und wieder tolle Zusammenfassungen. Wow. Ein Format das nie schlecht wird.</de>
+						<en>And another great summary. Wow, a format for eternity.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-UnterhaltungNachts-Ep4">
+				<scripttemplate licence_type="2" product="3" index="3" guid="Kasi-script-UnterhaltungNachts-Ep4">
 					<title>
 						<de>Schlafen für Anfänger</de>
+						<en>Sleeping for beginners</en>
 					</title>
 					<description>
 						<de>Die Moderatoren stellen ihnen vor wie, wie Sie mit Szenen unseres Senders wundervoll einschlafen können.</de>
+						<en>The hosts explain how to doze off wonderfully while watching our programme.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-UnterhaltungNachts-Ep5">
+				<scripttemplate licence_type="2" product="3" index="4" guid="Kasi-script-UnterhaltungNachts-Ep5">
 					<title>
 						<de>Schlaflos im Sender</de>
+						<en>Sleepless TV station</en>
 					</title>
 					<description>
-						<de>Da den Moderatoren verboten wurde während der Drehzeit zur Sendung zu schlafen, tanzen diese vollkommen verirrt umher, dazwischen naürlich die Szenden der letzen Tage.</de>
+						<de>Da den Moderatoren verboten wurde, während der Drehzeit zur Sendung zu schlafen, tanzen diese vollkommen verirrt umher. Dazwischen natürlich die Szenden der letzen Tage.</de>
+						<en>Having been forbidden to sleep while shooting the show, the hosts dance around disoriented. In between, clips of recent days, of course.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-UnterhaltungNachts-Ep6">
+				<scripttemplate licence_type="2" product="3" index="5" guid="Kasi-script-UnterhaltungNachts-Ep6">
 					<title>
 						<de>144 Stunden wach</de>
+						<en>144 hours awake</en>
 					</title>
 					<description>
-						<de>Nachdem die Moderatoren 144 Stunden ununterbrochen wach sind, haluzinieren diese. Zwischen den akkustischen und visuellen Haluzinatioenen die besten Szenend er letzen Tage.</de>
+						<de>Nachdem die Moderatoren 144 Stunden ununterbrochen wach sind, halluzinieren diese. Zwischen den akkustischen und visuellen Halluzinationen die besten Szenen der letzen Tage.</de>
+						<en>The hosts start hallucinating after having been awake for 144 hours non-stop. Between acoustic and visual hallucinations, the clips of the best recent programmes.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-UnterhaltungNachts-Ep7">
+				<scripttemplate licence_type="2" product="3" index="6" guid="Kasi-script-UnterhaltungNachts-Ep7">
 					<title>
 						<de>Fallende Augen</de>
+						<en>Closing eyes</en>
 					</title>
 					<description>
-						<de>Unsere Moderatoren schlafen fast ein, nur die besten Szeen der letzten Tage können sie wach halten.</de>
+						<de>Unsere Moderatoren schlafen fast ein. Nur die besten Szeen der letzten Tage können sie wach halten.</de>
+						<en>Our hosts almost fall asleep. Only the last days' highlights can keep them awake.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-UnterhaltungNachts-Ep8">
+				<scripttemplate licence_type="2" product="3" index="7" guid="Kasi-script-UnterhaltungNachts-Ep8">
 					<title>
 						<de>Müde, Müde, Müde</de>
+						<en>Tired, tired, tired</en>
 					</title>
 					<description>
-						<de>Das Müdigkeitslied wird von unseren Moderatoren gesungen, untermalt wie immer von tollen Zusammenfassungen.</de>
+						<de>Das Müdigkeitslied wird von unseren Moderatoren gesungen, wie immer untermalt von tollen Zusammenfassungen.</de>
+						<en>Our hosts sing the song of sleepiness, as always accompanied by great summaries.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-UnterhaltungNachts-Ep9">
+				<scripttemplate licence_type="2" product="3" index="8" guid="Kasi-script-UnterhaltungNachts-Ep9">
 					<title>
 						<de>Wenn wir schlafen träumen wir</de>
+						<en>We dream while sleeping</en>
 					</title>
 					<description>
-						<de>Unsere Moderatoren schlafen teilweise zwischen der Sendung ein, aber können trotzdem die tollsten Szenen ansagen.</de>
+						<de>Unsere Moderatoren schlafen teilweise während der Sendung ein, können aber trotzdem die tollsten Szenen ansagen.</de>
+						<en>Our hosts occasionally fall asleep during the show. They still manage to announce the best clips.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-UnterhaltungNachts-Ep10">
+				<scripttemplate licence_type="2" product="3" index="9" guid="Kasi-script-UnterhaltungNachts-Ep10">
 					<title>
 						<de>Warum bin ich so müde</de>
+						<en>Why am I so tired</en>
 					</title>
 					<description>
-						<de>Die 5-Minuten Schlafintervalle innerhalb der letzten Sendung haben den Moderatoren nicht geholfen. Diese erklären während der Sendung warum Schlafentzug tötlich sein kann, untermalt von den tollsten Szenen der letzten Tage.</de>
+						<de>Die 5-Minuten Schlafintervalle während der letzten Sendung haben den Moderatoren nicht geholfen. Sie erklären während der Sendung, warum Schlafentzug tötlich sein kann, untermalt von den tollsten Szenen der letzten Tage.</de>
+						<en>The power naps during the last show did not help the hosts. They explain why sleep deprivation can be deadly, accompanied by the best clips of recent days.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-UnterhaltungNachts-Ep11">
+				<scripttemplate licence_type="2" product="3" index="10" guid="Kasi-script-UnterhaltungNachts-Ep11">
 					<title>
 						<de>Der Tempel der Träume</de>
+						<en>The temple of dreams</en>
 					</title>
 					<description>
-						<de>Die Moderatoren beten während der Sendung zu Hypnos, doch werden von ihm nicht erhört. Tolle Szenen inklusive.</de>
+						<de>Die Moderatoren beten während der Sendung zu Hypnos, werden von ihm aber nicht erhört. Tolle Szenen inklusive.</de>
+						<en>During the show, the hosts pray to Hypnos, but they are not answered. Including great clips.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-UnterhaltungNachts-Ep12">
+				<scripttemplate licence_type="2" product="3" index="11" guid="Kasi-script-UnterhaltungNachts-Ep12">
 					<title>
-						<de>Sterben wegen übermüdung</de>
+						<de>Tod wegen Übermüdung</de>
+						<en>Death by fatigue</en>
 					</title>
 					<description>
-						<de>Die Moderatoren sterben während der Sendung an Übermüdung. Nun haben sie den ewigen Schlaf gefunden. Die Großatigen Szenen der letzten Tage gibt es exlusiv dazu.</de>
+						<de>Die Moderatoren sterben während der Sendung an Übermüdung. Nun haben sie den ewigen Schlaf gefunden. Die großartigen Szenen der letzten Tage gibt es exlusiv dazu.</de>
+						<en>During the show, the hosts die of fatigue. Now they have found eternal rest. In addition, highlights of last days' programme are shown.</en>
 					</description>
 				</scripttemplate>
 			</children>
 			<variables>
 				<name>
 					<de>show|unterhaltung|gespräche| bei uns| ist jung| von heute|freunde</de>
+					<en>show|entertainment|talk|with us|is young|of today|friends</en>
 				</name>
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
-				<job function="2" index="1" gender="1" required="1" />
-				<job function="2" index="2" gender="2" required="1" />
-				<job function="32" index="3" gender="1" required="1" />
-				<job function="32" index="4" gender="2" required="1" />
+				<job function="8" index="1" gender="1" required="1" />
+				<job function="8" index="2" gender="2" required="1" />
+				<job function="64" index="3" gender="1" required="1" />
+				<job function="64" index="4" gender="2" required="1" />
 			</jobs>
-			<data flags="16" flags_optional="8" />
+			<data flags="16" flags_optional="8" production_broadcast_limit="1" broadcast_time_slot_end="0" broadcast_time_slot_start="8"/>
 			<genres maingenre="100" subgenres="7" />
-			<episodes max="12" min="9" />
 			<blocks value="7" />
 			<price max="150000" min="70000" />
 			<potential slope="45" max="71" min="22" />
