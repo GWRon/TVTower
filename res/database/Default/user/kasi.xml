@@ -376,8 +376,8 @@
 			<speed slope="40" max="75" min="30" />
 		</scripttemplate>
 
-
-		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Talkshow">
+		<!--Show statt Serie, Host+Gäste statt Schauspieler; TODO Host ggf. entfernen (Sprich mit X, dann aber anderer Moderator)-->
+		<scripttemplate licence_type="3" product="3" guid="Kasi-script-Talkshow">
 			<title>
 				<de>Sprich mit %NAME%</de>
 				<en>Talk with %NAME%</en>
@@ -387,7 +387,7 @@
 				<en>Typical talk show format driving the host to desperation with every show. Join %NAME% for awful interviews with people randomly picked from the street who will say anything for a second of fame.</en>
 			</description>
 			<children>
-				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Talkshow-Ep1">
+				<scripttemplate licence_type="2" product="3" index="0" guid="Kasi-script-Talkshow-Ep1">
 					<title>
 						<de>Der erste Plausch</de>
 						<en>The first Talk</en>
@@ -397,7 +397,7 @@
 						<en>Three unemployed people meet and denote each other as parasite. When the mother of the three shows up, they realize that they are brothers. The desperate host %NAME% accompanies this with interesting questions.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Talkshow-Ep2">
+				<scripttemplate licence_type="2" product="3" index="1" guid="Kasi-script-Talkshow-Ep2">
 					<title>
 						<de>Zwei Beziehungen</de>
 						<en>Two Couples</en>
@@ -407,7 +407,7 @@
 						<en>A couple admits to having cheated. It turns out that she has been cheating with the husband of the woman with whom her husband had been cheating. The other couple, in turn, has been cheating with yet another couple. Confusing, not just for %NAME%.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Talkshow-Ep3">
+				<scripttemplate licence_type="2" product="3" index="2" guid="Kasi-script-Talkshow-Ep3">
 					<title>
 						<de>Wiedersehen</de>
 						<en>Together</en>
@@ -417,7 +417,7 @@
 						<en>An 88 year old finally wants to meet his mother. It turns out that she is only 72 years old and he is 58. During the broadcast, the police rushes in and arrests the former retiree for social fraud.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Talkshow-Ep4">
+				<scripttemplate licence_type="2" product="3" index="3" guid="Kasi-script-Talkshow-Ep4">
 					<title>
 						<de>Entführt</de>
 						<en>Kidnapped</en>
@@ -427,7 +427,7 @@
 						<en>In the show, five people claim to have been kidnapped by aliens. Tests were carried out on them, e.g. an IQ test and BDI. %Name% loses control of the five as they fight over who has reached the highest BDI.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Talkshow-Ep5">
+				<scripttemplate licence_type="2" product="3" index="4" guid="Kasi-script-Talkshow-Ep5">
 					<title>
 						<de>Hypnose</de>
 						<en>Hypnosis</en>
@@ -437,7 +437,7 @@
 						<en>A professional hypnotiseur is invited. When half of the audience cackles like a chicken, the other half thinks their seat would be a bobby car, and% Name% begins to sing modern walking, the broadcast is canceled.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Talkshow-Ep6">
+				<scripttemplate licence_type="2" product="3" index="5" guid="Kasi-script-Talkshow-Ep6">
 					<title>
 						<de>Baumliebe</de>
 						<en>Tree-lovers</en>
@@ -447,7 +447,7 @@
 						<en>Two people have fallen in love with the same tree. During the broadcast, they argue about which one of the two the tree loves more. When a scientist with a tree language translator arrives and the tree says that it loves %Name% the most, he is beaten up by the tree-lovers.</en>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Talkshow-Ep7">
+				<scripttemplate licence_type="2" product="3" index="6" guid="Kasi-script-Talkshow-Ep7">
 					<title>
 						<de>Rücktritt</de>
 						<en>Resignation</en>
@@ -466,9 +466,9 @@
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
-				<job function="32" index="1" gender="2" required="1" />
-				<job function="32" index="2" gender="1" required="1" />
-				<job function="32" index="3" gender="2" required="1" />
+				<job function="8" index="1" required="1" />
+				<job function="64" index="2" gender="1" required="1" />
+				<job function="64" index="3" gender="2" required="1" />
 			</jobs>
 			<data flags="16" flags_optional="8" />
 			<genres maingenre="103" subgenres="7,12" />
