@@ -1464,16 +1464,15 @@
 				<de>Die %name1% im %name2%</de>
 			</title>
 			<description>
-				<de>Spannende Fantasyserie über %name1% im %name2% und ihre Unternehmungen sich vor den Menschen zu verstecken</de>
+				<de>Spannende Fantasyserie über %name1% im %name2% und ihre Unternehmungen, sich vor den Menschen zu verstecken.</de>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-MagischeWesen-Ep1">
 					<title>
 						<de>%name1% überall</de>
-						<en>Pilot</en>
 					</title>
 					<description>
-						<de>%name1% sind mystische Wesen und die letzten von ihnen leben im %name2%. Die Angst vor den menschen beherrscht ihren Alltag, doch die Menschen dringen immer weiter in ihre Umgebung vor.</de>
+						<de>%name1% sind mystische Wesen und die letzten von ihnen leben im %name2%. Die Angst vor den Menschen beherrscht ihren Alltag, doch die Menschen dringen immer weiter in ihre Umgebung vor.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-MagischeWesen-Ep2">
@@ -1481,7 +1480,7 @@
 						<de>Der Ring der %name1%</de>
 					</title>
 					<description>
-						<de>Der Ring der %name1%, ist ein magisches Artefakt, welches die %name1% vor den Menschen versteckt, doch als dieser Ring verschwindet, geraten die %name1% in Panik.</de>
+						<de>Der Ring der %name1% ist ein magisches Artefakt, welches die %name1% vor den Menschen verstecken. Doch als dieser Ring verschwindet, geraten die %name1% in Panik.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-MagischeWesen-Ep3">
@@ -1489,7 +1488,7 @@
 						<de>Das Auge der %name1%</de>
 					</title>
 					<description>
-						<de>Der Ring der %name1% ist verschwunden doch mittels eines magischen Auges versuchen die %name1% ihn wieder zu finden.</de>
+						<de>Der Ring der %name1% ist verschwunden, doch mittels eines magischen Auges versuchen die %name1% ihn wiederzufinden.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-MagischeWesen-Ep4">
@@ -1497,15 +1496,15 @@
 						<de>Der Anführer</de>
 					</title>
 					<description>
-						<de>Einer der %name1% findet den magischen Ring wieder und wird zum neuen Anführer gewählt. Der neue Anführer hat vollkommen andere EInstellungen zu den Umgang mit Menschen als der Alte.</de>
+						<de>Einer der %name1% findet den magischen Ring wieder und wird zum neuen Anführer gewählt. Der neue Anführer hat vollkommen andere Einstellungen zum Umgang mit den Menschen als der alte.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-MagischeWesen-Ep5">
 					<title>
-						<de>Weinende schreie</de>
+						<de>Weinende Schreie</de>
 					</title>
 					<description>
-						<de>Als beim Verstecken vor dem Menschen einer der %name1% schwer verletzt wird, ist die Verzweiflung und Trauer unter den %name1% riesig.</de>
+						<de>Als einer der %name1% beim Verstecken vor dem Menschen schwer verletzt wird, ist die Verzweiflung und Trauer unter den %name1% riesig.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-MagischeWesen-Ep6">
@@ -1513,7 +1512,7 @@
 						<de>Rachegedanken</de>
 					</title>
 					<description>
-						<de>Die Menschen sind Schuld. Dies ist der allgemeine Tenor unter den %name1%. Der neue Anführer hegt den gleichen groll.Schreckliche Rachegelüste entstehen.</de>
+						<de>Die Menschen sind schuld. Dies ist der allgemeine Tenor unter den %name1%. Der neue Anführer hegt den gleichen Groll. Schreckliche Rachegelüste entstehen.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-MagischeWesen-Ep7">
@@ -1521,7 +1520,7 @@
 						<de>Der Versprechen der %name1%</de>
 					</title>
 					<description>
-						<de>Ein Schwur auf den Tod aller Menschen hinzuwirken wird ausgesprochen.EIn Versprechen, welches bei den %name1% bindent ist.</de>
+						<de>Ein Schwur, auf den Tod aller Menschen hinzuwirken, wird ausgesprochen. Ein Versprechen, welches bei den %name1% bindend ist.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-MagischeWesen-Ep8">
@@ -1537,7 +1536,7 @@
 						<de>7 Jahre Unglück</de>
 					</title>
 					<description>
-						<de>Innerhalb von 7 Jahren sollen alle Menschen vernichtet werden. Der Fluch des 7 jährigen Unglücks wird auf alle Menschen gewirkt.</de>
+						<de>Innerhalb von 7 Jahren sollen alle Menschen vernichtet werden. Der Fluch des 7-jährigen Unglücks wird auf alle Menschen gewirkt.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-MagischeWesen-Ep10">
@@ -1545,7 +1544,7 @@
 						<de>Der Ausbruch</de>
 					</title>
 					<description>
-						<de>Eine Krankheit die fast alle Menschen auslöscht bricht aus. Die %name1% überlegen sich einen Plan um auch die letzten Menschen auszurotten.</de>
+						<de>Eine Krankheit die fast alle Menschen auslöscht bricht aus. Die %name1% überlegen sich einen Plan, um auch die letzten Menschen auszurotten.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-MagischeWesen-Ep11">
@@ -1553,7 +1552,7 @@
 						<de>Angriff der %name1%</de>
 					</title>
 					<description>
-						<de>Es gibt nur noch ein paar verstreute Menschen auf der Welt, die %name1% nutzen die Gelegenheit um auch die letzen von ihnen auszulöschen.</de>
+						<de>Es gibt nur noch ein paar verstreute Menschen auf der Welt. Die %name1% nutzen die Gelegenheit, um auch die letzen von ihnen auszulöschen.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-MagischeWesen-Ep12">
@@ -1561,7 +1560,7 @@
 						<de>Weltübernahme der %name1%</de>
 					</title>
 					<description>
-						<de>Der letzte Mensch wurde getötet und die %name1% ziehen aus dem %name2% um die ganze Welt zu besiedeln.</de>
+						<de>Der letzte Mensch wurde getötet und die %name1% ziehen aus dem %name2% aus, um die ganze Welt zu besiedeln.</de>
 					</description>
 				</scripttemplate>
 			</children>
@@ -1582,7 +1581,6 @@
 			</jobs>
 			<data flags="2" flags_optional="8" />
 			<genres maingenre="10" subgenres="7" />
-			<episodes max="12" min="9" />
 			<blocks value="1" />
 			<price max="110000" min="70000" />
 			<potential slope="45" max="90" min="56" />
