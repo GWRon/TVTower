@@ -1752,18 +1752,18 @@
 
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-SitcomeRunde">
 			<title>
-				<de>Die Runden %zahl%</de>
+				<de>Die runden %zahl%</de>
 			</title>
 			<description>
-				<de>%zahl% gute Freunde sind seitdem sie 12 Jahre alt waren etwas dick. Sie essen gerne und mit Leidenschaft, was dazu führt, dass die %zahl% immer wieder in seltsame Situationen geraten .</de>
+				<de>%zahl% gute Freunde sind, seitdem sie 12 Jahre alt waren, etwas dick. Sie essen gerne und mit Leidenschaft, was dazu führt, dass die %zahl% immer wieder in seltsame Situationen geraten.</de>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-SitcomeRunde-Ep1">
 					<title>
-						<de>Freunde fürs leben</de>
+						<de>Freunde fürs Leben</de>
 					</title>
 					<description>
-						<de>Die Runden %zahl% treffen sich vor 19 Jahren das erste mal. Als die %zahl% versuchen die Streusel aus einer Eisdiele zu klauen, werden sie die besten Freunde.</de>
+						<de>Die runden %zahl% treffen sich vor 19 Jahren das erste Mal. Als die %zahl% versuchen die Streusel aus einer Eisdiele zu klauen, werden sie die besten Freunde.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-SitcomeRunde-Ep2">
@@ -1771,7 +1771,7 @@
 						<de>Das Donutverbrechen</de>
 					</title>
 					<description>
-						<de>Die Donutpackung ist leer. Einer der Runden %zahl% hat sie aufgegessen ohne eine neue zu kaufen. Doch wer war es?</de>
+						<de>Die Donutpackung ist leer. Einer der runden %zahl% hat sie aufgegessen, ohne eine neue zu kaufen. Doch wer war es?</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-SitcomeRunde-Ep3">
@@ -1779,7 +1779,7 @@
 						<de>Der Mitternachtssnack</de>
 					</title>
 					<description>
-						<de>Die Runden %zahl%, feiern ihre Freundschaft bei einen Mitternachtssnack. Alte Geschichten werden aufgewärmt und alte Speisen verputzt.</de>
+						<de>Die runden %zahl%, feiern ihre Freundschaft bei einen Mitternachtssnack. Alte Geschichten werden aufgewärmt und alte Speisen verputzt.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-SitcomeRunde-Ep4">
@@ -1787,7 +1787,7 @@
 						<de>Dicke Luft</de>
 					</title>
 					<description>
-						<de>Als einer der Runden %zahl% nicht mehr durch die Tür passt und dieser die Verabredung mit den anderen verpasst sind diese sehr wütend auf diesen da man das "All you can eat" für %zahl% nicht mit einer Person zu wenig antreten kann.</de>
+						<de>Einer der runden %zahl% passt nicht mehr durch die Tür und verpasst die Verabredung mit den anderen. Diese sehr wütend, da man das "All you can eat" für %zahl% nicht mit einer Person weniger antreten kann.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-SitcomeRunde-Ep5">
@@ -1795,7 +1795,7 @@
 						<de>Füllige Begierden</de>
 					</title>
 					<description>
-						<de>Einer der Runden %zahl% verliebt sich. Die anderen helfen ihm die Frau zu erobern.</de>
+						<de>Einer der runden %zahl% verliebt sich. Die anderen helfen ihm die Frau zu erobern.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-SitcomeRunde-Ep6">
@@ -1803,7 +1803,7 @@
 						<de>Normalgewicht</de>
 					</title>
 					<description>
-						<de>Als einer der Runden %zahl% plötzlich beginnt abzunehmen, bekommen die anderen Angst, das sie bald keine Freunde mehr sein werden.</de>
+						<de>Als einer der runden %zahl% plötzlich beginnt abzunehmen, bekommen die anderen Angst, dass sie bald keine Freunde mehr sein werden.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-SitcomeRunde-Ep7">
@@ -1811,7 +1811,7 @@
 						<de>Der korpulente König</de>
 					</title>
 					<description>
-						<de>Das Steakhouse ehrt den besten Esser mit dem Steakhousekönigstitel. Die Runden %zahl% kämpfen um jedes Gramm welches verputzt werden muss.</de>
+						<de>Das Steakhouse ehrt den besten Esser mit dem Steakhousekönigstitel. Die runden %zahl% kämpfen um jedes Gramm, welches verputzt werden muss.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-SitcomeRunde-Ep8">
@@ -1819,7 +1819,7 @@
 						<de>Gut gepolstert ist halb gewonnen</de>
 					</title>
 					<description>
-						<de>Bei einem Autounfall erkennen die Runden %zahl% wie gut es ist einiges an Gewicht extra zu haben. Diese helfen einem anderen Autofahrer mit lustigen turbulenzen.</de>
+						<de>Bei einem Autounfall erkennen die runden %zahl% wie gut es ist einiges an Gewicht extra zu haben. Sie helfen einem anderen Autofahrer mit lustigen Turbulenzen.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-SitcomeRunde-Ep9">
@@ -1827,7 +1827,7 @@
 						<de>Vollschlank</de>
 					</title>
 					<description>
-						<de>Bei einem Modecontest merken die Runden %zahl% wie gut es ist einige Fehler zu haben und wie schrecklich Bulemie sein muss.</de>
+						<de>Bei einem Modecontest merken die runden %zahl% wie gut es ist, einige Fehler zu haben und wie schrecklich Bulimie sein muss.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-SitcomeRunde-Ep10">
@@ -1835,7 +1835,7 @@
 						<de>Mollige Freuden</de>
 					</title>
 					<description>
-						<de>Manchmal ist die einzige Freude im Leben etwas schönes zu essen. Die Runden %zahl% wissen dies und kochen gemeinsam das schönste Menu für Freunde.</de>
+						<de>Manchmal ist die einzige Freude im Leben, etwas Schönes zu essen. Die runden %zahl% wissen dies und kochen gemeinsam das schönste Menu für Freunde.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-SitcomeRunde-Ep11">
@@ -1843,7 +1843,7 @@
 						<de>Aus der Form geraten</de>
 					</title>
 					<description>
-						<de>Als die Runden %zahl% beim Arzt sind, erfahren sie, dass sie zuviel Gewicht auf den hüften haben. Gemeinsam versuchen sie ihre alte Form wieder zuerlangen.</de>
+						<de>Als die runden %zahl% beim Arzt sind, erfahren sie, dass sie zuviel Gewicht auf den Hüften haben. Gemeinsam versuchen sie ihre alte Form wiederzuerlangen.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-SitcomeRunde-Ep12">
@@ -1851,7 +1851,7 @@
 						<de>Dicke Freunde</de>
 					</title>
 					<description>
-						<de>Die Runden %zahl% sind Freunde egal was passiert. Durch lustige Sprüche und liebenswürdigen Charakter, lieben sie die Zuschauer einfach.</de>
+						<de>Die runden %zahl% sind Freunde egal was passiert. Wegen lustiger Sprüche und ihres liebenswürdigen Charakters lieben die Zuschauer sie einfach.</de>
 					</description>
 				</scripttemplate>
 			</children>
@@ -1872,7 +1872,6 @@
 			</jobs>
 			<data flags="8" flags_optional="2" />
 			<genres maingenre="5" subgenres="9" />
-			<episodes max="12" min="9" />
 			<blocks value="1" />
 			<price max="50000" min="20000" />
 			<potential slope="45" max="78" min="33" />
