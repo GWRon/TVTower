@@ -74,13 +74,13 @@
 						<en>A hard Life</en>
 					</title>
 					<description>
-						<de>Der Dachdecker %Name5% tauscht mit der aus Zufall in die Sendung gerantenen %Name6%. Während %Name5% vollkommen überfordert ist mit der Hausarbeit, die %Name6% jeden Tag erledigt, genießt %Name6% die Zeit biertinkend auf einem Dach.</de>
+						<de>Der Dachdecker %Name5% tauscht mit der aus Zufall in die Sendung geratenen %Name6%. Während %Name5% vollkommen überfordert ist mit der Hausarbeit, die %Name6% jeden Tag erledigt, genießt %Name6% die Zeit biertinkend auf einem Dach.</de>
 						<en>The roofer %Name5% switches with %name6%, who was accidentally casted. %Name5% is unable to cope with housework usually done by %Name6% who in turn enjoys her time drinking beer on a roof.</en>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Typentausch-Ep4">
 					<title>
-						<de>Der </de>
+						<de>Der Fütterer</de>
 						<en>A Feeders Life</en>
 					</title>
 					<description>
@@ -94,7 +94,7 @@
 						<en>All Together</en>
 					</title>
 					<description>
-						<de>Im großen Staffelfinale treffen sich %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%, %Name7% und %Name8% und trinken gemeinsam Bier und veranstallten einen Furtzwettbewerb den %Name6% gewinnt.</de>
+						<de>Im großen Staffelfinale treffen sich %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%, %Name7% und %Name8% und trinken gemeinsam Bier und veranstalten einen Furzwettbewerb, den %Name6% gewinnt.</de>
 						<en>In the big season finale, %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%,%Name7% and %Name8% meet, and drink beer together and organize a fart competition which %Name6% wins.</en>
 					</description>
 				</scripttemplate>
@@ -234,8 +234,8 @@
 			</description>
 			<variables>
 				<zu>
-					<de>writer|rider|searcher|hunter|buster</de>
-					<en>writer|rider|searcher|hunter|buster</en>
+					<de>writer|rider|searcher|hunter</de>
+					<en>writer|rider|searcher|hunter</en>
 				</zu>
 			</variables>
 			<jobs>
@@ -367,6 +367,7 @@
 				<job function="2" index="1" gender="2" required="1" />
 			</jobs>
 			<data flags_optional="8" flags="4" />
+			<availability year_range_from="2005" />
 			<genres maingenre="6" subgenres="300" />
 			<blocks slope="70" max="2" min="1" />
 			<price slope="25" max="8500" min="2000" />
@@ -413,7 +414,7 @@
 						<en>Together</en>
 					</title>
 					<description>
-						<de>Ein 88-jähriger will endlich seine leibliche Mutter kennenlernen. Es stellt sich heraus, dass sie erst 72 Jahre als ist und 58. Während der Sendung stürmt die Polizei herein und nimmt den Nun-nicht-mehr-Rentner wegen Sozialbetrugs fest.</de>
+						<de>Ein 88-jähriger will endlich seine leibliche Mutter kennenlernen. Es stellt sich heraus, dass sie erst 72 Jahre als ist und er 58. Während der Sendung stürmt die Polizei herein und nimmt den Nun-nicht-mehr-Rentner wegen Sozialbetrugs fest.</de>
 						<en>An 88 year old finally wants to meet his mother. It turns out that she is only 72 years old and he is 58. During the broadcast, the police rushes in and arrests the former retiree for social fraud.</en>
 					</description>
 				</scripttemplate>
@@ -423,7 +424,7 @@
 						<en>Kidnapped</en>
 					</title>
 					<description>
-						<de>Fünf Menschen behaupten in der Sendung, von Aliens entführt worden zu sein. Dort wurden Tests mit Ihnen durchgeführt z.B. eein IQ-Test und BDI. %Name% verliert die Kontrolle über die fünf, als Sie sich streiten wer, den höchsten BDI-Wert erreicht hat.</de>
+						<de>Fünf Menschen behaupten in der Sendung, von Aliens entführt worden zu sein. Dort wurden Tests mit Ihnen durchgeführt z.B. ein IQ-Test und BDI. %Name% verliert die Kontrolle über die fünf, als Sie sich streiten wer, den höchsten BDI-Wert erreicht hat.</de>
 						<en>In the show, five people claim to have been kidnapped by aliens. Tests were carried out on them, e.g. an IQ test and BDI. %Name% loses control of the five as they fight over who has reached the highest BDI.</en>
 					</description>
 				</scripttemplate>
@@ -433,7 +434,7 @@
 						<en>Hypnosis</en>
 					</title>
 					<description>
-						<de>Ein Profihynotiseur wird eingeladen. Als die Hälfte des Publikums wie ein Huhn gackert, die andere Hälfte denkt, ihr Sitz wäre ein Bobbycar, und %Name% anfängt, Modern Walking zu singen, wird die Sendung abgebrochen.</de>
+						<de>Ein Profihypnotiseur wird eingeladen. Als die Hälfte des Publikums wie ein Huhn gackert, die andere Hälfte denkt, ihr Sitz wäre ein Bobbycar, und %Name% anfängt, Modern Walking zu singen, wird die Sendung abgebrochen.</de>
 						<en>A professional hypnotiseur is invited. When half of the audience cackles like a chicken, the other half thinks their seat would be a bobby car, and% Name% begins to sing modern walking, the broadcast is canceled.</en>
 					</description>
 				</scripttemplate>
@@ -854,7 +855,7 @@
 						<en>We learn string theory</en>
 					</title>
 					<description>
-						<de>Langsam erkennen die Nerds, dass sie nicht in der Zeit sondern in eine Paralelle Dimension gereist sind. Hier hilft nur die Stringtheorie.</de>
+						<de>Langsam erkennen die Nerds, dass sie nicht in der Zeit sondern in eine parallele Dimension gereist sind. Hier hilft nur die Stringtheorie.</de>
 						<en>Slowly the nerds realize they did not travel in time but to a parallel dimension. Now, only string theory can help.</en>
 					</description>
 				</scripttemplate>
@@ -864,7 +865,7 @@
 						<en>We learn extraterrestrial technology</en>
 					</title>
 					<description>
-						<de>Als die Nerds eine andere paralelle Welt betretten, die von Aliens bewohnt wird, müssen sie die Technologie der Aliens erlernen, um in ihre Welt zurückzukommen.</de>
+						<de>Als die Nerds eine andere parallele Welt betretten, die von Aliens bewohnt wird, müssen sie die Technologie der Aliens erlernen, um in ihre Welt zurückzukommen.</de>
 						<en>When the nerds enter a parallel universe inhabited by aliens, they have to learn about the aliens' technology in order to return home.</en>
 					</description>
 				</scripttemplate>
@@ -1082,32 +1083,31 @@
 				<de>Das Comedy%name%</de>
 			</title>
 			<description>
-				<de>Die besten Comedynummern des Jahres. Witze zum ablachen und nacherzählen für alle.</de>
+				<de>Die besten Comedynummern des Jahres. Witze zum Ablachen und Nacherzählen für alle.</de>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Comedygemeinschaft-Ep1">
 					<title>
-						<de>Von 3 Hühnern und einem Storch</de>
-						<en>Pilot</en>
+						<de>Von drei Hühnern und einem Storch</de>
 					</title>
 					<description>
-						<de>Alte Hühnerwitze in neuem Glanz, das Publikum lacht sich kaputt.</de>
+						<de>Alte Hühnerwitze in neuem Glanz. Das Publikum lacht sich kaputt.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Comedygemeinschaft-Ep2">
 					<title>
-						<de>Blondinen sind klüger als du</de>
+						<de>Blondinen sind klüger als Du</de>
 					</title>
 					<description>
-						<de>Das Blondinen dumm sind, ist ein Mythos dies machen die Komiker den Gästen mit viel Humor klar.</de>
+						<de>Dass Blondinen dumm sind, ist ein Mythos. Dies machen die Komiker den Gästen mit viel Humor klar.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Comedygemeinschaft-Ep3">
 					<title>
-						<de>Deine Mama ist garnicht Dick</de>
+						<de>Deine Mama ist gar nicht dick</de>
 					</title>
 					<description>
-						<de>Deine Mutter sprüche sind beliebt, doch warum deine Mama Cleverer ist als alle anderen und egal bei welchem Gewicht nicht Dick ist wird in der Show erläutert.</de>
+						<de>"Deine Mutter"-Sprüche sind beliebt. Doch warum deine Mama cleverer als alle anderen und egal mit welchem Gewicht nicht dick ist, wird in der Show erläutert.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Comedygemeinschaft-Ep4">
@@ -1115,7 +1115,7 @@
 						<de>Buck Torris kann ich niederschlagen</de>
 					</title>
 					<description>
-						<de>Buck Torris kann alles ... Nein was er nicht kann wird lustig dargestellt.</de>
+						<de>Buck Torris kann alles? Nein. Was er nicht kann, wird lustig dargestellt.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Comedygemeinschaft-Ep5">
@@ -1123,7 +1123,7 @@
 						<de>Über fleißige Studenten</de>
 					</title>
 					<description>
-						<de>Studenten sind fleißig und nicht faul, warum dies so ist und warum jemand der faul ist schnell kein Student mehr ist, wird lustig erklärt.</de>
+						<de>Studenten sind fleißig und nicht faul. Warum dies so ist und warum ein fauler Student bald keiner mehr ist, wird lustig erklärt.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Comedygemeinschaft-Ep6">
@@ -1131,7 +1131,7 @@
 						<de>Hänschen wurde erwachsen</de>
 					</title>
 					<description>
-						<de>Hänschen-Witze waren früher sehr beliebt, doch welche Dummheiten er im gehobenen Alter machte sind viel lustiger.</de>
+						<de>Hänschen-Witze waren früher sehr beliebt, doch die Dummheiten, die er im gehobenen Alter machte, sind viel lustiger.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Comedygemeinschaft-Ep7">
@@ -1139,7 +1139,7 @@
 						<de>Frauen sind genauso gut wie Männer</de>
 					</title>
 					<description>
-						<de>Frauen-Witze... Ob einparken oder Handarbeit... Viele Frauen sind Männern heutzutage überlegen.</de>
+						<de>Frauen-Witze... Ob Einparken oder Handarbeit... Viele Frauen sind Männern heutzutage überlegen.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Comedygemeinschaft-Ep8">
@@ -1171,7 +1171,7 @@
 						<de>Aufräumen für Anfänger</de>
 					</title>
 					<description>
-						<de>Warum aufräumen zu seltsamen Situationen führt, wird hier mit Bauchschmerzen verursachenden lachen erklärt.</de>
+						<de>Warum Aufräumen zu seltsamen Situationen führt, wird hier mit Bauchschmerzen verursachendem Lachen erklärt.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-Comedygemeinschaft-Ep12">
@@ -1209,10 +1209,9 @@
 
 
 
-<!--TODO reaktivieren/weglassen?
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Metalsucher">
 			<title>
-				<de>%name1%%name2% in der Welt</de>
+				<de>%name1%%name2% in Alaska</de>
 			</title>
 			<description>
 				<de>Auf der ganzen Welt suchen Menschen nach %name1%. Dieses wertvolle Metall wird überall gebraucht und ist äußerst selten. Wir begleiten unsere Ausgräber bei der Suche nach %name1% und dokumentieren ihre Freude und ihr Leid.</de>
@@ -1220,11 +1219,10 @@
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Metalsucher-Ep1">
 					<title>
-						<de>Hier in Alaska gibt es %name1%</de>
-						<en>Pilot</en>
+						<de>In Alaska gibt es %name1%</de>
 					</title>
 					<description>
-						<de>%name1% ist eines der Wertvollsten Metalle der Welt 4 Frauen und ein Mann gehen nach Alaska um %name1% zu suchen.</de>
+						<de>%name1% ist eines der wertvollsten Metalle der Welt. Drei Frauen und ein Mann gehen nach Alaska, um dort %name1% zu suchen.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Metalsucher-Ep2">
@@ -1232,7 +1230,7 @@
 						<de>Der richtige Ort</de>
 					</title>
 					<description>
-						<de>Nach 5 endlosen Stunden finden die %name1%gräber einen passenden Ort an denen Sie nach %name1% suchen können.</de>
+						<de>Nach fünf endlosen Stunden finden die %name1%gräber einen passenden Ort, an dem sie nach %name1% suchen können.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Metalsucher-Ep3">
@@ -1240,7 +1238,7 @@
 						<de>Machinen werden aufgestellt</de>
 					</title>
 					<description>
-						<de>Schwere Maschinen werden aufgestellt um nach %name1% zu Graben. Doch schon nach kurzer Zeit sind 3 Punpmen und 22 Schläuche kaputt.</de>
+						<de>Schwere Maschinen werden aufgestellt, um nach %name1% zu graben. Doch schon nach kurzer Zeit sind drei Pumpen und zahlreiche Schläuche kaputt.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Metalsucher-Ep4">
@@ -1248,7 +1246,7 @@
 						<de>Das Graben beginnt</de>
 					</title>
 					<description>
-						<de>Der erste Fund waren 2 versteinerte Eichhörnchen und 3 große Kieselsteine. Ein großartiges Ergebnis.</de>
+						<de>Der erste Fund bestand aus zwei versteinerten Eichhörnchen und drei großen Kieselsteinen. Ein großartiges Ergebnis.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Metalsucher-Ep5">
@@ -1256,15 +1254,15 @@
 						<de>Wir sind reich</de>
 					</title>
 					<description>
-						<de>Nach endlosen 4 Tagen wird %name1% gefunden. Die %name1%gräber fühlen sich jetzt schon wie die reichsten Menschen auf dem Planeten.</de>
+						<de>Nach vier Tagen wird erstmals %name1% gefunden. Die %name1%gräber fühlen sich jetzt schon wie die reichsten Menschen auf dem Planeten.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Metalsucher-Ep6">
 					<title>
-						<de>Noch mehr Maschinen werdem gekauft</de>
+						<de>Noch mehr Maschinen</de>
 					</title>
 					<description>
-						<de>Von dem Erlös des %name1%verkaufs werden noch mehr Maschinen geholt. Doch die %name1%gräber sind wütend, da der %name1%preis enrom gestiegen ist.</de>
+						<de>Vom Erlös des %name1%verkaufs werden noch mehr Maschinen geholt. Und die %name1%gräber freuen sich, da der %name1%preis enrom gestiegen ist.</de>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Metalsucher-Ep7">
@@ -1272,26 +1270,26 @@
 						<de>Wir sind noch reicher</de>
 					</title>
 					<description>
-						<de>Es wird immer mehr %name1% gefunden und die %name1%gräber bunkern ihr Funde und werden somit sehr Reich.</de>
+						<de>Es wird immer mehr %name1% gefunden. Die %name1%gräber bunkern ihr Funde und werden immer reicher.</de>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Metalsucher-Ep8">
+				<!--scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Metalsucher-Ep8">
 					<title>
 						<de>Der pefekte Fund</de>
 					</title>
 					<description>
 						<de>Ein großer Klumpen %name1% wird gefunden und alle freuen sich über den Fund.</de>
 					</description>
-				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Metalsucher-Ep9">
+				</scripttemplate-->
+				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Metalsucher-Ep9">
 					<title>
 						<de>Noch mehr Reichtum</de>
 					</title>
 					<description>
-						<de>Die %name1%gräber haben inzwischen soviel %name1% gesammelt, dass Sie und ihre Familien nie mehr arbeiten müssen. Sie warten nur noch auf den perfekten Moment zum verkaufen, denn der %name1%preis steigt und steigt.</de>
+						<de>Die %name1%gräber haben inzwischen so viel %name1% gesammelt, dass sie und ihre Familien nie mehr arbeiten müssen. Sie warten nur noch auf den perfekten Moment für den Verkauf, denn der %name1%preis steigt und steigt.</de>
 					</description>
 				</scripttemplate>
-				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Metalsucher-Ep10">
+				<!--scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Metalsucher-Ep10">
 					<title>
 						<de>Wissenschaftler kann %name1% hestellen</de>
 					</title>
@@ -1314,6 +1312,14 @@
 					<description>
 						<de>%name1% ist nichts mehr Wert und unsere %name1%gräber vollkommen pleite. Das Lager wird abgebrochen, doch die Träume leben weiter.</de>
 					</description>
+				</scripttemplate-->
+				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Metalsucher-Ep12">
+					<title>
+						<de>Wir sind pleite</de>
+					</title>
+					<description>
+						<de>Der Markt für %name1% bricht aufgrund einer Rezession zusammen. Der Versuch die riesigen %name1%vorräte auf einmal zu verkaufen, drückt den Preis noch zusätzlich. Das Lager wird abgebrochen, doch die Träume leben weiter.</de>
+					</description>
 				</scripttemplate>
 			</children>
 			<variables>
@@ -1326,21 +1332,20 @@
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
-				<job function="2" index="1" gender="1" required="1" />
-				<job function="2" index="2" gender="2" required="1" />
-				<job function="32" index="3" gender="1" required="1" />
+				<job function="2" index="1" gender="2" required="1" />
+				<job function="2" index="2" gender="1" required="1" />
+				<job function="32" index="3" gender="2" required="1" />
 				<job function="32" index="4" gender="2" required="1" />
 			</jobs>
 			<data flags="" flags_optional="8" />
 			<genres maingenre="6" subgenres="300" />
-			<episodes max="12" min="9" />
 			<blocks value="1" />
 			<price max="60000" min="20000" />
 			<potential slope="45" max="90" min="56" />
 			<outcome slope="40" max="72" min="57" />
 			<review slope="40" max="72" min="53" />
 			<speed slope="50" max="90" min="53" />
-		</scripttemplate>-->
+		</scripttemplate>
 
 
 
