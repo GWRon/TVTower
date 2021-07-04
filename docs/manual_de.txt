@@ -309,7 +309,7 @@ Im Nachrichtenstudio werden, wie nicht anders zu erwarten, die
 Nachrichten produziert. Ihr seht rechts die Sprecherkabine. Die soll
 einfach gut aussehen.
 
-Links sind fünf farbige Tafeln mit verschiedenen Symbolen
+Links sind sechs farbige Tafeln mit verschiedenen Symbolen
 angebracht. Dort könnt Ihr die Abolevels einstellen. Der Tooltip
 zeigt Euch, welches Symbol zu welchem Genre gehört. Die Abolevel
 unterscheiden sich in der Zeitverzögerung mit der Ihr die Nachrichten
@@ -407,8 +407,7 @@ gewünschte Drehbuch im Koffer und legt es rechts auf dem Schränkchen
 ab. Links steht der Studioleiter. Linksklickt auf ihn und es erscheint
 ein Dialog, in dem Ihr eine Einkaufsliste fordern könnt. Diese
 erscheint nach Linksklick auf „ich brauche eine Einkaufsliste...“
-mittig am unteren Rand. Die kann dann da hängen bleiben. Und ab geht's
-zum Supermarkt.
+mittig am unteren Rand. Und ab geht's zum Supermarkt.
 
 Vom Supermarkt zurück, könnt Ihr ein Programm mit vollständiger
 Einkaufsliste zur Produktion freigeben. Klickt dazu einfach auf
@@ -560,12 +559,8 @@ auswählen, welchem Sender Ihr ins laufende Programm schauen wollt.
 
 Bewegt Ihr den Mauszeiger über den Bildschirm oder die Tasten der
 anderen Sender, erscheint ein Tooltip mit Informationen zum laufenden
-Programm. Wenn Ihr die Maushand auf dem Bildschirm platziert,
-wird angezeigt, welches Programm mit welcher Einschaltquote
-läuft. Zusätzlich bei Eurem eigenen Sender ein Hinweis, ob ein
-passender Werbeblock gesetzt ist.
-
-Die anderen Anzeigen sind zu Eurer Information gedacht.
+Programm. Bei Eurem eigenen Sender gibt es einen zusätzlichen Hinweis,
+ob ein passender Werbeblock gesetzt ist.
 
 Der rechte Bildschirm zeigt die jeweiligen Zielgruppen, die vom
 Programm bevorzugt erreicht werden. Die Anzeigen in der Mitte sind ja
@@ -594,20 +589,6 @@ unterschätzender Faktor zur Verbesserung des Spiels.
 Und wir wollen die Ungereimtheiten nicht durch schlaue Wichtigkeiten
 schon im Vorhinein wegreden.
 
-Veränderungen durch den Spieler
-===============================
-
-Im Spieleverzeichnis liegt ein config-Ordner. In diesem wiederum
-gibt es eine Datei „settings.xml“. Diese enthält eine Menge
-Sachen, die per Editor verändert werden können. Wenn Ihr in den
-„Einstellungen“ etwas verändert, was von den Vorgaben abweicht,
-wird eine „settings.user.xml“ angelegt - in dieser können
-auch händische Abaenderungen stattfinden, die vormals in der
-„settings.xml“ zu hinterlegen waren.
-
-Kurz: die settings.user.xml enthält die  Abweichungen zu den
-vorgesehenen Einstellungen aus settings.xml
-
 Tastenkürzel für die Entwicklerversion
 ======================================
 
@@ -635,10 +616,12 @@ Raeume
 * C: Chef
 * N: Nachrichtenstudio
 * R: Raumvermietung / Makler
+* P: Roomboard / Raumplan
 * Strg + R: Roomboard / Raumplan
-* L: Supermark / Laden
 * S: Studio (erstes gefundenes)
+* L: Supermarkt / Laden
 * Strg Links + S: Supermarkt
+* D: Drehbuchagentur
 * Strg Rechts + S: Drehbuchagentur (Scripts)
 * E: Credits (employees :-))
 

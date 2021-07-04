@@ -162,7 +162,7 @@ Nachrichtenstudio
 
 Im Nachrichtenstudio werden, wie nicht anders zu erwarten, die Nachrichten produziert. Ihr seht rechts die Sprecherkabine. Die soll einfach gut aussehen.
 
-Links sind fünf farbige Tafeln mit verschiedenen Symbolen angebracht. Dort könnt Ihr die Abolevels einstellen. Der Tooltip zeigt Euch, welches Symbol zu welchem Genre gehört. Die Abolevel unterscheiden sich in der Zeitverzögerung mit der Ihr die Nachrichten zugestellt bekommt. Bei 0 bekommt Ihr für dieses Genre gar keine Nachrichten. Bei 3 erhaltet Ihr sie sofort, wenn sie erscheinen. Analog dazu kostet Abolevel 0 auch nichts, 3 dafür am meisten.
+Links sind sechs farbige Tafeln mit verschiedenen Symbolen angebracht. Dort könnt Ihr die Abolevels einstellen. Der Tooltip zeigt Euch, welches Symbol zu welchem Genre gehört. Die Abolevel unterscheiden sich in der Zeitverzögerung mit der Ihr die Nachrichten zugestellt bekommt. Bei 0 bekommt Ihr für dieses Genre gar keine Nachrichten. Bei 3 erhaltet Ihr sie sofort, wenn sie erscheinen. Analog dazu kostet Abolevel 0 auch nichts, 3 dafür am meisten.
 
 Nach und nach werden dem Spiel auch Nachrichten hinzugefügt, die erst ab einem bestimmten Level zur Verfügung stehen. Die Nachrichten können Zuschauer von anderen Sendern abziehen, die dann auch die Sendung bei Euch schauen könnten. Zu beachten ist, dass jeweils das Level für die Abrechnung zugrunde gelegt wird, das am Tag als höchstes eingestellt war. Also lohnt Runterschalten erst kurz vor 0 Uhr.
 Ihr braucht keine Angst zu haben, wenn Ihr die Level mal durchschaltet. Die Änderung tritt erst nach einigen Sekunden finanzträchtig inkraft.
@@ -193,7 +193,7 @@ Hier könnt Ihr Drehbücher für die Eigenproduktion kaufen. Die stehen auf und 
 Studio
 ------
 
-Mit dem ausgewählten Drehbuch geht es ins Studio. Klickt dort auf das gewünschte Drehbuch im Koffer und legt es rechts auf dem Schränkchen ab. Links steht der Studioleiter. Linksklickt auf ihn und es erscheint ein Dialog, in dem Ihr eine Einkaufsliste fordern könnt. Diese erscheint nach Linksklick auf „ich brauche eine Einkaufsliste...“ mittig am unteren Rand. Die kann dann da hängen bleiben. Und ab geht's zum Supermarkt.
+Mit dem ausgewählten Drehbuch geht es ins Studio. Klickt dort auf das gewünschte Drehbuch im Koffer und legt es rechts auf dem Schränkchen ab. Links steht der Studioleiter. Linksklickt auf ihn und es erscheint ein Dialog, in dem Ihr eine Einkaufsliste fordern könnt. Diese erscheint nach Linksklick auf „ich brauche eine Einkaufsliste...“ mittig am unteren Rand. Und ab geht's zum Supermarkt.
 
 Vom Supermarkt zurück, könnt Ihr ein Programm mit vollständiger Einkaufsliste zur Produktion freigeben. Klickt dazu einfach auf den Studioleiter und wählt ob nur die erste oder alle geplanten Produktionen durchgeführt werden sollen.
 
@@ -261,9 +261,7 @@ Interface
 
 Das meint hier den unteren Teil des Spielbildschirms, der Euch durch das gesamte Spiel begleiten wird. Links ist der Fernseher, der das laufende Programm der einzelnen Sender anzeigt. Den könnt Ihr ausschalten. Desweiteren könnt Ihr über die farbigen Tasten auswählen, welchem Sender Ihr ins laufende Programm schauen wollt.
 
-Bewegt Ihr den Mauszeiger über den Bildschirm oder die Tasten der anderen Sender, erscheint ein Tooltip mit Informationen zum laufenden Programm. Wenn Ihr die Maushand auf dem Bildschirm platziert, wird angezeigt, welches Programm mit welcher Einschaltquote läuft. Zusätzlich bei Eurem eigenen Sender ein Hinweis, ob ein passender Werbeblock gesetzt ist.
-
-Die anderen Anzeigen sind zu Eurer Information gedacht.
+Bewegt Ihr den Mauszeiger über den Bildschirm oder die Tasten der anderen Sender, erscheint ein Tooltip mit Informationen zum laufenden Programm. Bei Eurem eigenen Sender gibt es einen zusätzlichen Hinweis, ob ein passender Werbeblock gesetzt ist.
 
 Der rechte Bildschirm zeigt die jeweiligen Zielgruppen, die vom Programm bevorzugt erreicht werden. Die Anzeigen in der Mitte sind ja dank der Tooltips selbsterklärend.
 
@@ -278,13 +276,6 @@ Abläufe im Hintergrund
 Zu den Abläufen im Hintergrund gehört zum Beispiel die Einschaltquotenberechnung. Hier soll im Moment noch nicht viel erklärt werden. So ist es sicher leichter, dass Ihr auf Ungereimtheiten aufmerksam werdet und sie uns gegebenenfalls mitteilt. Da die meisten, die uns in den Weiten des Netzes finden, erfahrene Spieler und Spielerinnen sein dürften, ist die Intuition ein nicht zu unterschätzender Faktor zur Verbesserung des Spiels.
 
 Und wir wollen die Ungereimtheiten nicht durch schlaue Wichtigkeiten schon im Vorhinein wegreden.
-
-Veränderungen durch den Spieler
-===============================
-
-Im Spieleverzeichnis liegt ein config-Ordner. In diesem wiederum gibt es eine Datei „settings.xml“. Diese enthält eine Menge Sachen, die per Editor verändert werden können. Wenn Ihr in den „Einstellungen“ etwas verändert, was von den Vorgaben abweicht, wird eine „settings.user.xml“ angelegt - in dieser können auch händische Abaenderungen stattfinden, die vormals in der „settings.xml“ zu hinterlegen waren.
-
-Kurz: die settings.user.xml enthält die  Abweichungen zu den vorgesehenen Einstellungen aus settings.xml
 
 Tastenkürzel für die Entwicklerversion
 ======================================
