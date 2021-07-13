@@ -115,7 +115,7 @@ ONLY_X_BROADCASTS_POSSIBLE               = Apenas %X% transmissões são possív
 NO_MORE_BROADCASTS_ALLOWED               = Sem mais transmissões permitidas!
 BROADCAST_ONLY_ALLOWED_FROM_X_TO_Y       = Transmissão permitida apenas das %X%:00 às %Y%:00!
 FIRST_BROADCAST_ONLY_ALLOWED_FROM_X_TO_Y = Primeira transmissão permitida apenas das %X%:00 às %Y%:00!
-#LIVE_PRODUCTION_FINISH_WILL_COST_X      =
+#LIVE_PRODUCTION_FINISH_WILL_COST_X       =
 
 OPENINGSHOW_TITLE       = Grande lançamento de "%CHANNELNAME%
 OPENINGSHOW_DESCRIPTION = Vamos estourar a champanhe. %CHANNELNAME% está sendo lançado hoje.

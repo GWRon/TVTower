@@ -107,7 +107,7 @@ SERIES_WITH_X_EPISODES     = Series con %EPISODESCOUNT% episodios
 #PROGRAMME_PRODUCT_EVENT       = Event
 #PROGRAMME_PRODUCT_MISC        = Misc
 
-PROGRAMME_IN_PROGRAMME_PLAN               = Programa en el plan del programa!
+PROGRAMME_IN_PROGRAMME_PLAN              = Programa en el plan del programa!
 #TRAILER_IN_PROGRAMME_PLAN                = 
 #PROGRAMME_AND_TRAILER_IN_PROGRAMME_PLAN  = 
 #ONLY_1_BROADCAST_POSSIBLE                = 

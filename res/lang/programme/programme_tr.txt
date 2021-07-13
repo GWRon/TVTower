@@ -107,7 +107,7 @@ PROGRAMME_PRODUCT_INFOMERCIAL = Bilgi Amaçlı Reklam
 PROGRAMME_PRODUCT_EVENT       = Etkinlik
 PROGRAMME_PRODUCT_MISC        = Çeşitli
 
-PROGRAMME_IN_PROGRAMME_PLAN               = Plandaki Program!
+PROGRAMME_IN_PROGRAMME_PLAN              = Plandaki Program!
 #TRAILER_IN_PROGRAMME_PLAN                = 
 #PROGRAMME_AND_TRAILER_IN_PROGRAMME_PLAN  = 
 #ONLY_1_BROADCAST_POSSIBLE                = 
