@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tvtdb>
 	<version value="3" comment="Programme von Kasi - Forum-ID 9103" />
+	<!-- 
+		Allgemein wurden XML-Syntax- und Copy/Paste-Fehler behoben, die Texte korrekturgelesen und stellenweise überarbeitet.
+		Wo noch nicht vorhanden wurden ein Großteil der Texte ins Englische übersetzt.
+		Bei Serien mit definierten Folgen wurde das episodes-Tag entfernt.
+		Sonstige inhaltliche Anpassungen sind als Kommentar vor der scripttemplate-Definition angegeben.
+	-->
 	<scripttemplates>
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Superheros" >
 			<title>
@@ -36,8 +42,7 @@
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
 
-
-
+		<!--TODO Flag Kult entfernen?-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Typentausch">
 			<title>
 				<de>Typentausch</de>
@@ -146,10 +151,7 @@
 			<speed slope="50" max="65" min="35" />
 		</scripttemplate>
 
-
-
-
-		<!--Anpassungen: insb. Besetzung Musiker, Flags (Ausstrahlungszeit, nur eine Ausstrahlung-->
+		<!--Besetzung Musiker, Ausstrahlungszeit, nur eine Ausstrahlung-->
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-LiveKonzert">
 			<title>
 				<de>Das Livekonzert von %Name1% %Name2%</de>
@@ -182,8 +184,6 @@
 			<review slope="35" max="100" min="20" />
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
-
-
 
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-freieTiere">
 			<title>
@@ -219,9 +219,7 @@
 			<speed slope="40" max="80" min="30" />
 		</scripttemplate>
 
-
-
-
+		<!-- buster entfernt -->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Ghost">
 			<title>
 				<de>Ghost%zu%</de>
@@ -252,9 +250,7 @@
 			<speed slope="40" max="80" min="35" />
 		</scripttemplate>
 
-
-
-
+		<!-- Verfügbarkeit ergänzt, TODO Kult entfernen?-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-SozialeNetzwerke">
 			<title>
 				<de>%Name1% %Name2% - Verloren im digitalem Sumpf</de>
@@ -334,6 +330,7 @@
 				<job function="32" index="4" gender="0" required="1" />
 			</jobs>
 			<data flags="" flags_optional="10" />
+			<availability year_range_from="2005" />
 			<genres maingenre="17" subgenres="14" />
 			<blocks value="1" />
 			<price max="50000" min="10000" />
@@ -343,9 +340,7 @@
 			<speed slope="50" max="76" min="44" />
 		</scripttemplate>
 
-
-
-
+		<!-- Verfügbarkeit ergänzt, TODO Kult entfernen?-->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Streaming">
 			<title>
 				<de>Die Macht von %Name%</de>
@@ -376,7 +371,7 @@
 			<speed slope="40" max="75" min="30" />
 		</scripttemplate>
 
-		<!--Show statt Serie, Host+Gäste statt Schauspieler; TODO Host ggf. entfernen (Sprich mit X, dann aber anderer Moderator)-->
+		<!--Show statt Serie, Host+Gäste statt Schauspieler, Genre angepasst; TODO Host ggf. entfernen (Sprich mit X, dann aber anderer Moderator), Kult entfernen?-->
 		<scripttemplate licence_type="3" product="3" guid="Kasi-script-Talkshow">
 			<title>
 				<de>Sprich mit %NAME%</de>
@@ -480,9 +475,7 @@
 			<speed slope="50" max="55" min="35" />
 		</scripttemplate>
 
-
-
-
+		<!-- nicht paid, kein Kult, Ausstrahlungszeitraum+Häufigkeit, Gäste angepasst (Model aktuell nicht möglich)-->
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Spendengala">
 			<title>
 				<de>Die große Spendengala - Ein Herz für %Name%</de>
@@ -504,9 +497,8 @@
 				<job function="2" index="2" gender="0" required="1" />
 				<job function="16" index="3" gender="0" required="1" />
 				<job function="64" index="4" gender="0" required="1" />
-				<job function="2048" index="5" gender="0" required="1" />
-			</jobs><!--TODO andere Flags testen Ausstrahlungszeitraum, Häfigkeit...-->
-			<data flags_optional="24" flags="129" />
+			</jobs>
+			<data flags_optional="16" flags="1" broadcast_time_slot_start="19" broadcast_time_slot_end="23" production_broadcast_limit="2" />
 			<genres maingenre="204" subgenres="0" />
 			<blocks slope="40" max="4" min="2" />
 			<price slope="25" max="59500" min="45000" />
@@ -516,9 +508,7 @@
 			<speed slope="40" max="50" min="20" />
 		</scripttemplate>
 
-
-
-
+		<!--xrated ergänzt -->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Deathaction">
 			<title>
 				<de>Die Todes%zu%</de>
@@ -553,10 +543,6 @@
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
 
-
-
-
-
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Wege">
 			<title>
 				<de>Der Weg %Name%</de>
@@ -590,7 +576,6 @@
 			<review slope="35" max="100" min="30" />
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
-
 
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Abenteuerfreunde">
 			<title>
@@ -746,8 +731,6 @@
 			<speed slope="50" max="73" min="48" />
 		</scripttemplate>
 
-
-
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Nerdszusammen">
 			<title>
 				<de>Das Nerd%Name%</de>
@@ -902,9 +885,7 @@
 			<speed slope="50" max="92" min="43" />
 		</scripttemplate>
 
-
-
-
+		<!--Genre family ergänzt, Zufallsstadt ergänzt, TODO Kult entfernen?-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Kinderfliegen">
 			<title>
 				<de>Die %Was% über %Wo%</de>
@@ -1067,16 +1048,7 @@
 			<speed slope="50" max="90" min="53" />
 		</scripttemplate>
 
-
-
-
-
-
-
-
-
-
-
+		<!--TODO Kult entfernen? Besetzung passt ggf. nicht zu Name (Comedyduo mit 5 Darstellern)-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Comedygemeinschaft">
 			<title>
 				<de>Das Comedy%name%</de>
@@ -1197,7 +1169,6 @@
 			</jobs>
 			<data flags="" flags_optional="8" />
 			<genres maingenre="5" subgenres="6" />
-			<episodes max="12" min="9" />
 			<blocks value="2" />
 			<price max="220000" min="150000" />
 			<potential slope="45" max="90" min="56" />
@@ -1206,8 +1177,7 @@
 			<speed slope="50" max="80" min="53" />
 		</scripttemplate>
 
-
-
+		<!--Episoden gekürzt-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Metalsucher">
 			<title>
 				<de>%name1%%name2% in Alaska</de>
@@ -1346,10 +1316,7 @@
 			<speed slope="50" max="90" min="53" />
 		</scripttemplate>
 
-
-
-
-
+		<!--Cast Gäste statt Darsteller, Genre Gameshow, live nur eine Ausstrahlung, 5 Produktionen, TODO Host passt nicht wirklich zum Namen-->
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Imschlafreich">
 			<title>
 				<de>%Name1% %Name2%s Schlaf dich reich</de>
@@ -1387,11 +1354,7 @@
 			<speed slope="40" max="50" min="30" />
 		</scripttemplate>
 
-
-
-
-
-<!-- TODO reaktivieren/weglassen?
+		<!--TODO reaktivieren/weglassen?
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Ratespass">
 			<title>
 				<de>Ratespass mit %Name1% %Name2%</de>
@@ -1462,7 +1425,7 @@
 			<speed slope="40" max="70" min="30" />
 		</scripttemplate>-->
 
-
+		<!--TODO Kult entfernen-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-MagischeWesen">
 			<title>
 				<de>Die %name1% im %name2%</de>
@@ -1593,10 +1556,7 @@
 			<speed slope="50" max="90" min="53" />
 		</scripttemplate>
 
-
-
-
-
+		<!--Produkt Show statt Serie, Cast Host+Gäste statt Darseller, eine Ausstrahlung, Ausstrahlungszeit-->
 		<scripttemplate licence_type="3" product="3" guid="Kasi-script-UnterhaltungNachts">
 			<title>
 				<de>Die Nacht%name%</de>
@@ -1741,7 +1701,7 @@
 				<job function="64" index="3" gender="1" required="1" />
 				<job function="64" index="4" gender="2" required="1" />
 			</jobs>
-			<data flags="16" flags_optional="8" production_broadcast_limit="1" broadcast_time_slot_end="0" broadcast_time_slot_start="8"/>
+			<data flags="16" flags_optional="8" production_broadcast_limit="1" broadcast_time_slot_start="0" broadcast_time_slot_end="8"/>
 			<genres maingenre="100" subgenres="7" />
 			<blocks value="7" />
 			<price max="150000" min="70000" />
@@ -1751,9 +1711,7 @@
 			<speed slope="50" max="44" min="27" />
 		</scripttemplate>
 
-
-
-
+		<!--TODO Kult entfernen-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-SitcomeRunde">
 			<title>
 				<de>Die runden %zahl%</de>
