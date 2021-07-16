@@ -42,7 +42,7 @@
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
 
-		<!--TODO Flag Kult entfernen?-->
+		<!-- kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Typentausch">
 			<title>
 				<de>Typentausch</de>
@@ -141,7 +141,7 @@
 			<jobs>
 				<job function="1" index="0" required="1" />
 			</jobs>
-			<data flags="16" flags_optional="8" />
+			<data flags="16" />
 			<genres maingenre="6" subgenres="12" />
 			<blocks value="1" />
 			<price max="5000" min="100" />
@@ -151,7 +151,7 @@
 			<speed slope="50" max="65" min="35" />
 		</scripttemplate>
 
-		<!--Besetzung Musiker, Ausstrahlungszeit, nur eine Ausstrahlung-->
+		<!--Besetzung Musiker, Ausstrahlungszeit, nur eine Ausstrahlung, kein optionaler Kult-->
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-LiveKonzert">
 			<title>
 				<de>Das Livekonzert von %Name1% %Name2%</de>
@@ -175,7 +175,7 @@
 				<job function="1" index="0" required="1" />
 				<job function="16" index="1" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="24" flags="1" production_licence_flags="4" production_broadcast_limit="1" broadcast_time_slot_start="19" broadcast_time_slot_end="23"/>
+			<data flags_optional="16" flags="1" production_licence_flags="4" production_broadcast_limit="1" broadcast_time_slot_start="19" broadcast_time_slot_end="23"/>
 			<genres maingenre="202" />
 			<blocks slope="40" max="4" min="2" />
 			<price slope="25" max="19500" min="15000" />
@@ -250,7 +250,7 @@
 			<speed slope="40" max="80" min="35" />
 		</scripttemplate>
 
-		<!-- Verfügbarkeit ergänzt, TODO Kult entfernen?-->
+		<!-- Verfügbarkeit ergänzt, kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-SozialeNetzwerke">
 			<title>
 				<de>%Name1% %Name2% - Verloren im digitalem Sumpf</de>
@@ -329,7 +329,7 @@
 				<job function="32" index="3" gender="0" required="1" />
 				<job function="32" index="4" gender="0" required="1" />
 			</jobs>
-			<data flags="" flags_optional="10" />
+			<data flags="" flags_optional="2" />
 			<availability year_range_from="2005" />
 			<genres maingenre="17" subgenres="14" />
 			<blocks value="1" />
@@ -340,7 +340,7 @@
 			<speed slope="50" max="76" min="44" />
 		</scripttemplate>
 
-		<!-- Verfügbarkeit ergänzt, TODO Kult entfernen?-->
+		<!-- Verfügbarkeit ergänzt, kein optionaler Kult-->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Streaming">
 			<title>
 				<de>Die Macht von %Name%</de>
@@ -360,7 +360,7 @@
 				<job function="1" index="0" required="1" />
 				<job function="2" index="1" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="8" flags="4" />
+			<data flags="4" />
 			<availability year_range_from="2005" />
 			<genres maingenre="6" subgenres="300" />
 			<blocks slope="70" max="2" min="1" />
@@ -371,7 +371,7 @@
 			<speed slope="40" max="75" min="30" />
 		</scripttemplate>
 
-		<!--Show statt Serie, Host+Gäste statt Schauspieler, Genre angepasst; TODO Host ggf. entfernen (Sprich mit X, dann aber anderer Moderator), Kult entfernen?-->
+		<!--Show statt Serie, Host+Gäste statt Schauspieler, Genre angepasst; TODO Host ggf. entfernen (Sprich mit X, dann aber anderer Moderator), kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="3" guid="Kasi-script-Talkshow">
 			<title>
 				<de>Sprich mit %NAME%</de>
@@ -465,7 +465,7 @@
 				<job function="64" index="2" gender="1" required="1" />
 				<job function="64" index="3" gender="2" required="1" />
 			</jobs>
-			<data flags="16" flags_optional="8" />
+			<data flags="16" />
 			<genres maingenre="103" subgenres="7,12" />
 			<blocks value="1" />
 			<price max="5000" min="100" />
@@ -543,6 +543,7 @@
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
 
+		<!-- Kult entfernt -->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Wege">
 			<title>
 				<de>Der Weg %Name%</de>
@@ -567,7 +568,7 @@
 				<job function="32" index="5" gender="2" required="1" />
 				<job function="32" index="6" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="18" flags="8" />
+			<data flags_optional="18" />
 			<genres maingenre="12" subgenres="2" />
 			<blocks slope="40" max="4" min="2" />
 			<price slope="25" max="66500" min="15000" />
@@ -577,6 +578,7 @@
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
 
+		<!--kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Abenteuerfreunde">
 			<title>
 				<de>Die Abenteuer%Name%</de>
@@ -721,7 +723,7 @@
 				<job function="2" index="3" gender="1" required="1" />
 				<job function="2" index="4" gender="2" required="1" />
 			</jobs>
-			<data flags="" flags_optional="10" />
+			<data flags="" flags_optional="2" />
 			<genres maingenre="1" subgenres="14" />
 			<blocks value="1" />
 			<price max="90000" min="50000" />
@@ -885,7 +887,7 @@
 			<speed slope="50" max="92" min="43" />
 		</scripttemplate>
 
-		<!--Genre family ergänzt, Zufallsstadt ergänzt, TODO Kult entfernen?-->
+		<!--Genre family ergänzt, Zufallsstadt ergänzt, kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Kinderfliegen">
 			<title>
 				<de>Die %Was% über %Wo%</de>
@@ -1038,7 +1040,7 @@
 				<job function="2" index="3" gender="1" required="1" />
 				<job function="2" index="4" gender="2" required="1" />
 			</jobs>
-			<data flags="" flags_optional="10" />
+			<data flags="" flags_optional="2" />
 			<genres maingenre="3" subgenres="1,9" />
 			<blocks value="1" />
 			<price max="90000" min="50000" />
@@ -1048,7 +1050,7 @@
 			<speed slope="50" max="90" min="53" />
 		</scripttemplate>
 
-		<!--TODO Kult entfernen? Besetzung passt ggf. nicht zu Name (Comedyduo mit 5 Darstellern)-->
+		<!--kein optionaler Kult; Besetzung passt ggf. nicht zu Name (Comedyduo mit 5 Darstellern)?-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Comedygemeinschaft">
 			<title>
 				<de>Das Comedy%name%</de>
@@ -1167,7 +1169,7 @@
 				<job function="32" index="4" gender="1" required="1" />
 				<job function="32" index="5" gender="2" required="1" />
 			</jobs>
-			<data flags="" flags_optional="8" />
+			<data flags="" />
 			<genres maingenre="5" subgenres="6" />
 			<blocks value="2" />
 			<price max="220000" min="150000" />
@@ -1177,7 +1179,7 @@
 			<speed slope="50" max="80" min="53" />
 		</scripttemplate>
 
-		<!--Episoden gekürzt-->
+		<!--Episoden gekürzt, kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-Metalsucher">
 			<title>
 				<de>%name1%%name2% in Alaska</de>
@@ -1306,7 +1308,7 @@
 				<job function="32" index="3" gender="2" required="1" />
 				<job function="32" index="4" gender="2" required="1" />
 			</jobs>
-			<data flags="" flags_optional="8" />
+			<data flags=""  />
 			<genres maingenre="6" subgenres="300" />
 			<blocks value="1" />
 			<price max="60000" min="20000" />
@@ -1316,7 +1318,7 @@
 			<speed slope="50" max="90" min="53" />
 		</scripttemplate>
 
-		<!--Cast Gäste statt Darsteller, Genre Gameshow, live nur eine Ausstrahlung, 5 Produktionen, TODO Host passt nicht wirklich zum Namen-->
+		<!--Cast Gäste statt Darsteller, Genre Gameshow, live nur eine Ausstrahlung, 5 Produktionen, kein optionaler Kult, TODO Host passt nicht wirklich zum Namen-->
 		<scripttemplate licence_type="1" product="3" guid="Kasi-Script-Imschlafreich">
 			<title>
 				<de>%Name1% %Name2%s Schlaf dich reich</de>
@@ -1344,7 +1346,7 @@
 				<job function="64" index="4" gender="1" required="1" />
 				<job function="64" index="5" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="8" flags="17" production_limit="5" production_broadcast_limit="1" production_licence_flags="4"/>
+			<data flags="17" production_limit="5" production_broadcast_limit="1" production_licence_flags="4"/>
 			<genres maingenre="104" subgenres="0" />
 			<blocks slope="40" max="2" min="1" />
 			<price slope="25" max="19500" min="15000" />
@@ -1425,7 +1427,7 @@
 			<speed slope="40" max="70" min="30" />
 		</scripttemplate>-->
 
-		<!--TODO Kult entfernen-->
+		<!--kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-MagischeWesen">
 			<title>
 				<de>Die %name1% im %name2%</de>
@@ -1546,7 +1548,7 @@
 				<job function="32" index="3" gender="1" required="1" />
 				<job function="32" index="4" gender="2" required="1" />
 			</jobs>
-			<data flags="2" flags_optional="8" />
+			<data flags="2" />
 			<genres maingenre="10" subgenres="7" />
 			<blocks value="1" />
 			<price max="110000" min="70000" />
@@ -1556,7 +1558,7 @@
 			<speed slope="50" max="90" min="53" />
 		</scripttemplate>
 
-		<!--Produkt Show statt Serie, Cast Host+Gäste statt Darseller, eine Ausstrahlung, Ausstrahlungszeit-->
+		<!--Produkt Show statt Serie, Cast Host+Gäste statt Darseller, eine Ausstrahlung, Ausstrahlungszeit, kein optionaler Kult-->
 		<scripttemplate licence_type="3" product="3" guid="Kasi-script-UnterhaltungNachts">
 			<title>
 				<de>Die Nacht%name%</de>
@@ -1701,7 +1703,7 @@
 				<job function="64" index="3" gender="1" required="1" />
 				<job function="64" index="4" gender="2" required="1" />
 			</jobs>
-			<data flags="16" flags_optional="8" production_broadcast_limit="1" broadcast_time_slot_start="0" broadcast_time_slot_end="8"/>
+			<data flags="16" production_broadcast_limit="1" broadcast_time_slot_start="0" broadcast_time_slot_end="8"/>
 			<genres maingenre="100" subgenres="7" />
 			<blocks value="7" />
 			<price max="150000" min="70000" />
@@ -1711,7 +1713,7 @@
 			<speed slope="50" max="44" min="27" />
 		</scripttemplate>
 
-		<!--TODO Kult entfernen-->
+		<!--Kult nur optional-->
 		<scripttemplate licence_type="3" product="2" guid="Kasi-script-SitcomeRunde">
 			<title>
 				<de>Die runden %zahl%</de>
@@ -1832,7 +1834,7 @@
 				<job function="2" index="5" gender="1" required="1" />
 				<job function="2" index="6" gender="2" required="1" />
 			</jobs>
-			<data flags="8" flags_optional="2" />
+			<data flags_optional="10" />
 			<genres maingenre="5" subgenres="9" />
 			<blocks value="1" />
 			<price max="50000" min="20000" />
