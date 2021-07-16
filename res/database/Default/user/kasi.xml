@@ -8,6 +8,7 @@
 		Sonstige inhaltliche Anpassungen sind als Kommentar vor der scripttemplate-Definition angegeben.
 	-->
 	<scripttemplates>
+		<!--Kult optional, kein Trash-->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Superheros" >
 			<title>
 				<de>%HERO%</de>
@@ -32,7 +33,7 @@
 				<job function="32" index="5" gender="2" required="1" />
 				<job function="32" index="6" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="18" flags="8" />
+			<data flags_optional="10" />
 			<genres maingenre="1" subgenres="10" />
 			<blocks slope="40" max="4" min="2" />
 			<price slope="25" max="66500" min="15000" />
@@ -219,7 +220,7 @@
 			<speed slope="40" max="80" min="30" />
 		</scripttemplate>
 
-		<!-- buster entfernt -->
+		<!-- buster entfernt, B-Movie statt Trash -->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Ghost">
 			<title>
 				<de>Ghost%zu%</de>
@@ -240,7 +241,7 @@
 				<job function="2" index="1" gender="1" required="1" />
 				<job function="32" index="2" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="16" flags="64" />
+			<data flags_optional="32" flags="64" />
 			<genres maingenre="12" subgenres="17" />
 			<blocks slope="30" max="3" min="2" />
 			<price slope="35" max="26500" min="15000" />
@@ -543,7 +544,7 @@
 			<speed slope="40" max="100" min="30" />
 		</scripttemplate>
 
-		<!-- Kult entfernt -->
+		<!-- Kult, Trash entfernt -->
 		<scripttemplate licence_type="1" product="1" guid="Kasi-Script-Wege">
 			<title>
 				<de>Der Weg %Name%</de>
@@ -568,7 +569,7 @@
 				<job function="32" index="5" gender="2" required="1" />
 				<job function="32" index="6" gender="2" required="1" />
 			</jobs>
-			<data flags_optional="18" />
+			<data flags_optional="2" />
 			<genres maingenre="12" subgenres="2" />
 			<blocks slope="40" max="4" min="2" />
 			<price slope="25" max="66500" min="15000" />
